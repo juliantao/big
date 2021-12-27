@@ -1,0 +1,49 @@
+project:
+  type: site
+  output-dir: docs
+
+website:
+  title: "BiG"
+  image: img/favicon.png
+  page-footer:
+    left: "@BiG 2018-2021"
+    right: 
+      - text: About 
+        href: about.qmd
+  navbar:
+    background: white 
+    logo: img/biglogo.png
+    title: false
+    pinned: true
+    right:
+      - href: index.qmd
+        text: Home
+      - people.qmd
+      - research.qmd
+      - teaching.qmd
+      - outreach.qmd
+      - resources.qmd
+      - news.qmd
+      - about.qmd
+      - icon: github
+        href: https://github.com/big/
+  # sidebar:
+  #   style: "docked"
+  #   search: true
+  #   contents:
+  #     - people.qmd
+  #     - research.qmd
+  #     - education.qmd
+  #     - resources.qmd
+  #     - organizations.qmd
+  #     - news.qmd
+  #     - about.qmd
+format:
+  html:
+    theme: 
+      - assets/big.scss
+    css: assets/style.css
+    highlight-style: github
+    toc: true
+    header-includes: <link rel="icon" href="img/favicon.png">
+    linkcolor: black 

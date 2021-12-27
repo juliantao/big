@@ -1,0 +1,23 @@
+---
+title: People
+execute:
+  warning: false
+  error: false
+  echo: false
+---
+
+## Principle Investigator
+
+::: {layout="[[30, 70]]"}
+
+![](./img/Julian.jpg)
+
+**[Julian Tao](https://isearch.asu.edu/profile/3333500)**, Ph.D.\
+Associate Professor\
+<i class="bi bi-envelope-fill"></i>: <julian.tao@asu.edu>\
+<i class="bi bi-telephone-fill"></i>: 480-965-1108, <i class="bi bi-geo-alt-fill"></i>: GWC 126
+:::
+
+## Postdoc Researchers
+
+## Ph.D Students

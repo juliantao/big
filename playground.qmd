@@ -1,0 +1,76 @@
+---
+title: Playground
+---
+
+## Accordion
+
+::: {.accordion}
+::: {.accordion-item}
+
+::: {.accordion-button type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"}
+
+Accordion Item #1
+:::
+
+::: {#collapseOne .accordion-collapse .collapse .show aria-labelledby="headingOne" data-bs-parent="#accordionExample"}
+::: {.accordion-body}
+This is the body
+:::
+:::
+
+:::
+:::
+
+
+## Buttons
+
+[Primary Button]{.btn .btn-primary}
+
+::: {.btn-group role="group" aria-label="Basic mixed styles example"}
+[Left]{.btn .btn-danger}
+[Middle]{.btn .btn-warning}
+[Right]{.btn .btn-success}
+:::
+
+## Cards
+
+::: {.card-group}
+
+::: {.card}
+![](./img/GSOTrip.jpg){.card-img-top}
+
+::: {.card-body}
+
+##### Card Title {.card-title}
+Some quick example text to build on the card title and make up the bulk of the card's content.
+
+[Learn More]{.btn .btn-primary}
+
+:::
+:::
+
+::: {.card}
+![](./img/GSOTrip.jpg){.card-img-top}
+
+::: {.card-body}
+
+##### Card Title {.card-title}
+Some quick example text to build on the card title and make up the bulk of the card's content.
+
+:::
+:::
+
+::: {.card}
+![](./img/GSOTrip.jpg){.card-img-top}
+
+::: {.card-body}
+
+##### Card Title {.card-title}
+Some quick example text to build on the card title and make up the bulk of the card's content.
+
+:::
+:::
+
+
+:::
+

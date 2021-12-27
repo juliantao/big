@@ -1,0 +1,44 @@
+/*--scss:defaults --*/
+$yellow:  #ffc627 !default;
+$red:     #8c1d40 !default;
+$orange:  #ff7f32 !default;
+$blue:    #00a3e0 !default;
+$green:   #78be20 !default;
+$grey:    #747474 !default;
+$primary:   $yellow !default; 
+$navbar-light-hover-color:  $yellow !default;
+$navbar-light-active-color:  $yellow !default;
+
+$carousel-control-color:             $yellow;
+$carousel-indicator-active-bg:       $yellow;
+
+// Fonts
+
+$font-size-base: 1.1rem !default;
+/* $headings-color: $primary !default; */
+/*-- scss:rules --*/
+
+// Navbar
+
+.navbar {
+  font-size: 1.1rem;
+}
+
+.huge {
+  font-size: 300%;
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 10%;
+}
+.center {
+  text-align: center;
+}
+
+.justify {
+  text-align: justify;
+}
+
+.alert {
+  background-color: $primary;
+}

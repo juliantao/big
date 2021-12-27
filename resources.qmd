@@ -1,0 +1,68 @@
+---
+title: Resources
+---
+
+## General Resources
+
+### GeoGroup Facilities
+       
+* Labs and Equipments
+  * ISTB2-115
+  * ISTB2-145
+  * ISTB2-165
+  * ECD-123
+  * Polytechnic Field Station
+  * [Standard Operation Procedures](https://urldefense.com/v3/__https://www.dropbox.com/sh/2o1ogf12wetgime/AABSJy2TuggT94gNLITQ4w9ma?dl=0__;!!IKRxdwAv5BmarQ!NuHWcsgFYu2jnANVXCQG_eKkI_8vre6JEps3nRP-Vy5AmAGRVPpChnCYk6th8yJM$) 
+* Student Spaces
+  * GWC-131
+  * ISTB2-Mezzanine
+* Meeting Spaces
+  * Outreach Room (GWC-111)
+  * Training Room (GWC-137)
+  * Conference Room (GWC-181)
+* [Lab Safety Training Flow Chart](https://ssebe.engineering.asu.edu/wp-content/uploads/2017/08/Training-2017-Final-Flow-Chart-rev.-0.pdf) 
+* ASU Facilities
+  * Fulton School of Engineering
+  * ASU
+
+###  Program requirements
+
+* [SSEBE Undergraduate Program Requirements](https://webapp4.asu.edu/programs/t5/majorinfo/ASU00/ESCEESUBSE/undergrad/false)
+* [SSEBE Accelerated 4+1 Degree Program](https://ssebe.engineering.asu.edu/accelerated/) 
+* [SSEBE Graduate Program Reqirements](https://ssebe.engineering.asu.edu/graduate/civil/) 
+  * [Geotechical/Geo-environmental Specialty Area](https://ssebe.engineering.asu.edu/geotechnicalgeoenvironmental-specialty-area/)
+  * Graduate Student Manuals
+    * [Geotechnical and Geoenvironmental Engineering specialty area manual](https://ssebe.engineering.asu.edu/wp-content/uploads/2017/09/Geotechnical-updated-8.28.2017.pdf) 
+    * [Civil, environmental and sustainable engineering PhD manual](https://ssebe.engineering.asu.edu/wp-content/uploads/2017/08/PhD-12-2014.pdf) 
+
+* [Academic Integrity](https://provost.asu.edu/academic-integrity/resources/faculty) 
+
+
+## Faculty Resources
+* [Reimbursement Request Form](https://ssebe.engineering.asu.edu/wp-content/uploads/2017/08/SSEBE-Reimbursement-Request-Form-Aug-2015.xlsx)
+* [Purchase Request Form](https://ssebe.engineering.asu.edu/wp-content/uploads/2017/08/SSEBE-Purchase-Request-Form-Aug-2015.xlsx)
+* [Business Meals and Related Expenses](https://www.asu.edu/fs/forms/business-meals-form.pdf)
+* [My ASU TRIP](https://cfo.asu.edu/myasutrip)
+* [EHS training](https://cfo.asu.edu/ehs-training)
+* [Syllabus guideline](https://provost.asu.edu/curriculum-development/changemaker/syllabus-guidelines)
+   
+## Current Students Resources
+* General Scholarship, Fellowship and Funding Opportunities
+  * [Fulton Schools Undergraduate Scholarships](https://scholarships.engineering.asu.edu/)
+  * [Fulton Schools Graduate Fellowships](https://graduate.engineering.asu.edu/fellowships/)
+  * [Graduate College Fellowship](https://graduate.asu.edu/current-students/funding-opportunities/awards-and-fellowships/graduate-college-fellowship%20)
+  * [ASU Scholarships](https://students.asu.edu/scholarships)
+  * [ASU GSO Event Funding](https://gpsa.asu.edu/funding/gso-funding/)
+* [Undergraduate FURI program](https://furi.engineering.asu.edu/)
+* [Undergraduate VIP program](https://vip.asu.edu/)
+* [Graduate MORE program](https://graduate.engineering.asu.edu/more/)
+
+## Prospective Graduate Students Resources
+
+* [Application Information](https://ssebe.engineering.asu.edu/graduate-applications/)
+
+## Alumni Resources
+
+* [ASU Alumni](https://alumni.asu.edu/) 
+* [ASU Alumni Engineering Chapter](https://alumni.asu.edu/chapters/ira-fulton-schools-engineering-chapter)
+* [Friends of Civil and Environmental Engineering](https://ssebe.engineering.asu.edu/foce2/) 

@@ -1,0 +1,94 @@
+---
+title: Bio-inspired Geotechnics
+subtitle: Prof. Julian Tao's research group at Arizona State University
+---
+
+<br>
+
+We are a research group focusing on Bio-inspired Geotechnics (BiG).
+
+Our mission is to discover the fundamental mechanisms of various interactions between living things and geological materials, to abstract these mechanisms to engineering design principles, and to translate the design principles to autonomous, efficient, sustainable and intelligent geotechnics.
+
+Our current research topics include: bio-inspired self-burrowing robots, bio-inspired underground sensing and communication, bio-inspired sustainable countermeasures to natural hazards.
+
+We seek our answers at the boundaries of biology (and other natural sciences), mechanics and engineering.
+We achieve the BiG goals and extend the impacts from research, teaching, outreach, entrepreneurship and collaboration.
+
+We are part of the Center for Bio-mediated and Bio-inspired Geotechnics ([CBBG](https://cbbg.engineering.asu.edu/)) and the [Geotechnical Engineering Group](https://geotechasu.github.io/soilrocks/) in the School of Sustainable Engineering and the Built Environment ([SSEBE](https://ssebe.engineering.asu.edu/)) at Arizona State University.
+
+<br>
+
+::: {.card-group .center}
+
+::: {.card .border-light}
+![](img/clams.png)
+
+::: {.card-body}
+We study animals
+:::
+:::
+
+::: {.card .border-light}
+![](img/softrobots.png)
+
+::: {.card-body}
+We design robots 
+:::
+:::
+
+::: {.card .border-light}
+![](img/photoelastics.png)
+
+::: {.card-body}
+We model granular materials
+:::
+:::
+
+:::
+
+
+::: {.card-group .center}
+
+::: {.card .border-light}
+[](./people.qmd){.bi .bi-people .huge}
+
+::: {.card-body}
+[People](./people.qmd){.btn .btn-primary}
+:::
+:::
+
+::: {.card .border-light}
+[](./research.qmd){.bi .bi-book-half .huge}
+
+::: {.card-body}
+[Research](./research.qmd){.btn .btn-primary}
+:::
+:::
+
+::: {.card .border-light}
+[](./teaching.qmd){.bi .bi-easel .huge}
+
+::: {.card-body}
+[Teaching](./teaching.qmd){.btn .btn-primary}
+:::
+:::
+
+::: {.card .border-light}
+[](./resources.qmd){.bi .bi-gear-wide-connected .huge}
+
+::: {.card-body}
+[Resources](./resources.qmd){.btn .btn-primary}
+:::
+:::
+
+::: {.card .border-light}
+[](./news.qmd){.bi .bi-newspaper .huge}
+
+::: {.card-body}
+[News](./news.qmd){.btn .btn-primary}
+:::
+:::
+
+:::
+
+

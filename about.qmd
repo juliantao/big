@@ -1,0 +1,11 @@
+---
+title: "About"
+---
+
+## Contact us
+
+<i class="bi bi-geo-alt-fill"></i>: Goldwater Center for Science and Engineering, 650 E Tyler Mall, Tempe, AZ 85281
+
+<i class="bi bi-telephone-fill"></i>: (480) 965-2489 
+
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1CI3nKCeGjYBwoTPGaBqTyTTlHNrYkpZH" width="640" height="480"></iframe>

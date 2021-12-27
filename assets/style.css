@@ -1,0 +1,14 @@
+/* css styles */
+:root {
+  --bs-gold: #ffc627;
+  --bs-maroon: #8c1d40;
+  --bs-danger: #8c1d40;
+  --bs-orange: #ff7f32;
+  --bs-warning: #ff7f32;
+  --bs-blue: #00a3e0;
+  --bs-info: #00a3e0;
+  --bs-green: #78be20;
+  --bs-success: #78be20;
+  --bs-grey: #747474;
+}
+
