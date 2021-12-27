@@ -1,9 +1,11 @@
 ---
-title: Bio-inspired Geotechnics
+title: Bio-inspired Geotechnics 
 subtitle: Prof. Julian Tao's research group at Arizona State University
 ---
 
 <br>
+
+::: {.justify}
 
 We are a research group focusing on Bio-inspired Geotechnics (BiG).
 
@@ -15,6 +17,8 @@ We seek our answers at the boundaries of biology (and other natural sciences), m
 We achieve the BiG goals and extend the impacts from research, teaching, outreach, entrepreneurship and collaboration.
 
 We are part of the Center for Bio-mediated and Bio-inspired Geotechnics ([CBBG](https://cbbg.engineering.asu.edu/)) and the [Geotechnical Engineering Group](https://geotechasu.github.io/soilrocks/) in the School of Sustainable Engineering and the Built Environment ([SSEBE](https://ssebe.engineering.asu.edu/)) at Arizona State University.
+
+:::
 
 <br>
 

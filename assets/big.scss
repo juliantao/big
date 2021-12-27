@@ -5,7 +5,7 @@ $orange:  #ff7f32 !default;
 $blue:    #00a3e0 !default;
 $green:   #78be20 !default;
 $grey:    #747474 !default;
-$primary:   $yellow !default; 
+$primary:   $red !default; 
 $navbar-light-hover-color:  $yellow !default;
 $navbar-light-active-color:  $yellow !default;
 
@@ -15,10 +15,13 @@ $carousel-indicator-active-bg:       $yellow;
 // Fonts
 
 $font-size-base: 1.1rem !default;
-/* $headings-color: $primary !default; */
+$headings-color: $primary !default;
 /*-- scss:rules --*/
 
 // Navbar
+h1 {
+  text-align: center;
+}
 
 .navbar {
   font-size: 1.1rem;
@@ -31,7 +34,12 @@ $font-size-base: 1.1rem !default;
   font-weight: bold;
   padding-top: 10%;
 }
+
 .center {
+  text-align: center;
+}
+
+.lead {
   text-align: center;
 }
 
