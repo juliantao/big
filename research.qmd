@@ -12,9 +12,9 @@ title: Research
 :::
 
 ::: {}
-**CAREER:** Integrated Research and Education on Bio-Inspired Burrowing (NSF [#1653567](https://www.google.com/url?q=https%3A%2F%2Fwww.nsf.gov%2Fawardsearch%2FshowAward%3FAWD_ID%3D1653567%26HistoricalAwards%3Dfalse&sa=D&sntz=1&usg=AFQjCNHk-XSJASshnVSld5SVmp1RFPMjcw) and  [#1849674](https://www.google.com/url?q=https%3A%2F%2Fwww.nsf.gov%2Fawardsearch%2FshowAward%3FAWD_ID%3D1841574&sa=D&sntz=1&usg=AFQjCNEfw6iNzUiffq-lIV0Yo3aCP5S60g) )
+**CAREER:** Integrated Research and Education on Bio-Inspired Burrowing (NSF [#1653567](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1653567&HistoricalAwards=false) and  [#1849674](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1841574) )
 
-[Learn More](./self-burrowing-mechanism.qmd){.btn .btn-primary}
+[Learn More](./self-burrowing-mechanisms.qmd){.btn .btn-primary}
 
 :::
 
@@ -26,7 +26,7 @@ title: Research
 ![](img/softrobots.png)
 
 ::: {}
-**EAGER SitS:** Active Self-Boring Robots that Enable Next Generation Dynamic Underground Wireless Sensing Networks: Fusion of Fast Prototyping, Modeling and Learning (NSF [#1841574](https://www.google.com/url?q=https%3A%2F%2Fnsf.gov%2Fawardsearch%2FshowAward%3FAWD_ID%3D1849674%26HistoricalAwards%3Dfalse&sa=D&sntz=1&usg=AFQjCNH0g8fSq2vRYUyX5ryd8uXpVLByNA), in collaboration with Daniel Aukes and Hamid Marvi)
+**EAGER SitS:** Active Self-Boring Robots that Enable Next Generation Dynamic Underground Wireless Sensing Networks: Fusion of Fast Prototyping, Modeling and Learning (NSF [#1841574](https://nsf.gov/awardsearch/showAward?AWD_ID=1849674&HistoricalAwards=false), in collaboration with Daniel Aukes and Hamid Marvi)
 
 [Learn More](./self-burrowing-robotics.qmd){.btn .btn-primary}
 :::
