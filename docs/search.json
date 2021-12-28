@@ -166,5 +166,12 @@
     "title": "About",
     "section": "Our tools",
     "text": "Our tools\nIn our tool box, we have,\n\nAnalytical tools in geomechanics and physics (e.g., Critical State Soil Mechanics, Cavity Expansion Theory, Resistance Force Theory);\nNumerical tools including Discrete Element Method, Multi-Body-Dynamics, Computational Fluid Dynamics, and Finite Element Methods;\nExperimental tools including customized 2D and 3D soil chambers, video-based kinematics capture systems, traditional geotechnical apparatus (tri-axial, direct shear), rapid prototyping workstation (3D printer, open-source micro-controllers, electric motors, sensors, soft robot toolkits), inter-particle force-chain visualization chamber with photoelastic discs;\nOver the years, our group becomes more and more involved in programming for modeling, prototyping, testing and documenting. We mainly use Python, Matlab and C++ for computing; we open-source libraries for robotic control; we strive to practice reproducible research by using documenting and publishing tools such as Rmarkdown and Quarto. We love tinkering around with open-source software and hardware; and we would love to share our findings and tools with others."
+  },
+  {
+    "objectID": "about.html#whats-in-the-logo-just-for-fun",
+    "href": "about.html#whats-in-the-logo-just-for-fun",
+    "title": "About",
+    "section": "What’s in the logo? (Just for fun)",
+    "text": "What’s in the logo? (Just for fun)\nThe logo consists of three customized letters B, i, and G, short for Bio-inspired Geotechnics. It encourages us to be bold and dream BiG.\nThe logo is made up with only three basic shapes: circle, rectangle and triangle; the minimalistic and modular design reminds us that we can achieve BiG by understanding and applying the fundamentals.\nThe triangles are the “living” parts in the logo, rendering the letters visually resemble small burrowing robots in different directions.\nWe have fun by playing with the colors of the logo and by replacing the robot module with burrowing animals such as a slender razor clam, a tree root or an earthworm."
   }
 ]

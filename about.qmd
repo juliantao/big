@@ -23,6 +23,28 @@ In our tool box, we have,
 
 * Over the years, our group becomes more and more involved in programming for modeling, prototyping, testing and documenting. We mainly use Python, Matlab and C++ for computing; we open-source libraries for robotic control; we strive to practice reproducible research by using documenting and publishing tools such as Rmarkdown and Quarto. We love tinkering around with open-source software and hardware; and we would love to share our findings and tools with others.
 
+## What's in the logo? (*Just for fun*)
+
+The logo consists of three customized letters **B**, **i**, and **G**, short for Bio-inspired Geotechnics.
+It encourages us to be bold and dream BiG.
+
+The logo is made up with only three basic shapes: circle, rectangle and triangle;
+the minimalistic and modular design reminds us that we can achieve BiG by understanding and applying the fundamentals. 
+
+The triangles are the “living” parts in the logo, rendering the letters visually resemble small burrowing robots in different directions.
+
+We have fun by playing with the colors of the logo and by replacing the robot module with burrowing animals such as a slender razor clam, a tree root or an earthworm.
+
+::: {layout="[30, 37, 30]"}
+![](img/biglogo.png){}
+
+![](img/logos.png)
+
+![](img/goldlogo.png)
+::::
+
+
+
 ## Contact us
 
 []{.bi .bi-geo-alt-fill}: Office 126, Goldwater Center for Science and Engineering, 650 E Tyler Mall, Tempe, AZ 85281
