@@ -18,7 +18,7 @@ We are part of the Center for Bio-mediated and Bio-inspired Geotechnics ([CBBG](
 
 <br>
 
-::: {.card-group .center}
+::: {.card-group .text-center}
 
 ::: {.card .border-light}
 ![](img/clams.png)
@@ -47,7 +47,7 @@ We model granular materials
 :::
 
 
-::: {.card-group .center}
+::: {.card-group .text-center}
 
 ::: {.card .border-light}
 [](./people.qmd){.bi .bi-people .huge}

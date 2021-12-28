@@ -19,12 +19,17 @@ $headings-color: $primary !default;
 /*-- scss:rules --*/
 
 // Navbar
-h1 {
-  text-align: center;
-}
-
 .navbar {
   font-size: 1.1rem;
+}
+
+.navbar-brand > img {
+  max-height: 36px;
+}
+
+// Typography
+h1 {
+  text-align: center;
 }
 
 .huge {
@@ -36,25 +41,11 @@ h1 {
   color: $yellow;
 }
 
-.center {
-  text-align: center;
-}
-
 .lead {
   text-align: center;
 }
 
-.justify {
-  text-align: justify;
-}
-
-.alert {
-  background-color: $primary;
-}
-
-.navbar-brand > img {
-  max-height: 36px;
-}
+//layout
 
 @media (min-width: 1000px){
 
