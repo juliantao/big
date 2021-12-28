@@ -48,4 +48,5 @@ format:
     css: assets/style.css
     highlight-style: github
     toc: true
-    header-includes: <link rel="icon" href="img/favicon.png">
+    header-includes: |
+      <link rel="icon" href="img/favicon.png">
