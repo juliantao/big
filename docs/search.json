@@ -152,5 +152,19 @@
     "title": "Outreach",
     "section": "Outreach",
     "text": "Outreach\n<++>"
+  },
+  {
+    "objectID": "about.html#what-is-big",
+    "href": "about.html#what-is-big",
+    "title": "About",
+    "section": "What is BiG?",
+    "text": "What is BiG?\nThrough evolution, numerous biological organisms have developed smart and sustainable solutions to address challenges posed by changes of biological diversity, population, energy source and the environment at large. Nature, especially the biosphere, can thus serve as a source of inspirations for mankind, who is facing similar challenges. With critical needs for sustainable and resilient infrastructure systems, civil engineers have central roles to play in bio- inspired research. Treating soil as living systems, the backbone of my research lies in advancing knowledge of the fundamental behaviors of soil affected by living organisms (e.g., bacteria, plants, burrowing animals) involving multi-physics processes at multiple scales. The new knowledge is then applied to develop next-generation geotechnics."
+  },
+  {
+    "objectID": "about.html#our-tools",
+    "href": "about.html#our-tools",
+    "title": "About",
+    "section": "Our tools",
+    "text": "Our tools\nIn our tool box, we have,\n\nAnalytical tools in geomechanics and physics (e.g., Critical State Soil Mechanics, Cavity Expansion Theory, Resistance Force Theory);\nNumerical tools including Discrete Element Method, Multi-Body-Dynamics, Computational Fluid Dynamics, and Finite Element Methods;\nExperimental tools including customized 2D and 3D soil chambers, video-based kinematics capture systems, traditional geotechnical apparatus (tri-axial, direct shear), rapid prototyping workstation (3D printer, open-source micro-controllers, electric motors, sensors, soft robot toolkits), inter-particle force-chain visualization chamber with photoelastic discs;\nOver the years, our group becomes more and more involved in programming for modeling, prototyping, testing and documenting. We mainly use Python, Matlab and C++ for computing; we open-source libraries for robotic control; we strive to practice reproducible research by using documenting and publishing tools such as Rmarkdown and Quarto. We love tinkering around with open-source software and hardware; and we would love to share our findings and tools with others."
   }
 ]
