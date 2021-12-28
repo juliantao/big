@@ -70,7 +70,7 @@ Before I secured funding for my passion in Bio-inspired Geotechnics, I had the o
 
 ::: {.accordion-button .collapsed data-bs-toggle="collapse" data-bs-target="#collapseOne"}
 
-List of projects: 
+List of finished projects: 
 :::
 
 ::: {#collapseOne .accordion-collapse .collapse} 
