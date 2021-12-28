@@ -24,7 +24,7 @@ We are part of the Center for Bio-mediated and Bio-inspired Geotechnics ([CBBG](
 ![](img/clams.png)
 
 ::: {.card-body}
-We study animals
+**We study animals**
 :::
 :::
 
@@ -32,7 +32,7 @@ We study animals
 ![](img/softrobots.png)
 
 ::: {.card-body}
-We design robots 
+**We design robots** 
 :::
 :::
 
@@ -40,7 +40,7 @@ We design robots
 ![](img/photoelastics.png)
 
 ::: {.card-body}
-We model granular materials
+**We model granular materials**
 :::
 :::
 

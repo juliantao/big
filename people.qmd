@@ -8,16 +8,124 @@ execute:
 
 ## Principle Investigator
 
-::: {layout="[[30, 70]]"}
+::: {layout="[50, 50]"}
 
-![](./img/Julian.jpg)
+![](./img/Julian.jpg){.rounded-circle}
 
 **[Julian Tao](https://isearch.asu.edu/profile/3333500)**, Ph.D.\
 Associate Professor\
-<i class="bi bi-envelope-fill"></i>: <julian.tao@asu.edu>\
-<i class="bi bi-telephone-fill"></i>: 480-965-1108, <i class="bi bi-geo-alt-fill"></i>: GWC 126
+[]{.bi .bi-envelope-fill}: <julian.tao@asu.edu>\
+[]{.bi .bi-telephone-fill}: 480-965-1108\
+[]{.bi .bi-geo-alt-fill}: GWC 126
 :::
 
+Dr. Tao is an associate professor in the School of Sustainable Engineering and the Built Environment at Arizona State University. He also serves as a Senior Investigator at the NSF Engineering Center for Bio-mediated and Bio-inspired Geotechnics (CBBG). Before joining ASU in 2018, Dr. Tao was an assistant professor at The University of Akron. He holds a Bachelor's degree from China University of Geosciences (Wuhan), a Master's degree from Tongji University and a Ph.D degree from Case Western Reserve University (2013). He is the PI of a number of projects funded by CBBG, the university, state and federal agencies. He also serves in the editorial board of ASTM Journal of Testing and Evaluation, and serves in committees in ASCE, TRB, SPIE and IEEE. Dr. Tao is the recipient of the prestigious NSF CAREER Award in 2017. He was also awarded the Young Civil Engineer of the Year (2017) by the ASCE Akron-Canton Section for “promoting professionalism and the advancement of the civil engineering profession”.
+
 ## Postdoc Researchers
+::: {layout="[30, 70]"}
+![](img/sichuan.png){.rounded-circle}
+
+**Sichuan Huang**, Ph.D.\
+[]{.bi .bi-envelope-fill}: <shuang64@asu.edu>\
+[]{.bi .bi-geo-alt-fill}: GWC 128\
+**Research:** Clam-inspired Burrowing Mechanisms and Robots
+:::
 
 ## Ph.D Students
+
+::: {layout="[30, 70]"}
+![](img/yong.png){.rounded-circle}
+
+**Yong Tang**\
+[]{.bi .bi-envelope-fill}: <ytang116@asu.edu>\
+[]{.bi .bi-geo-alt-fill}: GWC 131\
+**Research:** Awn-inspired Burrowing Mechanisms and Robots
+:::
+
+::: {layout="[30, 70]"}
+![](img/yi.png){.rounded-circle}
+
+**Yong Tang**\
+[]{.bi .bi-envelope-fill}: <yzhong52@asu.edu>\
+[]{.bi .bi-geo-alt-fill}: GWC 131\
+**Research:** Bio-inspired Underground Sensing and Communication
+:::
+
+::: {layout="[30, 70]"}
+![](img/sundevil.png){.rounded-circle}
+
+**Sarina Shahhosseini**\
+[]{.bi .bi-envelope-fill}: <sshahho1@asu.edu>\
+[]{.bi .bi-geo-alt-fill}: GWC 131\
+**Research:** Self-burrowing robotics, robot--granular material interaction 
+:::
+
+## M.S. Students
+
+::: {layout="[30, 70]"}
+![](img/sundevil.png){.rounded-circle}
+
+**Md Ragib Shaharear**\
+[]{.bi .bi-envelope-fill}: <mshahare@asu.edu>\
+[]{.bi .bi-geo-alt-fill}: GWC 131\
+**Research:** Self-burrowing robotics
+:::
+
+## Undergraduate Students
+
+::: {layout="[30, 70]"}
+![](img/sundevil.png){.rounded-circle}
+
+**Mohan Parekh**\
+[]{.bi .bi-envelope-fill}: <maparekh@asu.edu>\
+**Research:** Rapid prototyping, Self-burrowing robotics
+:::
+
+## Former Students
+
+
+::: {.columns}
+
+::: {.column width=33%}
+**Ph.D Students**
+
+* Huang, Sichuan
+* Li, Junhong
+* Tao, Hui
+:::
+
+::: {.column width=33%}
+**M.S. Students**
+
+* Enns, Andrew
+* Bao, Ruotian
+* Fellows, Candice
+* Hu, Jie
+* Lieske, Brendan
+* Mopur, Goutham
+* Pandey, Ganesh
+:::
+
+::: {.column width=33%}
+**Undergraduate Students**
+
+* Alexandra Ardente
+* Baker, Gwen
+* Choi, Hyun
+* Cymbal, Matthew
+* Dages, Stephen
+* Holden, Khem
+* Green, Nathaniel
+* Gutwein, Daniel
+* Jreissat, Makram
+* Lee, Lindsay
+:::
+:::
+
+
+
+
+
+
+
+
