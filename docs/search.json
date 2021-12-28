@@ -102,7 +102,7 @@
     "href": "research.html#anything-else-here",
     "title": "Research",
     "section": "Anything else here?",
-    "text": "Anything else here?\n<++>"
+    "text": "Anything else here?\n<++>\nBurrowing organisms can inhabit a wide range of subsurface soil types, and adopt a variety of burrowing strategies such as fracturing, digging, bulk fluidization, localized fluidization, localized grain rearrangement and compaction, facilitated by rhythmically changing their body shape. Several different species such as earthworms and bivalve mollusks possess extraordinary burrowing efficiency compared to most man-made penetrometers. Why the dynamic change in body shape is able to facilitate penetration in particulate soil is still largely unknown. From a geomechanical perspective, this award supports the discovery and fundamental understanding of the interaction between soil and bio-inspired penetrators with dynamic shapes. This research has potential to inspire the development of next-generation, high-efficiency underground construction technologies and versatile small-scale underground penetrometers.\nDistributed sensing is essential for realizing intelligent assessment or management of the natural and built environment based on rich spatial and temporal data. A wireless sensing network (WSN) is particularly attractive since it eliminates costly and cumbersome wire connections. However, there are tremendous challenges involved in the application of WSN in harsh environments such as the near-surface underground region, mainly due to the fact that soil is opaque, heterogeneous, dissipative and hard to penetrate/excavate. This EAGER project explores a bioinspired platform technology known as active self-boring robots, which will enable next generation dynamic underground WSN (DUWSN)."
   },
   {
     "objectID": "news.html#academic-calendar",
@@ -201,5 +201,40 @@
     "title": "News",
     "section": "Press",
     "text": "Press\n\n\n\n\n\n\nClamming up (and down, and sideways)\n\nBut Tao wondered how they get back up after they’ve buried themselves. “They have to go up some way,” he said.\nTurns out, those wily clams have a trick up their shell.\n\n\n\n\n\n\n\n\n\n\nBurrowing sensor robots could unearth nature’s subterranean secrets\n\nRobots are increasingly at work on land, at sea, in the air and out in space.\nHow about underground?\n\n\n\n\n\n\n\n\n\n\nMimicking nature to enhance search for knowledge underground\n\nWith support from a National Science Foundation Faculty Early Career Development Program (CAREER) Award, the associate professor will strive to formulate new designs for technology that replicate the impressive subsurface mobility that evolution has produced in the living world, specifically that of plants and animals."
+  },
+  {
+    "objectID": "research.html#self-burrowing-mechanism",
+    "href": "research.html#self-burrowing-mechanism",
+    "title": "Research",
+    "section": "Self-burrowing Mechanism",
+    "text": "Self-burrowing Mechanism\n\n\n\n\n\n\n\nCAREER: Integrated Research and Education on Bio-Inspired Burrowing (NSF #1653567 and #1849674 )\nLearn More"
+  },
+  {
+    "objectID": "research.html#self-burrowing-robotics",
+    "href": "research.html#self-burrowing-robotics",
+    "title": "Research",
+    "section": "Self-burrowing Robotics",
+    "text": "Self-burrowing Robotics\n\n\n\n\n\n\nEAGER SitS: Active Self-Boring Robots that Enable Next Generation Dynamic Underground Wireless Sensing Networks: Fusion of Fast Prototyping, Modeling and Learning (NSF #1841574, in collaboration with Daniel Aukes and Hamid Marvi)\nLearn More"
+  },
+  {
+    "objectID": "research.html#bio-inspired-underground-communication",
+    "href": "research.html#bio-inspired-underground-communication",
+    "title": "Research",
+    "section": "Bio-inspired Underground Communication",
+    "text": "Bio-inspired Underground Communication\n\n\n\n\n\n\nCBBG core project: The goal of this research is to develop an innovative wireless underground communication technology inspired by subterranean mammals. (NSF #1449501)\nLearn More"
+  },
+  {
+    "objectID": "research.html#bio-inspired-scour-countermeasures",
+    "href": "research.html#bio-inspired-scour-countermeasures",
+    "title": "Research",
+    "section": "Bio-inspired Scour Countermeasures",
+    "text": "Bio-inspired Scour Countermeasures\n\n\n\n\n\n\nCBBG core project: the goal of this research is to investigate the potential use of the mangrove as a role model to develop new methods for scour protection surrounding submerged foundation systems. (NSF #1449501)\nLearn More"
+  },
+  {
+    "objectID": "research.html#finished-projects",
+    "href": "research.html#finished-projects",
+    "title": "Research",
+    "section": "Finished projects",
+    "text": "Finished projects\n\n\n\n\n\n\nBefore I secured funding for my passion in Bio-inspired Geotechnics, I had the opportunities to work on a few projects supported by the NSF, University of Akron and Ohio Department of Transportation.\n\n\n\nList of projects:\n\n\n\nPI, “Stabilization of Peat Deposits for Roadway Construction and Remediation”, (Co-PI: Dr. Robert Y. Liang) The Ohio Department of Transportation and Federal Highway Administration, December 2014-May 2015\nPI, “Performance Comparison of Abutment and Retaining Wall Drainage Systems”, (Co-PI: Dr. Robert Y. Liang), The Ohio Department of Transportation and Federal Highway Administration, October 2014-December 2017\nPI, “Evaluation of Post Flooding Shoulder Reconditioning”, The Ohio Department of Transportation and Federal Highway Administration: September 2016-March 2017\nPI, “Use of Crushed Recycled Glass in the Construction of Local Roadways”, The Ohio Department of Transportation and Federal Highway Administration, October 2016-October 2018\nCo-PI, “Evaluation of Effective Bridge Deck Repair Maintenance Methods” (PI: Qindan Huang), The Ohio Department of Transportation and Federal Highway Administration, August 2017-August 2018\nCo-PI, “Roadway Kinetic Energy Capture and Conversion” (PI, Savas Kaya; Co-PIs: Junliang Tao, Munir Nazzal, Yilmaz Sozer and Ala R. Abbas), The Ohio Department of Transportation and Federal Highway Administration, August 2018-Feburary 2019\nPI, “Microbial Induced Calcite Precipitation as Erosion and Bridge Scour Countermeasure”, Summer Faculty Fellowship, University of Akron, July 1st 2016-July 1st 2017\nPI, “Bio-inspired Piezo-electrochromic Full-field Strain Sensing by Multilayered Nanocomposites”, Biomimicry Research and Innovation Center Initiative (BRIC) Research Incentive Grant (co-PI: Jack Zhu and Gunjin Yun), University of Akron, June 1st-December 31st 2014"
   }
 ]

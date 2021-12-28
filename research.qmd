@@ -2,60 +2,90 @@
 title: Research
 ---
 
-::: {#carousel .carousel .slide data-bs-ride="carousel"}
+![](img/triangle.png){width=40% .mx-auto .d-block}
 
-::: {.carousel-indicators}
-<button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-<button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-<button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+## Self-burrowing Mechanism 
+
+::: {layout="[40, 60]"}
+::: {.ratio .ratio-16x9}
+<iframe src="https://www.youtube.com/embed/FGYN0RXIR-c" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 :::
 
-::: {.carousel-inner}
+::: {}
+**CAREER:** Integrated Research and Education on Bio-Inspired Burrowing (NSF [#1653567](https://www.google.com/url?q=https%3A%2F%2Fwww.nsf.gov%2Fawardsearch%2FshowAward%3FAWD_ID%3D1653567%26HistoricalAwards%3Dfalse&sa=D&sntz=1&usg=AFQjCNHk-XSJASshnVSld5SVmp1RFPMjcw) and  [#1849674](https://www.google.com/url?q=https%3A%2F%2Fwww.nsf.gov%2Fawardsearch%2FshowAward%3FAWD_ID%3D1841574&sa=D&sntz=1&usg=AFQjCNEfw6iNzUiffq-lIV0Yo3aCP5S60g) )
 
-::: {.carousel-item .active}
-![](./img/MIDPfield.png) 
+[Learn More](./self-burrowing-mechanism.qmd){.btn .btn-primary}
 
-::: {.carousel-caption}
-**MIDP field trial**
-:::
-:::
-
-::: {.carousel-item}
-![](./img/GSOTrip.jpg)
-
-::: {.carousel-caption}
-**Graduate Student Field Trip**
-:::
-:::
-
-::: {.carousel-item}
-![](./img/HomeComing2021.jpg)
-
-::: {.carousel-caption}
-**Homecoming 2021**
-:::
 :::
 
 :::
 
-<button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-</button>
+## Self-burrowing Robotics
 
-<button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-</button>
+::: {layout="[40, 60]"}
+![](img/softrobots.png)
 
+::: {}
+**EAGER SitS:** Active Self-Boring Robots that Enable Next Generation Dynamic Underground Wireless Sensing Networks: Fusion of Fast Prototyping, Modeling and Learning (NSF [#1841574](https://www.google.com/url?q=https%3A%2F%2Fnsf.gov%2Fawardsearch%2FshowAward%3FAWD_ID%3D1849674%26HistoricalAwards%3Dfalse&sa=D&sntz=1&usg=AFQjCNH0g8fSq2vRYUyX5ryd8uXpVLByNA), in collaboration with Daniel Aukes and Hamid Marvi)
+
+[Learn More](./self-burrowing-robotics.qmd){.btn .btn-primary}
+:::
 :::
 
+## Bio-inspired Underground Communication
 
-## Bio-inspired Geotechnics
+::: {layout="[40, 60]"}
+![](img/communication.png)
 
-<++>
+::: {}
+**CBBG core project:** The goal of this research is to develop an innovative wireless underground communication technology inspired by subterranean mammals. (NSF [#1449501](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1449501))
 
-## Anything else here?
+[Learn More](./communication.qmd){.btn .btn-primary}
+:::
+:::
 
-<++>
+## Bio-inspired Scour Countermeasures
 
+::: {layout="[40, 60]"}
+![](img/scour.png)
+
+::: {}
+**CBBG core project:** the goal of this research is to investigate the potential use of the mangrove as a role model to develop new methods for scour protection surrounding submerged foundation systems. (NSF [#1449501](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1449501))
+
+[Learn More](./scour.qmd){.btn .btn-primary}
+:::
+:::
+
+## Finished projects 
+
+::: {layout="[40, 60]"}
+
+![](img/akronprojects.png)
+
+::: {}
+Before I secured funding for my passion in Bio-inspired Geotechnics, I had the opportunities to work on a few projects supported by the NSF, University of Akron and Ohio Department of Transportation.
+
+::: {.accordion}
+::: {.accordion-item}
+
+::: {.accordion-button .collapsed data-bs-toggle="collapse" data-bs-target="#collapseOne"}
+
+List of projects: 
+:::
+
+::: {#collapseOne .accordion-collapse .collapse} 
+
+* PI, “Stabilization of Peat Deposits for Roadway Construction and Remediation”, (Co-PI: Dr. Robert Y. Liang) The Ohio Department of Transportation and Federal Highway Administration, December 2014-May 2015
+* PI, “Performance Comparison of Abutment and Retaining Wall Drainage Systems”, (Co-PI: Dr. Robert Y. Liang), The Ohio Department of Transportation and Federal Highway Administration, October 2014-December 2017
+* PI, “Evaluation of Post Flooding Shoulder Reconditioning”, The Ohio Department of Transportation and Federal Highway Administration: September 2016-March 2017
+* PI, “Use of Crushed Recycled Glass in the Construction of Local Roadways”, The Ohio Department of Transportation and Federal Highway Administration, October 2016-October 2018
+* Co-PI, “Evaluation of Effective Bridge Deck Repair Maintenance Methods” (PI: Qindan Huang), The Ohio Department of Transportation and Federal Highway Administration, August 2017-August 2018
+* Co-PI, “Roadway Kinetic Energy Capture and Conversion” (PI, Savas Kaya; Co-PIs: Junliang Tao, Munir Nazzal, Yilmaz Sozer and Ala R. Abbas), The Ohio Department of Transportation and Federal Highway Administration, August 2018-Feburary 2019
+* PI, “Microbial Induced Calcite Precipitation as Erosion and Bridge Scour Countermeasure”, Summer Faculty Fellowship, University of Akron, July 1st 2016-July 1st 2017
+* PI, “Bio-inspired Piezo-electrochromic Full-field Strain Sensing by Multilayered Nanocomposites”, Biomimicry Research and Innovation Center Initiative (BRIC) Research Incentive Grant (co-PI: Jack Zhu and Gunjin Yun), University of Akron, June 1st-December 31st 2014
+
+:::
+:::
+:::
+:::
+:::
