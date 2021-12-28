@@ -4,10 +4,42 @@ title: News
 
 ## [Academic Calendar](https://students.asu.edu/academic-calendar)
 
-## News
+## Press
 
- <++>
+::: {layout="[30, 70]"}
+![](img/clammingup.png)
 
-## Events
+::: {}
+[Clamming up (and down, and sideways)](https://news.asu.edu/20200609-discoveries-clamming-and-down-and-sideways)
 
- <++>
+> But Tao wondered how they get back up after they’ve buried 
+themselves. “They have to go up some way,” he said.\
+> Turns out, those wily clams have a trick up their shell.
+
+:::
+:::
+
+::: {layout="[30, 70]"}
+![](img/fsenews.png)
+
+::: {}
+[Burrowing sensor robots could unearth nature’s subterranean secrets](https://engineering.asu.edu/convergence2019/burrowing-sensor-robots-could-unearth-natures-subterranean-secrets/)
+
+> Robots are increasingly at work on land, at sea, in the air and out in space.\
+> How about underground?
+
+:::
+:::
+
+::: {layout="[30, 70]"}
+![](img/fullcircle.png)
+
+::: {}
+[Mimicking nature to enhance search for knowledge underground](https://fullcircle.asu.edu/faculty/mimicking-nature-enhance-search-knowledge-underground/)
+
+> With support from a National Science Foundation Faculty Early Career Development Program (CAREER) Award, the associate professor will strive to formulate new designs for technology that replicate the impressive subsurface mobility that evolution has produced in the living world, specifically that of plants and animals.
+
+:::
+:::
+
+
