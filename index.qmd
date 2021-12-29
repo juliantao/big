@@ -18,30 +18,62 @@ We are part of the Center for Bio-mediated and Bio-inspired Geotechnics ([CBBG](
 
 <br>
 
-::: {layout-ncol=3 .text-center}
+::: {.card-group .text-center}
+
+::: {.card .border-light}
 ![**We study animals**](img/clams.png)
+:::
 
+::: {.card .border-light}
 ![**We design robots** ](img/softrobots.png)
+:::
 
+::: {.card .border-light}
 ![**We model granular materials**](img/photoelastics.png)
 :::
-
-
-::: {layout-ncol=5 .text-center}
-
-[](./people.qmd){.bi .bi-people .huge}
-[People](./people.qmd){.btn .btn-primary}
-
-[](./research.qmd){.bi .bi-book-half .huge}
-[Research](./research.qmd){.btn .btn-primary}
-
-[](./teaching.qmd){.bi .bi-easel .huge}
-[Teaching](./teaching.qmd){.btn .btn-primary}
-
-[](./resources.qmd){.bi .bi-gear-wide-connected .huge}
-[Resources](./resources.qmd){.btn .btn-primary}
-
-[](./news.qmd){.bi .bi-newspaper .huge}
-[News](./news.qmd){.btn .btn-primary}
 :::
 
+
+::: {.card-group .text-center}
+
+::: {.card .border-light}
+[](./people.qmd){.bi .bi-people .huge}
+
+::: {.card-body}
+[People](./people.qmd){.btn .btn-primary}
+:::
+:::
+
+::: {.card .border-light}
+[](./research.qmd){.bi .bi-book-half .huge}
+
+::: {.card-body}
+[Research](./research.qmd){.btn .btn-primary}
+:::
+:::
+
+::: {.card .border-light}
+[](./teaching.qmd){.bi .bi-easel .huge}
+
+::: {.card-body}
+[Teaching](./teaching.qmd){.btn .btn-primary}
+:::
+:::
+
+::: {.card .border-light}
+[](./resources.qmd){.bi .bi-gear-wide-connected .huge}
+
+::: {.card-body}
+[Resources](./resources.qmd){.btn .btn-primary}
+:::
+:::
+
+::: {.card .border-light}
+[](./news.qmd){.bi .bi-newspaper .huge}
+
+::: {.card-body}
+[News](./news.qmd){.btn .btn-primary}
+:::
+:::
+
+:::
