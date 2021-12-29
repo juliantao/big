@@ -179,7 +179,7 @@
     "href": "people.html#m.s.-students",
     "title": "People",
     "section": "M.S. Students",
-    "text": "M.S. Students\n\n\n\n\n\n\nMd Ragib Shaharear\n: mshahare@asu.edu\n: GWC 131\nResearch: Self-burrowing robotics"
+    "text": "M.S. Students\n\n\n\n\n\n\nMd Ragib Shaharear\n: mshahare@asu.edu\n: GWC 131\nResearch: Rapid prototyping, Self-burrowing robotics"
   },
   {
     "objectID": "people.html#undergraduate-students",
@@ -193,7 +193,7 @@
     "href": "people.html#former-students",
     "title": "People",
     "section": "Former Students",
-    "text": "Former Students\n\n\nPh.D Students\n\nHuang, Sichuan\nLi, Junhong\nTao, Hui\n\n\nM.S. Students\n\nEnns, Andrew\nBao, Ruotian\nFellows, Candice\nHu, Jie\nLieske, Brendan\nMopur, Goutham\nPandey, Ganesh\n\n\nUndergraduate Students\n\nAlexandra Ardente\nBaker, Gwen\nChoi, Hyun\nCymbal, Matthew\nDages, Stephen\nHolden, Khem\nGreen, Nathaniel\nGutwein, Daniel\nJreissat, Makram\nLee, Lindsay"
+    "text": "Former Students\n\n\n\nPh.D Students\n\nHuang, Sichuan\nLi, Junhong\nTao, Hui\n\n\n\nM.S. Students\n\nEnns, Andrew\nBao, Ruotian\nFellows, Candice\nHu, Jie\nLieske, Brendan\nMopur, Goutham\nPandey, Ganesh\n\n\n\nUndergraduate Students\n\nArdente, Alexandra\nWong, Preston\nJreissat, Makram\nHolden, Khem\nGreen, Nathaniel\nLee, Lindsay\nChoi, Hyun\nCymbal, Matthew\nDages, Stephen\nBaker, Gwen\nGutwein, Daniel"
   },
   {
     "objectID": "news.html#press",
@@ -243,5 +243,26 @@
     "title": "Self-burrowing Mechanisms",
     "section": "",
     "text": "Previous\n\n\n Next"
+  },
+  {
+    "objectID": "self-burrowing-robotics.html",
+    "href": "self-burrowing-robotics.html",
+    "title": "Self-burrowing Robotics",
+    "section": "",
+    "text": "Under construction…"
+  },
+  {
+    "objectID": "communication.html",
+    "href": "communication.html",
+    "title": "Bio-inspired Underground Communication",
+    "section": "",
+    "text": "Under construction…"
+  },
+  {
+    "objectID": "scour.html",
+    "href": "scour.html",
+    "title": "Bio-bsed Scour Countermeasures",
+    "section": "",
+    "text": "Under construction…"
   }
 ]

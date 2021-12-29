@@ -68,7 +68,7 @@ Dr. Tao is an associate professor in the School of Sustainable Engineering and t
 **Md Ragib Shaharear**\
 []{.bi .bi-envelope-fill}: <mshahare@asu.edu>\
 []{.bi .bi-geo-alt-fill}: GWC 131\
-**Research:** Self-burrowing robotics
+**Research:** Rapid prototyping, Self-burrowing robotics
 :::
 
 ## Undergraduate Students
@@ -84,9 +84,9 @@ Dr. Tao is an associate professor in the School of Sustainable Engineering and t
 ## Former Students
 
 
-::: {.columns}
+::: {layout-ncol=3}
 
-::: {.column width=33%}
+::: {}
 **Ph.D Students**
 
 * Huang, Sichuan
@@ -94,7 +94,7 @@ Dr. Tao is an associate professor in the School of Sustainable Engineering and t
 * Tao, Hui
 :::
 
-::: {.column width=33%}
+::: {}
 **M.S. Students**
 
 * Enns, Andrew
@@ -106,26 +106,19 @@ Dr. Tao is an associate professor in the School of Sustainable Engineering and t
 * Pandey, Ganesh
 :::
 
-::: {.column width=33%}
+::: {}
 **Undergraduate Students**
 
-* Alexandra Ardente
-* Baker, Gwen
+* Ardente, Alexandra 
+* Wong, Preston
+* Jreissat, Makram
+* Holden, Khem
+* Green, Nathaniel
+* Lee, Lindsay
 * Choi, Hyun
 * Cymbal, Matthew
 * Dages, Stephen
-* Holden, Khem
-* Green, Nathaniel
+* Baker, Gwen
 * Gutwein, Daniel
-* Jreissat, Makram
-* Lee, Lindsay
 :::
 :::
-
-
-
-
-
-
-
-
