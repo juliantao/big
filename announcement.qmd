@@ -1,0 +1,6 @@
+<div class="alert alert-warning alert-dismissible fade show" role="alert">
+  <strong>Call for papers!</strong> Acta Geotechnica Special Issue on Bio-inspired Geotechnics.
+  <a href = "resources/actabio.pdf" class="btn btn-warning">Learn More</a>
+
+  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
