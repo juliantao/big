@@ -45,12 +45,3 @@ h1 {
   text-align: center;
 }
 
-//layout
-
-@media (min-width: 1000px){
-
-body .page-columns {
-    grid-template-columns: [body-content-start] minmax(0px, calc(1000px - 3em));
-}
-}
-
