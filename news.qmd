@@ -2,8 +2,6 @@
 title: News
 ---
 
-## [Academic Calendar](https://students.asu.edu/academic-calendar)
-
 ## Press
 
 ::: {layout="[30, 70]"}
