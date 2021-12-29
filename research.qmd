@@ -14,7 +14,7 @@ title: Research Overview
 ::: {}
 **CAREER:** Integrated Research and Education on Bio-Inspired Burrowing (NSF [#1653567](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1653567&HistoricalAwards=false) and  [#1849674](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1841574) )
 
-[Learn More](./self-burrowing-mechanisms.qmd){.btn .btn-primary}
+[Learn More](./self-burrowing.qmd){.btn .btn-primary}
 
 :::
 
@@ -28,7 +28,7 @@ title: Research Overview
 ::: {}
 **EAGER SitS:** Active Self-Boring Robots that Enable Next Generation Dynamic Underground Wireless Sensing Networks: Fusion of Fast Prototyping, Modeling and Learning (NSF [#1841574](https://nsf.gov/awardsearch/showAward?AWD_ID=1849674&HistoricalAwards=false), in collaboration with Daniel Aukes and Hamid Marvi)
 
-[Learn More](./self-burrowing-robotics.qmd){.btn .btn-primary}
+[Learn More](./self-burrowing.qmd){.btn .btn-primary}
 :::
 :::
 
