@@ -5,6 +5,7 @@ project:
 website:
   title: "BiG"
   image: img/favicon.png
+  google-analytics: "G-TY9ZC8SV4C"
   page-footer:
     left: "\\@BiG 2018-2021"
     right: 
