@@ -16,7 +16,8 @@ execute:
 Associate Professor\
 []{.bi .bi-envelope-fill}: <julian.tao@asu.edu>\
 []{.bi .bi-telephone-fill}: 480-965-1108\
-[]{.bi .bi-geo-alt-fill}: GWC 126
+[]{.bi .bi-geo-alt-fill}: GWC 126\
+[]{.ai .ai-google-scholar .ai-lg}: [Google Scholar](https://scholar.google.com/citations?hl=en&user=Dq4lhi4AAAAJ&view_op=list_works)
 :::
 
 Dr. Tao is an associate professor in the School of Sustainable Engineering and the Built Environment at Arizona State University. He also serves as a Senior Investigator at the NSF Engineering Center for Bio-mediated and Bio-inspired Geotechnics (CBBG). Before joining ASU in 2018, Dr. Tao was an assistant professor at The University of Akron. He holds a Bachelor's degree from China University of Geosciences (Wuhan), a Master's degree from Tongji University and a Ph.D degree from Case Western Reserve University (2013). He is the PI of a number of projects funded by CBBG, the university, state and federal agencies. He also serves in the editorial board of ASTM Journal of Testing and Evaluation, and serves in committees in ASCE, TRB, SPIE and IEEE. Dr. Tao is the recipient of the prestigious NSF CAREER Award in 2017. He was also awarded the Young Civil Engineer of the Year (2017) by the ASCE Akron-Canton Section for “promoting professionalism and the advancement of the civil engineering profession”.
@@ -26,9 +27,11 @@ Dr. Tao is an associate professor in the School of Sustainable Engineering and t
 ![](img/sichuan.png){.rounded-circle}
 
 **Sichuan Huang**, Ph.D.\
+2020-present\
+<br>
 []{.bi .bi-envelope-fill}: <shuang64@asu.edu>\
 []{.bi .bi-geo-alt-fill}: GWC 128\
-**Research:** Clam-inspired Burrowing Mechanisms and Robots
+**Research:** Clam-inspired Burrowing Mechanisms and Robots\
 :::
 
 ## Ph.D Students
@@ -37,6 +40,8 @@ Dr. Tao is an associate professor in the School of Sustainable Engineering and t
 ![](img/yong.png){.rounded-circle}
 
 **Yong Tang**\
+2018-present\
+<br>
 []{.bi .bi-envelope-fill}: <ytang116@asu.edu>\
 []{.bi .bi-geo-alt-fill}: GWC 131\
 **Research:** Awn-inspired Burrowing Mechanisms and Robots
@@ -45,7 +50,9 @@ Dr. Tao is an associate professor in the School of Sustainable Engineering and t
 ::: {layout="[30, 70]"}
 ![](img/yi.png){.rounded-circle}
 
-**Yong Tang**\
+**Yi Zhong**\
+2019-present\
+<br>
 []{.bi .bi-envelope-fill}: <yzhong52@asu.edu>\
 []{.bi .bi-geo-alt-fill}: GWC 131\
 **Research:** Bio-inspired Underground Sensing and Communication
@@ -55,6 +62,8 @@ Dr. Tao is an associate professor in the School of Sustainable Engineering and t
 ![](img/sundevil.png){.rounded-circle}
 
 **Sarina Shahhosseini**\
+2021-present\
+<br>
 []{.bi .bi-envelope-fill}: <sshahho1@asu.edu>\
 []{.bi .bi-geo-alt-fill}: GWC 131\
 **Research:** Self-burrowing robotics, robot--granular material interaction 
@@ -66,6 +75,8 @@ Dr. Tao is an associate professor in the School of Sustainable Engineering and t
 ![](img/sundevil.png){.rounded-circle}
 
 **Md Ragib Shaharear**\
+2021-present\
+<br>
 []{.bi .bi-envelope-fill}: <mshahare@asu.edu>\
 []{.bi .bi-geo-alt-fill}: GWC 131\
 **Research:** Rapid prototyping, Self-burrowing robotics
@@ -77,6 +88,8 @@ Dr. Tao is an associate professor in the School of Sustainable Engineering and t
 ![](img/sundevil.png){.rounded-circle}
 
 **Mohan Parekh**\
+2021-present\
+<br>
 []{.bi .bi-envelope-fill}: <maparekh@asu.edu>\
 **Research:** Rapid prototyping, Self-burrowing robotics
 :::
