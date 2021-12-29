@@ -67,7 +67,13 @@ title: Resources
 * [ASU Alumni Engineering Chapter](https://alumni.asu.edu/chapters/ira-fulton-schools-engineering-chapter)
 * [Friends of Civil and Environmental Engineering](https://ssebe.engineering.asu.edu/foce2/) 
 
-## [Workflow](https://juliantao.github.io/bigworkflow/)
+## BiG Resources 
 
-## [Academic Calendar](https://students.asu.edu/academic-calendar)
+[Workflow](https://juliantao.github.io/bigworkflow/)
+
+[Outreach flyer](./resources/ASU_CBBG_Self-burrowing_Robots.pdf)
+
+## Calendars
+
+[ASU Academic Calendar](https://students.asu.edu/academic-calendar)
 
