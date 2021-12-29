@@ -36,17 +36,6 @@ website:
       - about.qmd
       - icon: github
         href: https://github.com/big/
-  # sidebar:
-  #   style: "docked"
-  #   search: true
-  #   contents:
-  #     - people.qmd
-  #     - research.qmd
-  #     - education.qmd
-  #     - resources.qmd
-  #     - organizations.qmd
-  #     - news.qmd
-  #     - about.qmd
 format:
   html:
     theme: 
