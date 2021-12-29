@@ -1,5 +1,5 @@
 ---
-title: Research
+title: Research Overview
 ---
 
 ![](img/triangle.png){width=40% .mx-auto .d-block}

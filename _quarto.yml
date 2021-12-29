@@ -23,12 +23,12 @@ website:
         text: Home
       - people.qmd
       - text: Research
-        href: research.qmd
         menu:
-          - ./self-burrowing-mechanisms.qmd
-          - ./self-burrowing-robotics.qmd
-          - ./communication.qmd 
-          - ./scour.qmd
+          - research.qmd
+          - self-burrowing-mechanisms.qmd
+          - self-burrowing-robotics.qmd
+          - communication.qmd 
+          - scour.qmd
       - teaching.qmd
       - outreach.qmd
       - resources.qmd
