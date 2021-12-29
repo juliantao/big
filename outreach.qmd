@@ -2,6 +2,44 @@
 title: Outreach 
 ---
 
-## Outreach
+## Activities
 
-<++>
+::: {.card-group .text-center}
+
+::: {.card .border-light}
+![ASU Homecoming 2018](img/homecoming18.png)
+:::
+
+::: {.card .border-light}
+![ASU Homecoming 2018](img/opendoor18.png)
+:::
+
+::: {.card .border-light}
+![ASU Engineering Open Door 2018](img/opendoor18-2.png)
+:::
+:::
+
+::: {.card-group .text-center}
+
+::: {.card .border-light}
+![CompuPower SRE Lab Tours 2019](img/SREtour.png)
+:::
+
+::: {.card .border-light}
+![ASU Homecoming 2019](img/homecoming19.png)
+:::
+
+::: {.card .border-light}
+![ASU Homecoming 2019](img/homecoming19-2.png)
+:::
+
+:::
+
+::: {layout-ncol=3 .text-center}
+
+::: {.card .border-light}
+![Northeastern Ohio STEM (NEOHSTEM) Science Fair 2015](img/neohstem.png)
+:::
+
+:::
+
