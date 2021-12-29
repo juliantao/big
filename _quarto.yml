@@ -25,8 +25,7 @@ website:
       - text: Research
         menu:
           - research.qmd
-          - self-burrowing-mechanisms.qmd
-          - self-burrowing-robotics.qmd
+          - self-burrowing.qmd
           - communication.qmd 
           - scour.qmd
       - publication.qmd

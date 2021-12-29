@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""><head>
+  <meta charset="utf-8">
+  <meta name="generator" content="quarto-99.9.9">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title>BiG - Self-burrowing Mechanisms and Robotics</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+    }
+    .hanging div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }
+  </style>
+
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+  <script src="site_libs/quarto-nav/quarto-nav.js"></script>
+  <script src="site_libs/clipboard/clipboard.min.js"></script>
+  <meta name="quarto:offset" content="./">
+  <script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+  <script src="site_libs/quarto-search/fuse.min.js"></script>
+  <script src="site_libs/quarto-search/quarto-search.js"></script>
+  <script src="site_libs/quarto-html/quarto.js"></script>
+  <script src="site_libs/quarto-html/popper.min.js"></script>
+  <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+  <script src="site_libs/quarto-html/anchor.min.js"></script>
+  <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+  <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet">
+  <script src="site_libs/bootstrap/bootstrap.min.js"></script>
+  <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+  <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+  <script id="quarto-search-options" type="application/json">{
+    "location": "navbar",
+    "copy-button": false,
+    "collapse-after": 2,
+    "panel-placement": "end",
+    "type": "overlay",
+    "limit": 20,
+    "language": {
+      "search-no-results-text": "No results",
+      "search-matching-documents-text": "matching documents",
+      "search-copy-link-title": "Copy link to search",
+      "search-hide-matches-text": "Hide additional matches",
+      "search-more-match-text": "more match in this document",
+      "search-more-matches-text": "more matches in this document",
+      "search-clear-button-title": "Clear",
+      "search-detached-cancel-button-title": "Cancel",
+      "search-submit-button-title": "Submit"
+    }
+  }</script>
+  <link rel="icon" href="img/favicon.png">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light ">
+      <div class="navbar-container container-fluid">
+      <a class="navbar-brand" href="./index.html">
+    <img src="./img/biglogo.png" alt="">
+  </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html">Home</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./people.html">People</a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-research-62" role="button" data-bs-toggle="dropdown" aria-expanded="false">Research</a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-research-62">    
+        <li>
+    <a class="dropdown-item" href="./research.html">Research Overview</a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./self-burrowing.html">Self-burrowing Mechanisms and Robotics</a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./communication.html">Bio-inspired Underground Communication</a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./scour.html">Bio-based Scour Countermeasures</a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./publication.html">Publication</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./teaching.html">Teaching</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./outreach.html">Outreach</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./resources.html">Resources</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./news.html">News</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html">About</a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/big/"><i class="bi-github" role="img">
+</i> 
+ </a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+      <nav id="TOC" role="doc-toc">
+<h2 id="toc-title">On this page</h2>
+<ul>
+<li><a href="#background" class="nav-link active" data-scroll-target="#background">Background</a></li>
+<li><a href="#impacts" class="nav-link" data-scroll-target="#impacts">Impacts</a></li>
+<li><a href="#what-governs-underground-locomotion" class="nav-link" data-scroll-target="#what-governs-underground-locomotion">What governs underground locomotion?</a>
+<ul class="collapse">
+<li><a href="#unveil-the-interplay-between-shell-opening-and-foot-penetration" class="nav-link" data-scroll-target="#unveil-the-interplay-between-shell-opening-and-foot-penetration">Unveil the interplay between shell opening and foot penetration</a></li>
+<li><a href="#decipher-the-role-of-rotation-on-penetration" class="nav-link" data-scroll-target="#decipher-the-role-of-rotation-on-penetration">Decipher the role of rotation on penetration</a></li>
+</ul></li>
+<li><a href="#how-razor-clam-burrow-out-of-the-ground" class="nav-link" data-scroll-target="#how-razor-clam-burrow-out-of-the-ground">How razor clam burrow out of the ground?</a>
+<ul class="collapse">
+<li><a href="#lets-mimic-razor-clam-and-make-a-self-burrowing-out-robot-sbor" class="nav-link" data-scroll-target="#lets-mimic-razor-clam-and-make-a-self-burrowing-out-robot-sbor">Let’s mimic razor clam and make a Self-burrowing-out Robot (SBOR)</a></li>
+<li><a href="#leverage-the-anisotropic-surface-characteristics" class="nav-link" data-scroll-target="#leverage-the-anisotropic-surface-characteristics">Leverage the anisotropic surface characteristics</a></li>
+<li><a href="#an-explanation-with-a-geotechnical-flavor" class="nav-link" data-scroll-target="#an-explanation-with-a-geotechnical-flavor">An Explanation with a Geotechnical Flavor</a></li>
+</ul></li>
+<li><a href="#acknowledgement" class="nav-link" data-scroll-target="#acknowledgement">Acknowledgement</a></li>
+<li><a href="#references" class="nav-link" data-scroll-target="#references">References</a></li>
+</ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content">
+<header id="title-block-header">
+<h1 class="title display-7">Self-burrowing Mechanisms and Robotics</h1>
+</header>
+
+<p>We study how living things burrow. Inspired by the biological burrowing mechanisms, we develop robots and tools for autonomous underground exploration and monitoring.</p>
+<section id="background" class="level2">
+<h2 class="anchored" data-anchor-id="background">Background</h2>
+<p>Species such as earthworms and bivalve mollusks possess extraordinary burrowing efficiency compared to most man-made penetrometers. These organisms move by themselves, actively sense their environment and adaptively change burrowing directions. All these features are desirable for autonomous geotechnical exploration tools. The envisioned robots and probes would be energy efficient and improve productivity.</p>
+</section>
+<section id="impacts" class="level2">
+<h2 class="anchored" data-anchor-id="impacts">Impacts</h2>
+<p>Underground sensing networks enabled by these bio-inspired burrowing robots can help monitor the safety of infrastructure and the environment. Small, agile underground robots can be used not only for traditional geotechnical engineering site characterization, but also in regions that are normally difficult to reach due to energy and environmental restrictions, such as sites that are damaged due to natural and man-made hazards (e.g., earthquakes, landslides, flooding, collapsed structures), in extreme environments (e.g., arctic and seafloor environments) and in extra-terrestrial settings (e.g., lunar and Mars exploration).</p>
+<p>In addition, the new knowledge and techniques obtained in this research can be used to develop a mechanistic understanding of animal–sediment interactions and shed light on the ecology and evolution of burrowing organisms. The research will also serve as a platform to promote learning, teaching and training; the interdisciplinary and bio-inspired nature of the proposed research is an ideal outreach topic to generate enthusiasm in K-12 students and the public about STEM education and research.</p>
+<div id="carousel" class="carousel slide" data-bs-ride="carousel">
+<div class="carousel-indicators">
+<button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">
+</button>
+<button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2">
+</button>
+<button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3">
+</button>
+</div>
+<div class="carousel-inner">
+<div class="carousel-item active">
+<p><img src="img/inspiration.png" class="img-fluid"></p>
+</div>
+<div class="carousel-item">
+<p><img src="img/geopenetration.png" class="img-fluid"></p>
+</div>
+<div class="carousel-item">
+<p><img src="img/network.png" class="img-fluid"></p>
+</div>
+</div>
+<button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+<span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+<span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="visually-hidden">Next</span>
+</button>
+</div>
+</section>
+<section id="what-governs-underground-locomotion" class="level2">
+<h2 class="anchored" data-anchor-id="what-governs-underground-locomotion">What governs underground locomotion?</h2>
+<p>It’s a daunting but fascinating question. Similar to locomotion in air, water and on the ground, thrust must be generated high enough to overcome the resistance in order to move in a granular material such as soil. The uniqueness of the soil materials lays in its opacity and complex mechanical behavior: it exhibits different states which can be more solid like, more fluid (even gas) like, or anywhere in between; furthermore, materials and stress states vary significantly in space. These properties make it challenging to study the mechanisms: first, one cannot see through soil easily to capture the kinematics; second, one cannot capture the dynamics due to the ever-changing material properties and soil-body interactions. While we don’t have a universal law (explanation) for underground locomotion yet, nature provides us a diverse “catalog” on possible ways how burrowing can be done. After examining a great many burrowing organisms, it’s clear to us that while they adopt different tricks to make burrowing effective and efficient, they do share some commonness: they work “with” soil instead of ” against” soil. It seems like they do know the complex soil behaviors and they always try to agitate soil in a way so they can leverage the changing properties for movement.</p>
+<section id="unveil-the-interplay-between-shell-opening-and-foot-penetration" class="level3">
+<h3 class="anchored" data-anchor-id="unveil-the-interplay-between-shell-opening-and-foot-penetration">Unveil the interplay between shell opening and foot penetration</h3>
+<p>Shell opening reliefs the stresses at the foot tip and enhances the anchorage force. Check out the DEM simulation <span class="citation" data-cites="HT17a HT17b HT18a HT20a">(<a href="#ref-HT17a" role="doc-biblioref">Sichuan Huang and Tao 2017b</a>, <a href="#ref-HT17b" role="doc-biblioref">2017a</a>, <a href="#ref-HT18a" role="doc-biblioref">2018</a>, <a href="#ref-HT20a" role="doc-biblioref">2020</a>)</span> and the photoelastic visualizations <span class="citation" data-cites="HMT20 HMT22">(<a href="#ref-HMT20" role="doc-biblioref">S. Huang, Mahabadi, and Tao 2020</a>; <a href="#ref-HMT22" role="doc-biblioref">Scihuan Huang, Mahabadi, and Tao 2022</a>)</span>.</p>
+</section>
+<section id="decipher-the-role-of-rotation-on-penetration" class="level3">
+<h3 class="anchored" data-anchor-id="decipher-the-role-of-rotation-on-penetration">Decipher the role of rotation on penetration</h3>
+<p>We are also exploring how seed awns bury themselves and how rotation would facilitate penetration <span class="citation" data-cites="TT21">(<a href="#ref-TT21" role="doc-biblioref">Tang and Tao 2021</a>)</span>.</p>
+</section>
+</section>
+<section id="how-razor-clam-burrow-out-of-the-ground" class="level2">
+<h2 class="anchored" data-anchor-id="how-razor-clam-burrow-out-of-the-ground">How razor clam burrow out of the ground?</h2>
+<p>In this study, we look at a particular burrowing scenario: upward burrowing. It is a less studied topic but it is interesting to ask how a buried clam resurface. Do they actively burrow out of the ground, or just like mole crab which waits for the coming wave to sweep it out? Also, if they do actively burrow, do they gradually turn, sharply turn around, or go directly backward? If they go backward, do they use the same trick for downward burrowing? To find out, we observed two adult razor clams collected in a sandbar in Rhode Island (thanks to Prof.&nbsp;Dale Levitte for the help!).</p>
+<p>It turned out razor clams burrowing backward when they need to emerge. And they do it so effortlessly, using a much simpler “gait” than downward burrowing. A closer look and analysis reveals that the razor clams leverage two inherent properties of sands: the vertical in-situ stress gradient and the flowing nature of sands upon yielding. It is interesting to think it in another way: the razor clams defy its own gravity (upward movement) by take advantage of gravity itself (the reason for soil stress gradient and downward flowing of sands to fill any cavity below)!</p>
+<div class="ratio ratio-16x9">
+<iframe src="https://www.youtube.com/embed/eQrBl2i3ssQ" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+</iframe>
+</div>
+<section id="lets-mimic-razor-clam-and-make-a-self-burrowing-out-robot-sbor" class="level3">
+<h3 class="anchored" data-anchor-id="lets-mimic-razor-clam-and-make-a-self-burrowing-out-robot-sbor">Let’s mimic razor clam and make a Self-burrowing-out Robot (SBOR)</h3>
+<p>The upward burrowing gait of razor clams is basically a combination of axial extension and contraction. There are many ways to achieve these motions. One way is to use an soft artificial muscle, which works similarly with the powerful foot of a razor clam. The idea is simple, you make an elastic tube, wrap inextensible fibers onto its surface in a certain way to constrain the motion into the axial direction, you then inflate and deflate it using air or water. We did that and it worked. The robot naturally burrows out of the ground, just like the razor clams.</p>
+<div class="ratio ratio-16x9">
+<iframe src="https://www.youtube.com/embed/1oqzsJnVLIk" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+</iframe>
+</div>
+</section>
+<section id="leverage-the-anisotropic-surface-characteristics" class="level3">
+<h3 class="anchored" data-anchor-id="leverage-the-anisotropic-surface-characteristics">Leverage the anisotropic surface characteristics</h3>
+<p>Check out how anisotropic surfaces <span class="citation" data-cites="HTB+20">(<a href="#ref-HTB+20" role="doc-biblioref">Sichuan Huang et al. 2020</a>)</span> would affect the burrowing-out behavior of the SBOR.</p>
+</section>
+<section id="an-explanation-with-a-geotechnical-flavor" class="level3">
+<h3 class="anchored" data-anchor-id="an-explanation-with-a-geotechnical-flavor">An Explanation with a Geotechnical Flavor</h3>
+<p>We molded the upward burrowing process based on Newton’s laws of motion, together elasticity and geotechnical concepts: in-situ stress states, pullout resistance, interface friction. To solve the problem analytically, we made a series of assumptions and simplifications based on observations. Nevertheless, we are satisfied with the outcome. From the models, it is clear that “clamming up” is a natural result of 1DOF vertical motion and sand behaviors.</p>
+<p>For more information, please refer to our paper <span class="citation" data-cites="THT19a">(<a href="#ref-THT19a" role="doc-biblioref">Tao, Huang, and Tang 2019</a>)</span> published in <em>Journal of Geotechnical and Geoenvironmental Engineering</em>, as well as <span class="citation" data-cites="THT20a">(<a href="#ref-THT20a" role="doc-biblioref">Tao, Huang, and Tang 2020</a>)</span> published in <em>Bioinspiration and Biomimetics</em>.</p>
+</section>
+</section>
+<section id="acknowledgement" class="level2">
+<h2 class="anchored" data-anchor-id="acknowledgement">Acknowledgement</h2>
+<p>This material is based upon work supported by the National Science Foundation (NSF) under NSF CMMI <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1653567&amp;HistoricalAwards=false">1849674</a> and CMMI <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1841574">1841574</a>. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the authors and do not necessarily reflect those of the NSF. We also would like to thank the anonymous reviewers whose constructive comments helped us improve the overall quality of the paper.</p>
+</section>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+
+
+<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
+<div id="ref-HMT22" class="csl-entry" role="doc-biblioentry">
+Huang, Scihuan, Nariman Mahabadi, and Junliang Tao. 2022. <span>“Penetration and Relaxation Behaviors of Dry Granular Materials: Insights from Photoelasticity.”</span> In <em>Geo-<span>Congress</span> 2022</em>. <span>Charlotte, NC</span>.
+</div>
+<div id="ref-HTB+20" class="csl-entry" role="doc-biblioentry">
+Huang, Sichuan, Yong Tang, Hosain Bagheri, Dongting Li, Alexandria Ardente, Daniel Aukes, Hamidreza Marvi, and Junliang Tao. 2020. <span>“Effects of <span>Friction Anisotropy</span> on <span>Upward Burrowing Behavior</span> of <span>Soft Robots</span> in <span>Granular Materials</span>.”</span> <em>Advanced Intelligent Systems</em> 2 (6): 1900183. <a href="https://doi.org/10.1002/aisy.201900183">https://doi.org/10.1002/aisy.201900183</a>.
+</div>
+<div id="ref-HT17b" class="csl-entry" role="doc-biblioentry">
+Huang, Sichuan, and Junliang Tao. 2017a. <span>“A <span>DEM Study</span> of <span>Penetrating</span> in <span>Granular Materials</span> with <span>Changing Shape</span>.”</span> Podium. In <em><span>TRB</span> 96th <span>Annual Meeting Compendium</span> of <span>Papers</span></em>, 14. <span>Washington, DC</span>.
+</div>
+<div id="ref-HT17a" class="csl-entry" role="doc-biblioentry">
+———. 2017b. <span>“Penetrating in <span>Granular Materials</span>: Effects of <span>Penetrator Dynamics</span>.”</span> In <em>Geotechnical <span>Frontiers</span> 2017</em>, 604–13. <span>Orlando, Florida</span>: <span>ASCE</span>. <a href="https://doi.org/10.1061/9780784480441.063">https://doi.org/10.1061/9780784480441.063</a>.
+</div>
+<div id="ref-HT18a" class="csl-entry" role="doc-biblioentry">
+———. 2018. <span>“The Interplay Between Shell Opening and Foot Penetration of a Model Razor Clam: Insights from <span>DEM</span> Simulation.”</span> In <em><span>B2g Atlanta</span> 2018 <span>Bio</span>-Mediated and <span>Bio</span>-Inspired <span>Geotechnics</span></em>. <span>Atlanta, GA</span>.
+</div>
+<div id="ref-HT20a" class="csl-entry" role="doc-biblioentry">
+———. 2020. <span>“Modeling <span>Clam</span>-Inspired <span>Burrowing</span> in <span>Dry Sand</span> Using <span>Cavity Expansion Theory</span> and <span>DEM</span>.”</span> <em>Acta Geotechnica</em> 15 (8): 2305–26. <a href="https://doi.org/10.1007/s11440-020-00918-8">https://doi.org/10.1007/s11440-020-00918-8</a>.
+</div>
+<div id="ref-HMT20" class="csl-entry" role="doc-biblioentry">
+Huang, S., N. Mahabadi, and J. Tao. 2020. <span>“Impact of <span>Shell Opening</span> of a <span>Model Razor Clam</span> on the <span>Evolution</span> of <span>Force Chains</span> in <span>Granular Media</span>.”</span> In <em>Geo-<span>Congress</span> 2021</em>, 272–81. <span>Minneapolis, Minnesota</span>: <span>ASCE</span>. <a href="https://doi.org/10.1061/9780784482834.030">https://doi.org/10.1061/9780784482834.030</a>.
+</div>
+<div id="ref-TT21" class="csl-entry" role="doc-biblioentry">
+Tang, Yong, and Junliang Tao. 2021. <span>“Effect of <span>Rotation</span> on <span>Penetration</span>: Toward a <span>Seed Awn</span>-<span>Inspired Self</span>-<span>Burrowing Probe</span>.”</span> In <em><span>IFCEE</span> 2021</em>, 149–59. <span>Dallas, TX</span>: <span>American Society of Civil Engineers</span>. <a href="https://doi.org/10.1061/9780784483428.016">https://doi.org/10.1061/9780784483428.016</a>.
+</div>
+<div id="ref-THT19a" class="csl-entry" role="doc-biblioentry">
+Tao, Junliang, Sichuan Huang, and Yong Tang. 2019. <span>“Bioinspired <span>Self</span>-<span>Burrowing</span>-<span>Out Robot</span> in <span>Dry Sand</span>.”</span> <em>Journal of Geotechnical and Geoenvironmental Engineering</em> 145 (12): 02819002. <a href="https://doi.org/10.1061/(ASCE)GT.1943-5606.0002177">https://doi.org/10.1061/(ASCE)GT.1943-5606.0002177</a>.
+</div>
+<div id="ref-THT20a" class="csl-entry" role="doc-biblioentry">
+———. 2020. <span>“<span>SBOR</span>: A Minimalistic Soft Self-Burrowing-Out Robot Inspired by Razor Clams.”</span> <em>Bioinspiration &amp; Biomimetics</em> 15 (5): 055003. <a href="https://doi.org/10.1088/1748-3190/ab8754">https://doi.org/10.1088/1748-3190/ab8754</a>.
+</div>
+</div>
+</section>
+</main> <!-- /main -->
+<script type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    setTimeout(function() {
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+  </div>
+  <div class="nav-page nav-page-next">
+  </div>
+</nav>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">@BiG 2018-2021</div>   
+      <div class="nav-footer-center">
+        <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="https://quarto.org/">Built with Quarto</a>
+  </li>  
+</ul>
+      </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="./about.html">About</a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+</body></html>
