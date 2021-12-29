@@ -42,8 +42,13 @@ We are part of the Center for Bio-mediated and Bio-inspired Geotechnics ([CBBG](
 :::
 
 ::: {.card .border-light}
-[](./research.qmd){.bi .bi-book-half .huge}
+[](./research.qmd){.bi .bi-search .huge}
 [Research](./research.qmd){.btn .btn-primary}
+:::
+
+::: {.card .border-light}
+[](./publication.qmd){.bi .bi-book-half .huge}
+[Publication](./research.qmd){.btn .btn-primary}
 :::
 
 ::: {.card .border-light}
