@@ -7,12 +7,12 @@ website:
   image: img/favicon.png
   page-footer:
     left: "\\@BiG 2018-2021"
-    center: 
-      - text: Built with Quarto
-        href: https://quarto.org/
     right: 
-      - text: About 
-        href: about.qmd
+      - text: "Built with Quarto"
+        href: https://quarto.org/
+    center: 
+      - text: "About"
+        href: ./about.qmd
   navbar:
     background: primary 
     logo: img/biglogo.png
