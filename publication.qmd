@@ -1,0 +1,37 @@
+---
+title: Publication
+---
+
+```{r ref}
+library(RefManageR)
+bib <- ReadBib("./jtpubs.bib", check = FALSE)
+myopts <- BibOptions(
+  style = "markdown",
+  sorting = "ydnt",
+  no.print.fields = list("issn", "url", "urldate")
+  )
+```
+
+## Journal Publications
+
+```{r, results = "asis"}
+bib[bibtype = "article"]
+```
+
+## Conference Proceedings
+
+```{r, results = "asis"}
+bib[bibtype = "inproceedings"]
+```
+
+## Books co-edited
+
+```{r, results = "asis"}
+bib[bibtype = "book"]
+```
+
+## Reports 
+
+```{r, results = "asis"}
+bib[bibtype = "techreport"]
+```

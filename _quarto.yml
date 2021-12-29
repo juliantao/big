@@ -6,7 +6,7 @@ website:
   title: "BiG"
   image: img/favicon.png
   page-footer:
-    left: "@BiG 2018-2021"
+    left: "\\@BiG 2018-2021"
     center: 
       - text: Built with Quarto
         href: https://quarto.org/
@@ -29,6 +29,7 @@ website:
           - self-burrowing-robotics.qmd
           - communication.qmd 
           - scour.qmd
+      - publication.qmd
       - teaching.qmd
       - outreach.qmd
       - resources.qmd
@@ -36,6 +37,9 @@ website:
       - about.qmd
       - icon: github
         href: https://github.com/big/
+
+bibliography: jtpubs.bib
+
 format:
   html:
     theme: 
@@ -45,3 +49,7 @@ format:
     toc: true
     header-includes: |
       <link rel="icon" href="img/favicon.png">
+execute:
+  echo: false
+  warning: false 
+  message: false
