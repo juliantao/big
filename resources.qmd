@@ -67,5 +67,7 @@ title: Resources
 * [ASU Alumni Engineering Chapter](https://alumni.asu.edu/chapters/ira-fulton-schools-engineering-chapter)
 * [Friends of Civil and Environmental Engineering](https://ssebe.engineering.asu.edu/foce2/) 
 
+## [Workflow](https://juliantao.github.io/bigworkflow/)
+
 ## [Academic Calendar](https://students.asu.edu/academic-calendar)
 
