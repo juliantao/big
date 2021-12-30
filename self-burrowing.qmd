@@ -56,7 +56,7 @@ It's a daunting but fascinating question.  Similar to locomotion in air, water a
 
 ### Unveil the interplay between shell opening and foot penetration
 
-Shell opening reliefs the stresses at the foot tip and enhances the anchorage force. Check out the DEM simulation [@HT17a; @HT17b; @HT18a; @HT20a] and the photoelastic visualizations [@HMT20; @HMT22].
+Shell opening reliefs the stresses at the foot tip and enhances the anchorage force. Check out the DEM simulation [@HT17a; @HT18a; @HT20a] and the photoelastic visualizations [@HMT20; @HMT22].
 
 ### Decipher the role of rotation on penetration
 
