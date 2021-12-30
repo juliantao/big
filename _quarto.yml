@@ -51,8 +51,8 @@ format:
     highlight-style: github
     toc: true
     include-in-header: 
-      - iconfonts.qmd
-      - announcement.qmd
+      - assets/iconfonts.html
+      - assets/announcement.html
 
 execute:
   echo: false
