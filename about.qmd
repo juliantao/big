@@ -43,8 +43,6 @@ We have fun by playing with the colors of the logo and by replacing the robot mo
 ![](img/goldlogo.png)
 ::::
 
-
-
 ## Contact us
 
 []{.bi .bi-geo-alt-fill}: Office 126, Goldwater Center for Science and Engineering, 650 E Tyler Mall, Tempe, AZ 85281
@@ -54,3 +52,14 @@ We have fun by playing with the colors of the logo and by replacing the robot mo
 ::: {.ratio .ratio-16x9}
 <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1CI3nKCeGjYBwoTPGaBqTyTTlHNrYkpZH" allowfullscreen></iframe>
 :::
+
+##  Attribution, copyright and license
+
+This website is built with [Quarto](https://quarto.org/), an open-source scientific and technical publishing system built on [Pandoc](https://pandoc.org/). 
+
+Copyright (c) 2013-2022 Julian Tao
+
+This work is licensed under a  [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/) 
+
+[![](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
+

@@ -175,6 +175,13 @@
     "text": "Contact us\n: Office 126, Goldwater Center for Science and Engineering, 650 E Tyler Mall, Tempe, AZ 85281\n: (480) 965-2489"
   },
   {
+    "objectID": "about.html#attribution-copyright-and-license",
+    "href": "about.html#attribution-copyright-and-license",
+    "title": "About",
+    "section": "Attribution, copyright and license",
+    "text": "Attribution, copyright and license\nThis website is built with Quarto, an open-source scientific and technical publishing system built on Pandoc.\nCopyright (c) 2013-2022 Julian Tao\nThis work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License"
+  },
+  {
     "objectID": "teaching.html#cee-452598-foundations",
     "href": "teaching.html#cee-452598-foundations",
     "title": "Teaching",

@@ -10,7 +10,7 @@ website:
   twitter-card: true
   site-url: https://juliantao.github.io/big
   page-footer:
-    left: "\\©BiG 2013-2021"
+    left: "\\©2013-2022 Julian Tao"
     right: 
       - text: "Built with Quarto"
         href: "https://quarto.org/"
@@ -53,7 +53,6 @@ format:
     include-in-header: 
       - assets/iconfonts.html
       - assets/announcement.html
-
 execute:
   echo: false
   warning: false 
