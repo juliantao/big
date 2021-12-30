@@ -10,7 +10,7 @@ website:
   twitter-card: true
   site-url: https://juliantao.github.io/big
   page-footer:
-    left: "\\@BiG 2013-2021"
+    left: "\\©BiG 2013-2021"
     right: 
       - text: "Built with Quarto"
         href: "https://quarto.org/"
