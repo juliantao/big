@@ -16,32 +16,6 @@ $carousel-indicator-active-bg:       $yellow;
 
 $font-size-base: 1.1rem !default;
 $headings-color: $primary !default;
+
 /*-- scss:rules --*/
-
-// Navbar
-.navbar {
-  font-size: 1.1rem;
-}
-
-.navbar-brand > img {
-  max-height: 36px;
-}
-
-// Typography
-h1 {
-  text-align: center;
-}
-
-.huge {
-  font-size: 300%;
-  display: block;
-  text-align: center;
-  font-weight: bold;
-  padding-top: 10%;
-  color: $yellow;
-}
-
-.lead {
-  text-align: center;
-}
 
