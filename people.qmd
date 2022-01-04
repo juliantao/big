@@ -61,7 +61,7 @@ Dr. Tao is an associate professor in the School of Sustainable Engineering and t
 :::
 
 ::: {layout="[30, 70]"}
-![](img/sundevil.png){.rounded-circle}
+![](img/sarina.png){.rounded-circle}
 
 **Sarina Shahhosseini**\
 2021-present\
