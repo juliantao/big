@@ -74,13 +74,15 @@ Dr. Tao is an associate professor in the School of Sustainable Engineering and t
 ## M.S. Students
 
 ::: {layout="[30, 70]"}
-![](img/sundevil.png){.rounded-circle}
+![](./img/Ragib.JPG){.rounded-circle}
 
 **Md Ragib Shaharear**\
 2021-present\
 <br>
 []{.bi .bi-envelope-fill}: <mshahare@asu.edu>\
+[]{.bi. .bi-link-45deg}: [website](https://ragibeee.weebly.com/)\
 []{.bi .bi-geo-alt-fill}: GWC 131\
+[]{.bi .bi-file-earmark-pdf-fill}: [CV](./resources/Ragib-resume.pdf)\
 **Research:** Rapid prototyping, Self-burrowing robotics
 :::
 
