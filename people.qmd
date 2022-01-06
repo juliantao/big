@@ -68,6 +68,7 @@ Dr. Tao is an associate professor in the School of Sustainable Engineering and t
 <br>
 []{.bi .bi-envelope-fill}: <sshahho1@asu.edu>\
 []{.bi .bi-geo-alt-fill}: GWC 131\
+[]{.bi .bi-file-earmark-pdf-fill}: [CV](./resources/Sarina_Shahhosseini_CV.pdf)\
 **Research:** Self-burrowing robotics, robot--granular material interaction 
 :::
 
