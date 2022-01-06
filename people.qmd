@@ -81,7 +81,7 @@ Dr. Tao is an associate professor in the School of Sustainable Engineering and t
 2021-present\
 <br>
 []{.bi .bi-envelope-fill}: <mshahare@asu.edu>\
-[]{.bi. .bi-link-45deg}: [website](https://ragibeee.weebly.com/)\
+[]{.bi .bi-link-45deg}: [website](https://ragibeee.weebly.com/)\
 []{.bi .bi-geo-alt-fill}: GWC 131\
 []{.bi .bi-file-earmark-pdf-fill}: [CV](./resources/Ragib-resume.pdf)\
 **Research:** Rapid prototyping, Self-burrowing robotics
