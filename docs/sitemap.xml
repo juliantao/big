@@ -1,55 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://juliantao.github.io/big/self-burrowing.html</loc>
-    <lastmod>2022-01-08T04:54:53.012Z</lastmod>
-  </url>
-  <url>
-    <loc>https://juliantao.github.io/big/people.html</loc>
-    <lastmod>2022-01-08T04:54:53.288Z</lastmod>
-  </url>
-  <url>
-    <loc>https://juliantao.github.io/big/resources.html</loc>
-    <lastmod>2022-01-08T04:54:53.540Z</lastmod>
-  </url>
-  <url>
-    <loc>https://juliantao.github.io/big/communication.html</loc>
-    <lastmod>2022-01-08T04:54:53.760Z</lastmod>
-  </url>
-  <url>
-    <loc>https://juliantao.github.io/big/index.html</loc>
-    <lastmod>2022-01-08T04:54:54.000Z</lastmod>
+    <loc>https://juliantao.github.io/big/publication.html</loc>
+    <lastmod>2022-01-28T20:20:10.247Z</lastmod>
   </url>
   <url>
     <loc>https://juliantao.github.io/big/about.html</loc>
-    <lastmod>2022-01-08T04:54:54.256Z</lastmod>
-  </url>
-  <url>
-    <loc>https://juliantao.github.io/big/teaching.html</loc>
-    <lastmod>2022-01-08T04:54:54.492Z</lastmod>
-  </url>
-  <url>
-    <loc>https://juliantao.github.io/big/research.html</loc>
-    <lastmod>2022-01-08T04:54:54.752Z</lastmod>
-  </url>
-  <url>
-    <loc>https://juliantao.github.io/big/publication.html</loc>
-    <lastmod>2022-01-08T04:54:58.412Z</lastmod>
-  </url>
-  <url>
-    <loc>https://juliantao.github.io/big/news.html</loc>
-    <lastmod>2022-01-08T04:54:58.656Z</lastmod>
-  </url>
-  <url>
-    <loc>https://juliantao.github.io/big/scour.html</loc>
-    <lastmod>2022-01-08T04:54:58.876Z</lastmod>
+    <lastmod>2022-01-28T20:20:10.487Z</lastmod>
   </url>
   <url>
     <loc>https://juliantao.github.io/big/playground.html</loc>
-    <lastmod>2022-01-08T04:54:59.120Z</lastmod>
+    <lastmod>2022-01-28T20:20:10.679Z</lastmod>
+  </url>
+  <url>
+    <loc>https://juliantao.github.io/big/scour.html</loc>
+    <lastmod>2022-01-28T20:20:10.851Z</lastmod>
+  </url>
+  <url>
+    <loc>https://juliantao.github.io/big/teaching.html</loc>
+    <lastmod>2022-01-28T20:20:11.035Z</lastmod>
+  </url>
+  <url>
+    <loc>https://juliantao.github.io/big/communication.html</loc>
+    <lastmod>2022-01-28T20:20:11.199Z</lastmod>
   </url>
   <url>
     <loc>https://juliantao.github.io/big/outreach.html</loc>
-    <lastmod>2022-01-08T04:54:59.352Z</lastmod>
+    <lastmod>2022-01-28T20:20:11.375Z</lastmod>
+  </url>
+  <url>
+    <loc>https://juliantao.github.io/big/index.html</loc>
+    <lastmod>2022-01-28T20:24:01.501Z</lastmod>
+  </url>
+  <url>
+    <loc>https://juliantao.github.io/big/resources.html</loc>
+    <lastmod>2022-01-28T20:20:11.767Z</lastmod>
+  </url>
+  <url>
+    <loc>https://juliantao.github.io/big/news.html</loc>
+    <lastmod>2022-01-28T20:20:11.939Z</lastmod>
+  </url>
+  <url>
+    <loc>https://juliantao.github.io/big/research.html</loc>
+    <lastmod>2022-01-28T20:20:12.139Z</lastmod>
+  </url>
+  <url>
+    <loc>https://juliantao.github.io/big/people.html</loc>
+    <lastmod>2022-01-28T20:20:12.335Z</lastmod>
+  </url>
+  <url>
+    <loc>https://juliantao.github.io/big/self-burrowing.html</loc>
+    <lastmod>2022-01-28T20:20:12.603Z</lastmod>
   </url>
 </urlset>
