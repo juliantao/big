@@ -15,7 +15,7 @@ Our current research topics include: bio-inspired self-burrowing robots, bio-ins
 We seek our answers at the boundaries of biology (and other natural sciences), mechanics and engineering.
 We achieve the BiG goals and extend the impacts from research, teaching, outreach, entrepreneurship and collaboration.
 
-We are part of the Center for Bio-mediated and Bio-inspired Geotechnics ([CBBG](https://cbbg.engineering.asu.edu/)) and the [Geotechnical Engineering Group](https://geotechasu.github.io/soilrocks/) in the School of Sustainable Engineering and the Built Environment ([SSEBE](https://ssebe.engineering.asu.edu/)) at Arizona State University.
+We are part of the NSF Engineering Research Center for Bio-mediated and Bio-inspired Geotechnics ([CBBG](https://cbbg.engineering.asu.edu/)) and the [Geotechnical Engineering Group](https://geotechasu.github.io/soilrocks/) in the School of Sustainable Engineering and the Built Environment ([SSEBE](https://ssebe.engineering.asu.edu/)) at Arizona State University.
 
 <br>
 
