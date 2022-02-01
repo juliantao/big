@@ -51,6 +51,7 @@ format:
     css: assets/style.css
     highlight-style: github
     toc: true
+    email-obfuscation: javascript
     include-in-header: 
       - assets/iconfonts.html
       - assets/announcement.html
