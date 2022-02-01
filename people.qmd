@@ -49,6 +49,20 @@ Dr. Tao is an associate professor in the School of Sustainable Engineering and t
 :::
 
 ::: {layout="[30, 70]"}
+
+![](./img/Xiwei.jpg){.rounded-circle}
+
+**Xiwei Li**\
+2020-present\
+co-advised with Dr. Leon van Paassen\
+<br>
+[]{.bi .bi-envelope-fill}: <xiweili@asu.edu>\
+[]{.bi .bi-geo-alt-fill}: GWC 131\
+[]{.bi .bi-file-earmark-pdf-fill}: [CV](./resources/Xiwei- CV.pdf)\
+**Research:** Nature-inspired scour countermeasures 
+:::
+
+::: {layout="[30, 70]"}
 ![](img/sarina.png){.rounded-circle}
 
 **Sarina Shahhosseini**\
