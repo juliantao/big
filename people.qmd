@@ -92,12 +92,13 @@ co-advised with Dr. Leon van Paassen\
 ## Undergraduate Students
 
 ::: {layout="[30, 70]"}
-![](img/sundevil.png){.rounded-circle}
+![](./img/Mohan.JPG){.rounded-circle}
 
 **Mohan Parekh**\
 2021-present\
 <br>
 []{.bi .bi-envelope-fill}: <maparekh@asu.edu>\
+[]{.bi .bi-file-earmark-pdf-fill}: [Resume](./resources/MohanParekh_Resume.pdf)\
 **Research:** Rapid prototyping, Self-burrowing robotics
 :::
 
