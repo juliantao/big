@@ -34,6 +34,7 @@ Dr. Tao is an associate professor in the School of Sustainable Engineering and t
 <br>
 []{.bi .bi-envelope-fill}: <ytang116@asu.edu>\
 []{.bi .bi-geo-alt-fill}: GWC 131\
+[]{.bi .bi-file-earmark-pdf-fill}: [CV](./resources/Tang-CV.pdf)\
 **Research:** Awn-inspired Burrowing Mechanisms and Robots
 :::
 
