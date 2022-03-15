@@ -46,6 +46,7 @@ Dr. Tao is an associate professor in the School of Sustainable Engineering and t
 <br>
 []{.bi .bi-envelope-fill}: <yzhong52@asu.edu>\
 []{.bi .bi-geo-alt-fill}: GWC 131\
+[]{.bi .bi-file-earmark-pdf-fill}: [CV](./resources/Zhong_CV-Mar_2022.pdf)\
 **Research:** Bio-inspired Underground Sensing and Communication
 :::
 
