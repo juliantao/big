@@ -18,7 +18,7 @@ Associate Professor\
 []{.bi .bi-telephone-fill}: 480-965-1108\
 []{.bi .bi-geo-alt-fill}: GWC 126\
 []{.ai .ai-google-scholar .ai-lg}: [Google Scholar](https://scholar.google.com/citations?hl=en&user=Dq4lhi4AAAAJ&view_op=list_works)\
-[]{.bi .bi-file-earmark-pdf-fill}: [CV](./resources/JTaoCV202112.pdf)
+[]{.bi .bi-file-earmark-pdf-fill}: [CV](https://github.com/juliantao/jtaocv/raw/main/JulianTaoCV.pdf)
 
 :::
 
@@ -124,6 +124,9 @@ co-advised with Dr. Leon van Paassen\
 ::: {}
 **M.S. Students**
 
+* Dishika Agrawal (2022-2023)
+* Manthan Rajendra Pai (2022-2023)
+* Md Ragib Shaharear (2021-2023)
 * Enns, Andrew (2019-2021)
 * Pandey, Ganesh (2016-2018)
 * Bao, Ruotian (2015-2017)

@@ -17,14 +17,15 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for citations */
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
 }
-.hanging div.csl-entry {
+.hanging-indent div.csl-entry {
   margin-left:2em;
   text-indent:-2em;
 }
@@ -38,8 +39,7 @@ div.csl-right-inline {
 }
 div.csl-indent {
   margin-left: 2em;
-}
-</style>
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -65,6 +65,11 @@ div.csl-indent {
   "panel-placement": "end",
   "type": "overlay",
   "limit": 20,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -74,7 +79,8 @@ div.csl-indent {
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-TY9ZC8SV4C"></script>
@@ -90,93 +96,104 @@ gtag('config', 'G-TY9ZC8SV4C', { 'anonymize_ip': true});
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 <script src="https://kit.fontawesome.com/cb3136a37d.js" crossorigin="anonymous"></script>
 
-<!-- announcement banner -->
-<meta property="og:title" content="BiG - Self-burrowing Mechanisms and Robotics">
-<meta property="og:description" content="We study how living things burrow. Inspired by the biological burrowing mechanisms, we develop robots and tools for autonomous underground exploration and monitoring.">
-<meta property="og:site-name" content="BiG">
-<meta name="twitter:title" content="BiG - Self-burrowing Mechanisms and Robotics">
-<meta name="twitter:description" content="We study how living things burrow. Inspired by the biological burrowing mechanisms, we develop robots and tools for autonomous underground exploration and monitoring.">
-<meta name="twitter:card" content="summary">
-</head><body class="nav-fixed"><div class="alert alert-warning alert-dismissible fade show text-center" role="alert">
-  <strong>Submissions now due by Dec. 31, 2022!</strong>
-  Acta Geotechnica Special Issue on Bio-inspired Geotechnics
-  <a href="resources/actabio.pdf" class="btn btn-warning">Learn More</a>
-  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-</div>
 
 
 <link rel="stylesheet" href="assets/style.css">
+<meta property="og:title" content="BiG - Self-burrowing Mechanisms and Robotics">
+<meta property="og:description" content="">
+<meta property="og:image" content="https://juliantao.github.io/big/img/favicon.png">
+<meta property="og:site_name" content="BiG">
+<meta property="og:image:height" content="351">
+<meta property="og:image:width" content="351">
+<meta name="twitter:title" content="BiG - Self-burrowing Mechanisms and Robotics">
+<meta name="twitter:description" content="">
+<meta name="twitter:image" content="https://juliantao.github.io/big/img/favicon.png">
+<meta name="twitter:image-height" content="351">
+<meta name="twitter:image-width" content="351">
+<meta name="twitter:card" content="summary_large_image">
+</head>
 
-
-
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
     <img src="./img/biglogo.png" alt="" class="navbar-logo">
     </a>
   </div>
+            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html">Home</a>
+    <a class="nav-link" href="./index.html" rel="" target="">
+ <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./people.html">People</a>
+    <a class="nav-link" href="./people.html" rel="" target="">
+ <span class="menu-text">People</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-research" role="button" data-bs-toggle="dropdown" aria-expanded="false">Research</a>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-research" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+ <span class="menu-text">Research</span>
+    </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-research">    
         <li>
-    <a class="dropdown-item" href="./research.html">
+    <a class="dropdown-item" href="./research.html" rel="" target="">
  <span class="dropdown-text">Research Overview</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./self-burrowing.html">
+    <a class="dropdown-item" href="./self-burrowing.html" rel="" target="">
  <span class="dropdown-text">Self-burrowing Mechanisms and Robotics</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./communication.html">
+    <a class="dropdown-item" href="./communication.html" rel="" target="">
  <span class="dropdown-text">Bio-inspired Underground Communication</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./scour.html">
+    <a class="dropdown-item" href="./scour.html" rel="" target="">
  <span class="dropdown-text">Bio-based Scour Countermeasures</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="./publication.html">Publication</a>
+    <a class="nav-link" href="./publication.html" rel="" target="">
+ <span class="menu-text">Publication</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./teaching.html">Teaching</a>
+    <a class="nav-link" href="./teaching.html" rel="" target="">
+ <span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./outreach.html">Outreach</a>
+    <a class="nav-link" href="./outreach.html" rel="" target="">
+ <span class="menu-text">Outreach</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./resources.html">Resources</a>
+    <a class="nav-link" href="./resources.html" rel="" target="">
+ <span class="menu-text">Resources</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./news.html">News</a>
+    <a class="nav-link" href="./news.html" rel="" target="">
+ <span class="menu-text">News</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html">About</a>
+    <a class="nav-link" href="./about.html" rel="" target="">
+ <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/JulianTao/big/"><i class="bi bi-github" role="img">
+    <a class="nav-link" href="https://github.com/JulianTao/big/" rel="" target=""><i class="bi bi-github" role="img">
 </i> 
- </a>
+ <span class="menu-text"></span></a>
   </li>  
 </ul>
-              <div id="quarto-search" class="" title="Search"></div>
           </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -220,6 +237,7 @@ gtag('config', 'G-TY9ZC8SV4C', { 'anonymize_ip': true});
 <div class="quarto-title-meta">
 
     
+  
     
   </div>
   
@@ -312,32 +330,32 @@ gtag('config', 'G-TY9ZC8SV4C', { 'anonymize_ip': true});
 
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
-<div id="ref-HMT22" class="csl-entry" role="doc-biblioentry">
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-HMT22" class="csl-entry" role="listitem">
 Huang, Sichuan, Nariman Mahabadi, and Junliang Tao. 2022. <span>“Penetration and <span>Relaxation</span> in <span>Dry Granular Materials</span>: <span>Insights</span> from <span>Photoelasticity</span>.”</span> In <em>Geo-<span>Congress</span> 2022</em>, 130–39. <span>Charlotte, North Carolina</span>: <span>American Society of Civil Engineers</span>. <a href="https://doi.org/10.1061/9780784484043.013">https://doi.org/10.1061/9780784484043.013</a>.
 </div>
-<div id="ref-HTB+20" class="csl-entry" role="doc-biblioentry">
+<div id="ref-HTB+20" class="csl-entry" role="listitem">
 Huang, Sichuan, Yong Tang, Hosain Bagheri, Dongting Li, Alexandria Ardente, Daniel Aukes, Hamidreza Marvi, and Junliang Tao. 2020. <span>“Effects of <span>Friction Anisotropy</span> on <span>Upward Burrowing Behavior</span> of <span>Soft Robots</span> in <span>Granular Materials</span>.”</span> <em>Advanced Intelligent Systems</em> 2 (6): 1900183. <a href="https://doi.org/10.1002/aisy.201900183">https://doi.org/10.1002/aisy.201900183</a>.
 </div>
-<div id="ref-HT17a" class="csl-entry" role="doc-biblioentry">
+<div id="ref-HT17a" class="csl-entry" role="listitem">
 Huang, Sichuan, and Junliang Tao. 2017. <span>“Penetrating in <span>Granular Materials</span>: <span>Effects</span> of <span>Penetrator Dynamics</span>.”</span> In <em>Geotechnical <span>Frontiers</span> 2017</em>, 604–13. <span>Orlando, Florida</span>: <span>ASCE</span>. <a href="https://doi.org/10.1061/9780784480441.063">https://doi.org/10.1061/9780784480441.063</a>.
 </div>
-<div id="ref-HT18a" class="csl-entry" role="doc-biblioentry">
+<div id="ref-HT18a" class="csl-entry" role="listitem">
 ———. 2018. <span>“The Interplay Between Shell Opening and Foot Penetration of a Model Razor Clam: <span>Insights</span> from <span>DEM</span> Simulation.”</span> In <em><span>B2G Atlanta</span> 2018 <span class="nocase">Bio-mediated</span> and <span class="nocase">Bio-inspired Geotechnics</span></em>. <span>Atlanta, GA</span>.
 </div>
-<div id="ref-HT20a" class="csl-entry" role="doc-biblioentry">
+<div id="ref-HT20a" class="csl-entry" role="listitem">
 ———. 2020. <span>“Modeling <span class="nocase">Clam-inspired Burrowing</span> in <span>Dry Sand</span> Using <span>Cavity Expansion Theory</span> and <span>DEM</span>.”</span> <em>Acta Geotechnica</em> 15 (8): 2305–26. <a href="https://doi.org/10.1007/s11440-020-00918-8">https://doi.org/10.1007/s11440-020-00918-8</a>.
 </div>
-<div id="ref-HMT20" class="csl-entry" role="doc-biblioentry">
+<div id="ref-HMT20" class="csl-entry" role="listitem">
 Huang, S., N. Mahabadi, and J. Tao. 2020. <span>“Impact of <span>Shell Opening</span> of a <span>Model Razor Clam</span> on the <span>Evolution</span> of <span>Force Chains</span> in <span>Granular Media</span>.”</span> In <em>Geo-<span>Congress</span> 2021</em>, 272–81. <span>Minneapolis, Minnesota</span>: <span>ASCE</span>. <a href="https://doi.org/10.1061/9780784482834.030">https://doi.org/10.1061/9780784482834.030</a>.
 </div>
-<div id="ref-TT21" class="csl-entry" role="doc-biblioentry">
+<div id="ref-TT21" class="csl-entry" role="listitem">
 Tang, Yong, and Junliang Tao. 2021. <span>“Effect of <span>Rotation</span> on <span>Penetration</span>: <span>Toward</span> a <span>Seed Awn-Inspired Self-Burrowing Probe</span>.”</span> In <em><span>IFCEE</span> 2021</em>, 149–59. <span>Dallas, TX</span>: <span>American Society of Civil Engineers</span>. <a href="https://doi.org/10.1061/9780784483428.016">https://doi.org/10.1061/9780784483428.016</a>.
 </div>
-<div id="ref-THT19a" class="csl-entry" role="doc-biblioentry">
+<div id="ref-THT19a" class="csl-entry" role="listitem">
 Tao, Junliang, Sichuan Huang, and Yong Tang. 2019. <span>“Bioinspired <span>Self-Burrowing-Out Robot</span> in <span>Dry Sand</span>.”</span> <em>Journal of Geotechnical and Geoenvironmental Engineering</em> 145 (12): 02819002. <a href="https://doi.org/10.1061/(ASCE)GT.1943-5606.0002177">https://doi.org/10.1061/(ASCE)GT.1943-5606.0002177</a>.
 </div>
-<div id="ref-THT20a" class="csl-entry" role="doc-biblioentry">
+<div id="ref-THT20a" class="csl-entry" role="listitem">
 ———. 2020. <span>“<span>SBOR</span>: A Minimalistic Soft Self-Burrowing-Out Robot Inspired by Razor Clams.”</span> <em>Bioinspiration &amp; Biomimetics</em> 15 (5): 055003. <a href="https://doi.org/10.1088/1748-3190/ab8754">https://doi.org/10.1088/1748-3190/ab8754</a>.
 </div>
 </div></section></div></main> <!-- /main -->
@@ -368,9 +386,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -382,17 +414,33 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
     button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
     setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
       button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -402,8 +450,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -418,47 +475,213 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    if (id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        for (let i = 0; i < 2; i++) {
+          container.appendChild(note.children[i].cloneNode(true));
+        }
+        return container.innerHTML
+      } else {
+        return note.innerHTML;
+      }
+    } else {
+      return note.innerHTML;
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      try { hash = new URL(url).hash; } catch {}
+      const id = hash.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note !== null) {
+        try {
+          const html = processXRef(id, note);
+          instance.setContent(html);
+        } finally {
+          instance.enable();
+          instance.show();
+        }
+      } else {
+        // See if we can fetch this
+        fetch(url.split('#')[0])
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.getElementById(id);
+          if (note !== null) {
+            const html = processXRef(id, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
   var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
   for (var i=0; i<bibliorefs.length; i++) {
     const ref = bibliorefs[i];
-    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
-    tippyHover(ref, function() {
-      var popup = window.document.createElement('div');
-      cites.forEach(function(cite) {
-        var citeDiv = window.document.createElement('div');
-        citeDiv.classList.add('hanging-indent');
-        citeDiv.classList.add('csl-entry');
-        var biblioDiv = window.document.getElementById('ref-' + cite);
-        if (biblioDiv) {
-          citeDiv.innerHTML = biblioDiv.innerHTML;
-        }
-        popup.appendChild(citeDiv);
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
       });
-      return popup.innerHTML;
-    });
+    }
   }
 });
 </script>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left">©2013-2022 Julian Tao</div>   
-      <div class="nav-footer-center">
-        <ul class="footer-items list-unstyled">
+    <div class="nav-footer-left">
+<p>©2013-2022 Julian Tao</p>
+</div>   
+    <div class="nav-footer-center">
+      <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="./about.html">About</a>
+    <a class="nav-link" href="./about.html">
+<p>About</p>
+</a>
   </li>  
 </ul>
-      </div>
+    </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="https://quarto.org/">Built with Quarto</a>
+    <a class="nav-link" href="https://quarto.org/">
+<p>Built with Quarto</p>
+</a>
   </li>  
 </ul>
     </div>
   </div>
 </footer>
+
 
 
 

@@ -47,11 +47,16 @@ We have fun by playing with the colors of the logo and by replacing the robot mo
 
 []{.bi .bi-geo-alt-fill}: Office 126, Goldwater Center for Science and Engineering, 650 E Tyler Mall, Tempe, AZ 85281
 
-[]{.bi .bi-telephone-fill}: (480) 965-2489 
+[]{.bi .bi-telephone-fill}: (480) 965-2489
 
 ::: {.ratio .ratio-16x9}
 <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1CI3nKCeGjYBwoTPGaBqTyTTlHNrYkpZH" allowfullscreen></iframe>
 :::
+
+::: {}
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSccUcbLFC6NNg4qRcTSViT10Rk4qdPtWWCqt1hU31aLaq4pyw/viewform?embedded=true" width="640" height="920" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+:::
+
 
 ##  Attribution, copyright and license
 

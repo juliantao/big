@@ -17,7 +17,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 </style>
@@ -46,6 +46,11 @@ ul.task-list li input[type="checkbox"] {
   "panel-placement": "end",
   "type": "overlay",
   "limit": 20,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -55,7 +60,8 @@ ul.task-list li input[type="checkbox"] {
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-TY9ZC8SV4C"></script>
@@ -73,15 +79,21 @@ gtag('config', 'G-TY9ZC8SV4C', { 'anonymize_ip': true});
 
 <!-- announcement banner -->
 <meta property="og:title" content="BiG - Publication">
-<meta property="og:description" content="[1] Y. Tang and J. Tao. “Multiscale Analysis of Rotational Penetration in Shallow Dry Sand and Implications for Self-Burrowing Robot Design”. In: Acta Geotechnica (Mar.&nbsp;2022). DOI: 10.">
-<meta property="og:site-name" content="BiG">
+<meta property="og:description" content="">
+<meta property="og:image" content="https://juliantao.github.io/big/img/favicon.png">
+<meta property="og:site_name" content="BiG">
+<meta property="og:image:height" content="351">
+<meta property="og:image:width" content="351">
 <meta name="twitter:title" content="BiG - Publication">
-<meta name="twitter:description" content="[1] Y. Tang and J. Tao. “Multiscale Analysis of Rotational Penetration in Shallow Dry Sand and Implications for Self-Burrowing Robot Design”. In: Acta Geotechnica (Mar.&nbsp;2022). DOI: 10.">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:description" content="">
+<meta name="twitter:image" content="https://juliantao.github.io/big/img/favicon.png">
+<meta name="twitter:image-height" content="351">
+<meta name="twitter:image-width" content="351">
+<meta name="twitter:card" content="summary_large_image">
 </head><body class="nav-fixed"><div class="alert alert-warning alert-dismissible fade show text-center" role="alert">
-  <strong>Submissions now due by Dec. 31, 2022!</strong>
-  Acta Geotechnica Special Issue on Bio-inspired Geotechnics
-  <a href="resources/actabio.pdf" class="btn btn-warning">Learn More</a>
+  <strong>Abstract Submission Now Open!</strong>
+  2025 International Conference on Bio-mediated and Bio-inspired Geotechnics
+  <a href="https://icbbg2025.com/" class="btn btn-warning">Learn More</a>
   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
 </div>
 
@@ -95,69 +107,81 @@ gtag('config', 'G-TY9ZC8SV4C', { 'anonymize_ip': true});
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
     <img src="./img/biglogo.png" alt="" class="navbar-logo">
     </a>
   </div>
+            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html">Home</a>
+    <a class="nav-link" href="./index.html" rel="" target="">
+ <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./people.html">People</a>
+    <a class="nav-link" href="./people.html" rel="" target="">
+ <span class="menu-text">People</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-research" role="button" data-bs-toggle="dropdown" aria-expanded="false">Research</a>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-research" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+ <span class="menu-text">Research</span>
+    </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-research">    
         <li>
-    <a class="dropdown-item" href="./research.html">
+    <a class="dropdown-item" href="./research.html" rel="" target="">
  <span class="dropdown-text">Research Overview</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./self-burrowing.html">
+    <a class="dropdown-item" href="./self-burrowing.html" rel="" target="">
  <span class="dropdown-text">Self-burrowing Mechanisms and Robotics</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./communication.html">
+    <a class="dropdown-item" href="./communication.html" rel="" target="">
  <span class="dropdown-text">Bio-inspired Underground Communication</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./scour.html">
+    <a class="dropdown-item" href="./scour.html" rel="" target="">
  <span class="dropdown-text">Bio-based Scour Countermeasures</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link active" href="./publication.html" aria-current="page">Publication</a>
+    <a class="nav-link active" href="./publication.html" rel="" target="" aria-current="page">
+ <span class="menu-text">Publication</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./teaching.html">Teaching</a>
+    <a class="nav-link" href="./teaching.html" rel="" target="">
+ <span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./outreach.html">Outreach</a>
+    <a class="nav-link" href="./outreach.html" rel="" target="">
+ <span class="menu-text">Outreach</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./resources.html">Resources</a>
+    <a class="nav-link" href="./resources.html" rel="" target="">
+ <span class="menu-text">Resources</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./news.html">News</a>
+    <a class="nav-link" href="./news.html" rel="" target="">
+ <span class="menu-text">News</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html">About</a>
+    <a class="nav-link" href="./about.html" rel="" target="">
+ <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/JulianTao/big/"><i class="bi bi-github" role="img">
+    <a class="nav-link" href="https://github.com/JulianTao/big/" rel="" target=""><i class="bi bi-github" role="img">
 </i> 
- </a>
+ <span class="menu-text"></span></a>
   </li>  
 </ul>
-              <div id="quarto-search" class="" title="Search"></div>
           </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -190,6 +214,7 @@ gtag('config', 'G-TY9ZC8SV4C', { 'anonymize_ip': true});
 <div class="quarto-title-meta">
 
     
+  
     
   </div>
   
@@ -199,121 +224,127 @@ gtag('config', 'G-TY9ZC8SV4C', { 'anonymize_ip': true});
 <div class="text-center">
 <p><a href="https://scholar.google.com/citations?hl=en&amp;user=Dq4lhi4AAAAJ&amp;view_op=list_works" class="btn btn-primary">Google Scholar</a></p>
 </div>
-<div class="cell">
-
-</div>
 <section id="journal-publications" class="level2">
 <h2 class="anchored" data-anchor-id="journal-publications">Journal Publications</h2>
-<p>[1] Y. Tang and J. Tao. “Multiscale Analysis of Rotational Penetration in Shallow Dry Sand and Implications for Self-Burrowing Robot Design”. In: <em>Acta Geotechnica</em> (Mar.&nbsp;2022). DOI: <a href="https://doi.org/10.1007%2Fs11440-022-01492-x">10.1007/s11440-022-01492-x</a>.</p>
-<p>[2] C. Wang, Y. Yuan, F. Liang, et al.&nbsp;“Experimental Investigation of Local Scour around Cylindrical Pile Foundations in a Double-Layered Sediment under Current Flow”. In: <em>Ocean Engineering</em> 251 (May. 2022), p.&nbsp;111084. DOI: <a href="https://doi.org/10.1016%2Fj.oceaneng.2022.111084">10.1016/j.oceaneng.2022.111084</a>.</p>
-<p>[3] Y. Zhong and J. (. Tao. “Bio-Inspired Vibrational Wireless Underground Communication System”. In: <em>Journal of Rock Mechanics and Geotechnical Engineering</em> (Jun.&nbsp;2022). DOI: <a href="https://doi.org/10.1016%2Fj.jrmge.2022.06.005">10.1016/j.jrmge.2022.06.005</a>.</p>
-<p>[4] D. Li, S. Huang, Y. Tang, et al.&nbsp;“Compliant Fins for Locomotion in Granular Media”. In: <em>IEEE Robotics and Automation Letters</em> (2021), pp. 1-1. DOI: <a href="https://doi.org/10.1109%2FLRA.2021.3084877">10.1109/LRA.2021.3084877</a>.</p>
-<p>[5] D. Li, S. Huang, Y. Tang, et al.&nbsp;“Compliant Fins for Locomotion in Granular Media”. In: <em>arXiv:2101.03624 [cs]</em> (Jan.&nbsp;2021). arXiv: <a href="https://arxiv.org/abs/2101.03624">2101.03624 [cs]</a>.</p>
-<p>[6] A. Martinez, J. DeJong, I. Akin, et al.&nbsp;“Bio-Inspired Geotechnical Engineering: Principles, Current Work, Opportunities and Challenges”. In: <em>Géotechnique</em> (Apr.&nbsp;2021), pp.&nbsp;1-48. DOI: <a href="https://doi.org/10.1680%2Fjgeot.20.P.170">10.1680/jgeot.20.P.170</a>.</p>
-<p>[7] J. Tao. “Burrowing Soft Robots Break New Ground”. In: <em>Science Robotics</em> 6.55 (Jun.&nbsp;2021). DOI: <a href="https://doi.org/10.1126%2Fscirobotics.abj3615">10.1126/scirobotics.abj3615</a>.</p>
-<p>[8] S. Huang, Y. Tang, H. Bagheri, et al.&nbsp;“Effects of Friction Anisotropy on Upward Burrowing Behavior of Soft Robots in Granular Materials”. In: <em>Advanced Intelligent Systems</em> 2.6 (2020), p.&nbsp;1900183. DOI: <a href="https://doi.org/10.1002%2Faisy.201900183">10.1002/aisy.201900183</a>.</p>
-<p>[9] S. Huang and J. Tao. “Modeling Clam-inspired Burrowing in Dry Sand Using Cavity Expansion Theory and DEM”. In: <em>Acta Geotechnica</em> 15.8 (Aug.&nbsp;2020), pp.&nbsp;2305-2326. DOI: <a href="https://doi.org/10.1007%2Fs11440-020-00918-8">10.1007/s11440-020-00918-8</a>.</p>
-<p>[10] H. Li, J. Tao, L. Wei, et al.&nbsp;“Explosive Compaction Technology for Loess Embankment Settlement Control: Numerical Simulation and Field Implementation”. In: <em>Acta Geotechnica</em> 15.4 (Apr.&nbsp;2020), pp.&nbsp;975-997. DOI: <a href="https://doi.org/10.1007%2Fs11440-019-00777-y">10.1007/s11440-019-00777-y</a>.</p>
-<p>[11] J. Tao, S. Huang, and Y. Tang. “SBOR: A Minimalistic Soft Self-Burrowing-out Robot Inspired by Razor Clams”. In: <em>Bioinspiration &amp; Biomimetics</em> 15.5 (Jul.&nbsp;2020), p.&nbsp;055003. DOI: <a href="https://doi.org/10.1088%2F1748-3190%2Fab8754">10.1088/1748-3190/ab8754</a>.</p>
-<p>[12] J. Tao, S. Huang, and Y. Tang. “Bioinspired Self-Burrowing-Out Robot in Dry Sand”. In: <em>Journal of Geotechnical and Geoenvironmental Engineering</em> 145.12 (Dec.&nbsp;2019), p.&nbsp;02819002. DOI: <a href="https://doi.org/10.1061%2F%28ASCE%29GT.1943-5606.0002177">10.1061/(ASCE)GT.1943-5606.0002177</a>.</p>
-<p>[13] X. Wang and J. Tao. “Polymer-Modified Microbially Induced Carbonate Precipitation for One-Shot Targeted and Localized Soil Improvement”. In: <em>Acta Geotechnica</em> 14.3 (Jun.&nbsp;2019), pp.&nbsp;657-671. DOI: <a href="https://doi.org/10.1007%2Fs11440-018-0757-z">10.1007/s11440-018-0757-z</a>.</p>
-<p>[14] B. Zhang, H. Wang, Y. Ye, et al.&nbsp;“Potential Hazards to a Tunnel Caused by Adjacent Reservoir Impoundment”. In: <em>Bulletin of Engineering Geology and the Environment</em> 78.1 (Feb.&nbsp;2019), pp.&nbsp;397-415. DOI: <a href="https://doi.org/10.1007%2Fs10064-017-1110-8">10.1007/s10064-017-1110-8</a>.</p>
-<p>[15] J. Li and J. Tao. “CFD-DEM Two-Way Coupled Numerical Simulation of Bridge Local Scour Behavior under Clear-Water Conditions”. In: <em>Transportation Research Record</em> 2672.39 (Dec.&nbsp;2018), pp.&nbsp;107-117. DOI: <a href="https://doi.org/10.1177%2F0361198118783170">10.1177/0361198118783170</a>.</p>
-<p>[16] J. Tao, J. Li, X. Wang, et al.&nbsp;“Nature-Inspired Bridge Scour Countermeasures: Streamlining and Biocementation”. In: <em>Journal of Testing and Evaluation</em> 46.4 (Jul.&nbsp;2018), p.&nbsp;20170517. DOI: <a href="https://doi.org/10.1520%2FJTE20170517">10.1520/JTE20170517</a>.</p>
-<p>[17] X. Wang, J. Tao, R. Bao, et al.&nbsp;“Surficial Soil Stabilization against Water-Induced Erosion Using Polymer-Modified Microbially Induced Carbonate Precipitation”. In: <em>Journal of Materials in Civil Engineering</em> 30 (Aug.&nbsp;2018). DOI: <a href="https://doi.org/10.1061%2F%28ASCE%29MT.1943-5533.0002490">10.1061/(ASCE)MT.1943-5533.0002490</a>.</p>
-<p>[18] R. Bao, J. Li, L. Li, et al.&nbsp;“Effect of Microbial-Induced Calcite Precipitation on Surface Erosion and Scour of Granular Soils: Proof of Concept”. In: <em>Transportation Research Record</em> 2657.1 (Jan.&nbsp;2017), pp. 10-18. DOI: <a href="https://doi.org/10.3141%2F2657-02">10.3141/2657-02</a>.</p>
-<p>[19] J. Li, J. Tao, and Y. Liu. “DES Modeling of Erosional Forces around Streamlined Piers and Implications for Scour Countermeasures”. In: <em>International Journal of Geomechanics</em> 17.6 (Jun.&nbsp;2017), p. 04016139. DOI: <a href="https://doi.org/10.1061%2F%28ASCE%29GM.1943-5622.0000839">10.1061/(ASCE)GM.1943-5622.0000839</a>.</p>
-<p>[20] X. Sun, J. Tao, J. Li, et al.&nbsp;“Aeroelastic-aerodynamic analysis and bio-inspired flow sensor design for boundary layer velocity profiles of wind turbine blades with active external flaps”. In: <em>Smart Structures and Systems</em> 20.3 (Sep.&nbsp;2017), pp.&nbsp;311-328. DOI: <a href="https://doi.org/10.12989%2Fsss.2017.20.3.311">10.12989/sss.2017.20.3.311</a>.</p>
-<p>[21] H. Tao and J. Tao. “Quantitative Analysis of Piping Erosion Micro-Mechanisms with Coupled CFD and DEM Method”. In: <em>Acta Geotechnica</em> 12.3 (Jun.&nbsp;2017), pp.&nbsp;573-592. DOI: <a href="https://doi.org/10.1007%2Fs11440-016-0516-y">10.1007/s11440-016-0516-y</a>.</p>
-<p>[22] J. Tao and H. Tao. “Factors Affecting Piping Erosion Resistance: Revisited with a Numerical Modeling Approach”. In: <em>International Journal of Geomechanics</em> 17.11 (Nov.&nbsp;2017), p.&nbsp;04017097. DOI: <a href="https://doi.org/10.1061%2F%28ASCE%29GM.1943-5622.0000999">10.1061/(ASCE)GM.1943-5622.0000999</a>.</p>
-<p>[23] J. Tao and J. Hu. “Energy Harvesting from Pavement via Polyvinylidene Fluoride: Hybrid Piezo-Pyroelectric Effects”. In: <em>Journal of Zhejiang University-SCIENCE A</em> 17.7 (Jul.&nbsp;2016), pp. 502-511. DOI: <a href="https://doi.org/10.1631%2Fjzus.A1600166">10.1631/jzus.A1600166</a>.</p>
-<p>[24] J. Tao and X. Yu. “Bio-Inspired Directional Sensor with Piezoelectric Microfiber and Helical Electrodes”. In: <em>Journal of Intelligent Material Systems and Structures</em> 27.13 (Aug.&nbsp;2016), pp. 1755-1766. DOI: <a href="https://doi.org/10.1177%2F1045389X15610904">10.1177/1045389X15610904</a>.</p>
-<p>[25] Q. Gao, J. Tao, J. Hu, et al.&nbsp;“Laboratory Study on the Mechanical Behaviors of an Anisotropic Shale Rock”. In: <em>Journal of Rock Mechanics and Geotechnical Engineering</em> 7.2 (Apr.&nbsp;2015), pp.&nbsp;213-219. DOI: <a href="https://doi.org/10.1016%2Fj.jrmge.2015.03.003">10.1016/j.jrmge.2015.03.003</a>.</p>
-<p>[26] J. Li and J. Tao. “Streamlining of Bridge Piers as Scour Countermeasures: Optimization of Cross Sections”. In: <em>Transportation Research Record</em> 2521.1 (Jan.&nbsp;2015), pp.&nbsp;162-171. DOI: <a href="https://doi.org/10.3141%2F2521-17">10.3141/2521-17</a>.</p>
-<p>[27] J. Tao and J. Li. “Streamlining of Bridge Piers as Scour Countermeasures: Effects of Curvature of Vertical Profiles”. In: <em>Transportation Research Record</em> 2521.1 (Jan.&nbsp;2015), pp.&nbsp;172-182. DOI: <a href="https://doi.org/10.3141%2F2521-18">10.3141/2521-18</a>.</p>
-<p>[28] B. Zhang, L. Zhang, H. Yang, et al.&nbsp;“Subsidence Prediction and Susceptibility Zonation for Collapse above Goaf with Thick Alluvial Cover: A Case Study of the Yongcheng Coalfield, Henan Province, China”. In: <em>Bulletin of Engineering Geology and the Environment</em> 75 (Dec. 2015). DOI: <a href="https://doi.org/10.1007%2Fs10064-015-0834-6">10.1007/s10064-015-0834-6</a>.</p>
-<p>[29] R. Wang, J. Tao, B. Yu, et al.&nbsp;“Characterization of Multiwalled Carbon Nanotube-Polymethyl Methacrylate Composite Resins as Denture Base Materials”. In: <em>The Journal of Prosthetic Dentistry</em> 111.4 (Apr. 2014), pp.&nbsp;318-326. DOI: <a href="https://doi.org/10.1016%2Fj.prosdent.2013.07.017">10.1016/j.prosdent.2013.07.017</a>.</p>
-<p>[30] J. Hu, B. X. Yu, and J. Tao. “Innovative Chromogenic Materials for Pavement Life Extension: Modeling Study of Surface Temperature of Sustainable Asphalt Pavement”. In: <em>International Journal of Pavement Research and Technology</em> 6.2 (Jan.&nbsp;2013). DOI: <a href="https://doi.org/10.6135%2Fijprt.org.tw%2F2013.6%282%29.141">10.6135/ijprt.org.tw/2013.6(2).141</a>.</p>
-<p>[31] Z. Liu, B. Zhang, X. Yu, et al.&nbsp;“Thermally Induced Water Flux in Soils”. In: <em>Transportation Research Record</em> 2349.1 (Jan.&nbsp;2013), pp. 63-71. DOI: <a href="https://doi.org/10.3141%2F2349-08">10.3141/2349-08</a>.</p>
-<p>[32] Y. Sun, C. Chung, X. Yu, et al.&nbsp;“Advanced Ultrasonic Technology for Air Void Distribution in Concrete”. In: <em>Materials Evaluation</em> 71.3 (2013).</p>
-<p>[33] Y. Sun, X. Yu, Z. Liu, et al.&nbsp;“Advanced Ultrasonic Technology for Freezing Damage Prevention of Concrete Pavement”. In: <em>International Journal of Pavement Research and Technology</em> 6.2 (Jan.&nbsp;2013). DOI: <a href="https://doi.org/10.6135%2Fijprt.org.tw%2F2013.6%282%29.86">10.6135/ijprt.org.tw/2013.6(2).86</a>.</p>
-<p>[34] J. Tao, Y. Sun, G. Wu, et al.&nbsp;“Emulating the Directional Sensitivity of Fish Hair Cell Sensor”. In: <em>Journal of Intelligent Material Systems and Structures</em> 24.12 (Aug.&nbsp;2013), pp.&nbsp;1484-1493. DOI: <a href="https://doi.org/10.1177%2F1045389X12473378">10.1177/1045389X12473378</a>.</p>
-<p>[35] X. Yu, B. Zhang, J. Tao, et al.&nbsp;“A New Time-Domain Reflectometry Bridge Scour Sensor”. In: <em>Structural Health Monitoring</em> 12.2 (Mar. 2013), pp.&nbsp;99-113. DOI: <a href="https://doi.org/10.1177%2F1475921713476331">10.1177/1475921713476331</a>.</p>
-<p>[36] Z. Liu, X. B. Yu, J. Tao, et al.&nbsp;“Multiphysics Extension to Physically Based Analyses of Pipes with Emphasis on Frost Actions”. In: <em>Journal of Zhejiang University SCIENCE A</em> 13.11 (Nov.&nbsp;2012), pp. 877-887. DOI: <a href="https://doi.org/10.1631%2Fjzus.A12ISGT2">10.1631/jzus.A12ISGT2</a>.</p>
-<p>[37] Z. Liu, B. Zhang, X. Yu, et al.&nbsp;“A New Method for Soil Water Characteristic Curve Measurement Based on Similarities Between Soil Freezing and Drying”. In: <em>Geotechnical Testing Journal</em> 35.1 (Jan. 2012), pp.&nbsp;2-10. DOI: <a href="https://doi.org/10.1520%2FGTJ103653">10.1520/GTJ103653</a>.</p>
-<p>[38] J. Tao and X. Yu. “Hair Flow Sensors: From Bio-Inspiration to Bio-Mimicking—a Review”. In: <em>Smart Materials and Structures</em> 21.11 (Sep.&nbsp;2012), p.&nbsp;113001. DOI: <a href="https://doi.org/10.1088%2F0964-1726%2F21%2F11%2F113001">10.1088/0964-1726/21/11/113001</a>.</p>
+<p>[1] H. Bagheri, D. Stockwell, B. Bethke, et al.&nbsp;“A Bio-Inspired Helically Driven Self-Burrowing Robot”. In: <em>Acta Geotechnica</em> (Apr. 08, 2023). DOI: <a href="https://doi.org/10.1007%2Fs11440-023-01882-9">10.1007/s11440-023-01882-9</a>.</p>
+<p>[2] Y. Zhong, S. Huang, and J. Tao. “Minimalistic Horizontal Burrowing Robots”. In: <em>Journal of Geotechnical and Geoenvironmental Engineering</em> 149.4 (Apr.&nbsp;01, 2023), p.&nbsp;02823001. DOI: <a href="https://doi.org/10.1061%2FJGGEFK.GTENG-11468">10.1061/JGGEFK.GTENG-11468</a>.</p>
+<p>[3] X. Li, L. van Paassen, and J. Tao. “Investigation of Using Mangrove-Inspired Skirt Pile Group as a Scour Countermeasure”. In: <em>Ocean Engineering</em> 266 (Dec.&nbsp;15, 2022), p.&nbsp;113133. DOI: <a href="https://doi.org/10.1016%2Fj.oceaneng.2022.113133">10.1016/j.oceaneng.2022.113133</a>.</p>
+<p>[4] A. Martinez, J. Dejong, I. Akin, et al.&nbsp;“Bio-Inspired Geotechnical Engineering: Principles, Current Work, Opportunities and Challenges”. In: <em>Géotechnique</em> 72.8 (Aug.&nbsp;2022), pp.&nbsp;687-705. DOI: <a href="https://doi.org/10.1680%2Fjgeot.20.P.170">10.1680/jgeot.20.P.170</a>.</p>
+<p>[5] Y. Tang and J. Tao. “Multiscale Analysis of Rotational Penetration in Shallow Dry Sand and Implications for Self-Burrowing Robot Design”. In: <em>Acta Geotechnica</em> 17 (Mar.&nbsp;08, 2022), pp.&nbsp;4233-4252. DOI: <a href="https://doi.org/10.1007%2Fs11440-022-01492-x">10.1007/s11440-022-01492-x</a>.</p>
+<p>[6] C. Wang, Y. Yuan, F. Liang, et al.&nbsp;“Experimental Investigation of Local Scour around Cylindrical Pile Foundations in a Double-Layered Sediment under Current Flow”. In: <em>Ocean Engineering</em> 251 (May. 01, 2022), p.&nbsp;111084. DOI: <a href="https://doi.org/10.1016%2Fj.oceaneng.2022.111084">10.1016/j.oceaneng.2022.111084</a>.</p>
+<p>[7] Y. Zhong and J. Tao. “Bio-Inspired Vibrational Wireless Underground Communication System”. In: <em>Journal of Rock Mechanics and Geotechnical Engineering</em> 14 (Jun.&nbsp;28, 2022). DOI: <a href="https://doi.org/10.1016%2Fj.jrmge.2022.06.005">10.1016/j.jrmge.2022.06.005</a>.</p>
+<p>[8] D. Li, S. Huang, Y. Tang, et al.&nbsp;“Compliant Fins for Locomotion in Granular Media”. In: <em>IEEE Robotics and Automation Letters</em> 6.3 (2021), pp.&nbsp;5984-5991. DOI: <a href="https://doi.org/10.1109%2FLRA.2021.3084877">10.1109/LRA.2021.3084877</a>.</p>
+<p>[9] J. Tao. “Burrowing Soft Robots Break New Ground”. In: <em>Science Robotics</em> 6.55 (Jun.&nbsp;16, 2021). DOI: <a href="https://doi.org/10.1126%2Fscirobotics.abj3615">10.1126/scirobotics.abj3615</a>.</p>
+<p>[10] S. Huang, Y. Tang, H. Bagheri, et al.&nbsp;“Effects of Friction Anisotropy on Upward Burrowing Behavior of Soft Robots in Granular Materials”. In: <em>Advanced Intelligent Systems</em> 2.6 (2020), p.&nbsp;1900183. DOI: <a href="https://doi.org/10.1002%2Faisy.201900183">10.1002/aisy.201900183</a>.</p>
+<p>[11] S. Huang and J. Tao. “Modeling Clam-inspired Burrowing in Dry Sand Using Cavity Expansion Theory and DEM”. In: <em>Acta Geotechnica</em> 15.8 (Aug.&nbsp;2020), pp.&nbsp;2305-2326. DOI: <a href="https://doi.org/10.1007%2Fs11440-020-00918-8">10.1007/s11440-020-00918-8</a>.</p>
+<p>[12] H. Li, J. Tao, L. Wei, et al.&nbsp;“Explosive Compaction Technology for Loess Embankment Settlement Control: Numerical Simulation and Field Implementation”. In: <em>Acta Geotechnica</em> 15.4 (Apr.&nbsp;01, 2020), pp. 975-997. DOI: <a href="https://doi.org/10.1007%2Fs11440-019-00777-y">10.1007/s11440-019-00777-y</a>.</p>
+<p>[13] J. Tao, S. Huang, and Y. Tang. “SBOR: A Minimalistic Soft Self-Burrowing-out Robot Inspired by Razor Clams”. In: <em>Bioinspiration &amp; Biomimetics</em> 15.5 (Jul.&nbsp;2020), p.&nbsp;055003. DOI: <a href="https://doi.org/10.1088%2F1748-3190%2Fab8754">10.1088/1748-3190/ab8754</a>.</p>
+<p>[14] J. Tao, S. Huang, and Y. Tang. “Bioinspired Self-Burrowing-Out Robot in Dry Sand”. In: <em>Journal of Geotechnical and Geoenvironmental Engineering</em> 145.12 (Dec.&nbsp;01, 2019), p.&nbsp;02819002. DOI: <a href="https://doi.org/10.1061%2F%28ASCE%29GT.1943-5606.0002177">10.1061/(ASCE)GT.1943-5606.0002177</a>.</p>
+<p>[15] X. Wang and J. Tao. “Polymer-Modified Microbially Induced Carbonate Precipitation for One-Shot Targeted and Localized Soil Improvement”. In: <em>Acta Geotechnica</em> 14.3 (Jun.&nbsp;01, 2019), pp.&nbsp;657-671. DOI: <a href="https://doi.org/10.1007%2Fs11440-018-0757-z">10.1007/s11440-018-0757-z</a>.</p>
+<p>[16] B. Zhang, H. Wang, Y. Ye, et al.&nbsp;“Potential Hazards to a Tunnel Caused by Adjacent Reservoir Impoundment”. In: <em>Bulletin of Engineering Geology and the Environment</em> 78.1 (Feb.&nbsp;01, 2019), pp.&nbsp;397-415. DOI: <a href="https://doi.org/10.1007%2Fs10064-017-1110-8">10.1007/s10064-017-1110-8</a>.</p>
+<p>[17] J. Li and J. Tao. “CFD-DEM Two-Way Coupled Numerical Simulation of Bridge Local Scour Behavior under Clear-Water Conditions”. In: <em>Transportation Research Record</em> 2672.39 (Dec.&nbsp;01, 2018), pp.&nbsp;107-117. DOI: <a href="https://doi.org/10.1177%2F0361198118783170">10.1177/0361198118783170</a>.</p>
+<p>[18] J. Tao, J. Li, X. Wang, et al.&nbsp;“Nature-Inspired Bridge Scour Countermeasures: Streamlining and Biocementation”. In: <em>Journal of Testing and Evaluation</em> 46.4 (Jul.&nbsp;01, 2018), p.&nbsp;20170517. DOI: <a href="https://doi.org/10.1520%2FJTE20170517">10.1520/JTE20170517</a>.</p>
+<p>[19] X. Wang, J. Tao, R. Bao, et al.&nbsp;“Surficial Soil Stabilization against Water-Induced Erosion Using Polymer-Modified Microbially Induced Carbonate Precipitation”. In: <em>Journal of Materials in Civil Engineering</em> 30 (Aug.&nbsp;06, 2018). DOI: <a href="https://doi.org/10.1061%2F%28ASCE%29MT.1943-5533.0002490">10.1061/(ASCE)MT.1943-5533.0002490</a>.</p>
+<p>[20] R. Bao, J. Li, L. Li, et al.&nbsp;“Effect of Microbial-Induced Calcite Precipitation on Surface Erosion and Scour of Granular Soils: Proof of Concept”. In: <em>Transportation Research Record</em> 2657.1 (Jan.&nbsp;01, 2017), pp.&nbsp;10-18. DOI: <a href="https://doi.org/10.3141%2F2657-02">10.3141/2657-02</a>.</p>
+<p>[21] J. Li, J. Tao, and Y. Liu. “DES Modeling of Erosional Forces around Streamlined Piers and Implications for Scour Countermeasures”. In: <em>International Journal of Geomechanics</em> 17.6 (Jun.&nbsp;01, 2017), p. 04016139. DOI: <a href="https://doi.org/10.1061%2F%28ASCE%29GM.1943-5622.0000839">10.1061/(ASCE)GM.1943-5622.0000839</a>.</p>
+<p>[22] X. Sun, J. Tao, J. Li, et al.&nbsp;“Aeroelastic-aerodynamic analysis and bio-inspired flow sensor design for boundary layer velocity profiles of wind turbine blades with active external flaps”. In: <em>Smart Structures and Systems</em> 20.3 (Sep.&nbsp;2017), pp.&nbsp;311-328. DOI: <a href="https://doi.org/10.12989%2Fsss.2017.20.3.311">10.12989/sss.2017.20.3.311</a>.</p>
+<p>[23] H. Tao and J. Tao. “Quantitative Analysis of Piping Erosion Micro-Mechanisms with Coupled CFD and DEM Method”. In: <em>Acta Geotechnica</em> 12.3 (Jun.&nbsp;01, 2017), pp.&nbsp;573-592. DOI: <a href="https://doi.org/10.1007%2Fs11440-016-0516-y">10.1007/s11440-016-0516-y</a>.</p>
+<p>[24] J. Tao and H. Tao. “Factors Affecting Piping Erosion Resistance: Revisited with a Numerical Modeling Approach”. In: <em>International Journal of Geomechanics</em> 17.11 (Nov.&nbsp;01, 2017), p.&nbsp;04017097. DOI: <a href="https://doi.org/10.1061%2F%28ASCE%29GM.1943-5622.0000999">10.1061/(ASCE)GM.1943-5622.0000999</a>.</p>
+<p>[25] J. Tao and J. Hu. “Energy Harvesting from Pavement via Polyvinylidene Fluoride: Hybrid Piezo-Pyroelectric Effects”. In: <em>Journal of Zhejiang University-SCIENCE A</em> 17.7 (Jul.&nbsp;01, 2016), pp. 502-511. DOI: <a href="https://doi.org/10.1631%2Fjzus.A1600166">10.1631/jzus.A1600166</a>.</p>
+<p>[26] J. Tao and X. Yu. “Bio-Inspired Directional Sensor with Piezoelectric Microfiber and Helical Electrodes”. In: <em>Journal of Intelligent Material Systems and Structures</em> 27.13 (Aug.&nbsp;01, 2016), pp. 1755-1766. DOI: <a href="https://doi.org/10.1177%2F1045389X15610904">10.1177/1045389X15610904</a>.</p>
+<p>[27] Q. Gao, J. Tao, J. Hu, et al.&nbsp;“Laboratory Study on the Mechanical Behaviors of an Anisotropic Shale Rock”. In: <em>Journal of Rock Mechanics and Geotechnical Engineering</em> 7.2 (Apr.&nbsp;01, 2015), pp.&nbsp;213-219. DOI: <a href="https://doi.org/10.1016%2Fj.jrmge.2015.03.003">10.1016/j.jrmge.2015.03.003</a>.</p>
+<p>[28] J. Li and J. Tao. “Streamlining of Bridge Piers as Scour Countermeasures: Optimization of Cross Sections”. In: <em>Transportation Research Record</em> 2521.1 (Jan.&nbsp;01, 2015), pp.&nbsp;162-171. DOI: <a href="https://doi.org/10.3141%2F2521-17">10.3141/2521-17</a>.</p>
+<p>[29] J. Tao and J. Li. “Streamlining of Bridge Piers as Scour Countermeasures: Effects of Curvature of Vertical Profiles”. In: <em>Transportation Research Record</em> 2521.1 (Jan.&nbsp;01, 2015), pp.&nbsp;172-182. DOI: <a href="https://doi.org/10.3141%2F2521-18">10.3141/2521-18</a>.</p>
+<p>[30] B. Zhang, L. Zhang, H. Yang, et al.&nbsp;“Subsidence Prediction and Susceptibility Zonation for Collapse above Goaf with Thick Alluvial Cover: A Case Study of the Yongcheng Coalfield, Henan Province, China”. In: <em>Bulletin of Engineering Geology and the Environment</em> 75 (Dec.&nbsp;21, 2015). DOI: <a href="https://doi.org/10.1007%2Fs10064-015-0834-6">10.1007/s10064-015-0834-6</a>.</p>
+<p>[31] R. Wang, J. Tao, B. Yu, et al.&nbsp;“Characterization of Multiwalled Carbon Nanotube-Polymethyl Methacrylate Composite Resins as Denture Base Materials”. In: <em>The Journal of Prosthetic Dentistry</em> 111.4 (Apr. 2014), pp.&nbsp;318-326. DOI: <a href="https://doi.org/10.1016%2Fj.prosdent.2013.07.017">10.1016/j.prosdent.2013.07.017</a>.</p>
+<p>[32] J. Hu, B. X. Yu, and J. Tao. “Innovative Chromogenic Materials for Pavement Life Extension: Modeling Study of Surface Temperature of Sustainable Asphalt Pavement”. In: <em>International Journal of Pavement Research and Technology</em> 6.2 (Jan.&nbsp;01, 2013). DOI: <a href="https://doi.org/10.6135%2Fijprt.org.tw%2F2013.6%282%29.141">10.6135/ijprt.org.tw/2013.6(2).141</a>.</p>
+<p>[33] Z. Liu, B. Zhang, X. Yu, et al.&nbsp;“Thermally Induced Water Flux in Soils”. In: <em>Transportation Research Record</em> 2349.1 (Jan.&nbsp;01, 2013), pp.&nbsp;63-71. DOI: <a href="https://doi.org/10.3141%2F2349-08">10.3141/2349-08</a>.</p>
+<p>[34] Y. Sun, C. Chung, X. Yu, et al.&nbsp;“Advanced Ultrasonic Technology for Air Void Distribution in Concrete”. In: <em>Materials Evaluation</em> 71.3 (2013).</p>
+<p>[35] Y. Sun, X. Yu, Z. Liu, et al.&nbsp;“Advanced Ultrasonic Technology for Freezing Damage Prevention of Concrete Pavement”. In: <em>International Journal of Pavement Research and Technology</em> 6.2 (Jan.&nbsp;01, 2013). DOI: <a href="https://doi.org/10.6135%2Fijprt.org.tw%2F2013.6%282%29.86">10.6135/ijprt.org.tw/2013.6(2).86</a>.</p>
+<p>[36] J. Tao, Y. Sun, G. Wu, et al.&nbsp;“Emulating the Directional Sensitivity of Fish Hair Cell Sensor”. In: <em>Journal of Intelligent Material Systems and Structures</em> 24.12 (Aug.&nbsp;2013), pp.&nbsp;1484-1493. DOI: <a href="https://doi.org/10.1177%2F1045389X12473378">10.1177/1045389X12473378</a>.</p>
+<p>[37] X. Yu, B. Zhang, J. Tao, et al.&nbsp;“A New Time-Domain Reflectometry Bridge Scour Sensor”. In: <em>Structural Health Monitoring</em> 12.2 (Mar.&nbsp;01, 2013), pp.&nbsp;99-113. DOI: <a href="https://doi.org/10.1177%2F1475921713476331">10.1177/1475921713476331</a>.</p>
+<p>[38] Z. Liu, X. B. Yu, J. Tao, et al.&nbsp;“Multiphysics Extension to Physically Based Analyses of Pipes with Emphasis on Frost Actions”. In: <em>Journal of Zhejiang University SCIENCE A</em> 13.11 (Nov.&nbsp;01, 2012), pp. 877-887. DOI: <a href="https://doi.org/10.1631%2Fjzus.A12ISGT2">10.1631/jzus.A12ISGT2</a>.</p>
+<p>[39] Z. Liu, B. Zhang, X. Yu, et al.&nbsp;“A New Method for Soil Water Characteristic Curve Measurement Based on Similarities Between Soil Freezing and Drying”. In: <em>Geotechnical Testing Journal</em> 35.1 (Jan.&nbsp;01, 2012), pp.&nbsp;2-10. DOI: <a href="https://doi.org/10.1520%2FGTJ103653">10.1520/GTJ103653</a>.</p>
+<p>[40] J. Tao and X. Yu. “Hair Flow Sensors: From Bio-Inspiration to Bio-Mimicking—a Review”. In: <em>Smart Materials and Structures</em> 21.11 (Sep.&nbsp;2012), p.&nbsp;113001. DOI: <a href="https://doi.org/10.1088%2F0964-1726%2F21%2F11%2F113001">10.1088/0964-1726/21/11/113001</a>.</p>
 </section>
 <section id="conference-proceedings" class="level2">
 <h2 class="anchored" data-anchor-id="conference-proceedings">Conference Proceedings</h2>
-<p>[1] S. Huang, N. Mahabadi, and J. Tao. “Penetration and Relaxation in Dry Granular Materials: Insights from Photoelasticity”. In: <em>Geo-Congress 2022</em>. Charlotte, North Carolina: American Society of Civil Engineers, Mar.&nbsp;2022, pp.&nbsp;130-139. ISBN: 978-0-7844-8404-3. DOI: <a href="https://doi.org/10.1061%2F9780784484043.013">10.1061/9780784484043.013</a>.</p>
-<p>[2] S. Huang and J. Tao. “Bioinspired Horizontal Self-Burrowing Robot”. In: <em>Geo-Congress 2022</em>. Charlotte, North Carolina: American Society of Civil Engineers, Mar.&nbsp;2022, pp.&nbsp;223-231. ISBN: 978-0-7844-8403-6. DOI: <a href="https://doi.org/10.1061%2F9780784484036.023">10.1061/9780784484036.023</a>.</p>
-<p>[3] Y. Tang and J. (. Tao. “Effect of Rotational Cone on Penetration Resistance and Its Implication to the Design of a Bio-Inspired Self-Burrowing Robots”. In: <em>Geo-Congress 2022</em>. Charlotte, North Carolina: American Society of Civil Engineers, Mar.&nbsp;2022, pp.&nbsp;214-222. ISBN: 978-0-7844-8403-6. DOI: <a href="https://doi.org/10.1061%2F9780784484036.022">10.1061/9780784484036.022</a>.</p>
-<p>[4] Y. Zhong and J. Tao. “Bio-Inspired Vibrational Transmitters for Wireless Underground Communication”. In: <em>Geo-Congress 2022</em>. Charlotte, North Carolina: American Society of Civil Engineers, Mar. 2022, pp.&nbsp;43-52. ISBN: 978-0-7844-8406-7. DOI: <a href="https://doi.org/10.1061%2F9780784484067.005">10.1061/9780784484067.005</a>.</p>
-<p>[5] S. Huang, N. Mahabadi, and J. Tao. “Visualization of a Model Razor Clam Interacting with Dry Granular Materials Using Photoelasticity”. In: <em>American Physical Society March Meeting 2021</em>. Zoom, Mar.&nbsp;2021.</p>
-<p>[6] Y. Tang and J. Tao. “Effect of Rotation on Penetration: Toward a Seed Awn-Inspired Self-Burrowing Probe”. In: <em>IFCEE 2021</em>. Dallas, TX: American Society of Civil Engineers, May. 2021, pp.&nbsp;149-159. DOI: <a href="https://doi.org/10.1061%2F9780784483428.016">10.1061/9780784483428.016</a>.</p>
-<p>[7] Y. Zhong, Y. Gao, and J. Tao. “Bio-Inspired Underground Communication Using Seismic Waves”. In: <em>IFCEE 2021</em>. Dallas, TX: American Society of Civil Engineers, May. 2021, pp.&nbsp;139-148. DOI: <a href="https://doi.org/10.1061%2F9780784483428.015">10.1061/9780784483428.015</a>.</p>
-<p>[8] S. Huang, N. Mahabadi, and J. Tao. “Impact of Shell Opening of a Model Razor Clam on the Evolution of Force Chains in Granular Media”. In: <em>Geo-Congress 2021</em>. Minneapolis, Minnesota: ASCE, Feb.&nbsp;2020, pp. 272-281. DOI: <a href="https://doi.org/10.1061%2F9780784482834.030">10.1061/9780784482834.030</a>.</p>
-<p>[9] S. Huang and J. Tao. “Bio-Inspired Dual-Anchor Burrowing: Effect of Vertical Curvature of the Shell”. In: <em>Geo-Congress 2020</em>. Minneapolis, Minnesota: ASCE, Feb.&nbsp;2020, pp.&nbsp;282-292. DOI: <a href="https://doi.org/10.1061%2F9780784482834.031">10.1061/9780784482834.031</a>.</p>
-<p>[10] Y. Tang, S. Huang, and J. Tao. “Effect of Rotation on Seeds’ Self-Burial Process: Insights from DEM Simulations”. In: <em>Geo-Congress 2020</em>. Minneapolis, Minnesota: ASCE, Feb.&nbsp;2020, pp.&nbsp;293-301. DOI: <a href="https://doi.org/10.1061%2F9780784482834.032">10.1061/9780784482834.032</a>.</p>
-<p>[11] S. Huang and J. Tao. “Modeling of the Burrowing Mechanism by Razor Clam: Role of Penetration Kinematics”. In: <em>IFCEE 2018</em>. Orlando, Florida: ASCE, Jun.&nbsp;2018, pp.&nbsp;547-556. DOI: <a href="https://doi.org/10.1061%2F9780784481585.053">10.1061/9780784481585.053</a>.</p>
-<p>[12] S. Huang and J. Tao. “The Interplay between Shell Opening and Foot Penetration of a Model Razor Clam: Insights from DEM Simulation”. In: <em>B2G Atlanta 2018 Bio-mediated and Bio-inspired Geotechnics</em>. Atlanta, GA, Aug.&nbsp;2018.</p>
-<p>[13] J. Li and J. Tao. “Experimental Investigation of Granular Bulk Density Effect on Bridge Local Scour under Clear-Water Conditions”. In: <em>IFCEE 2018</em>. Orlando, Florida: ASCE, Jun.&nbsp;2018, pp.&nbsp;735-745. DOI: <a href="https://doi.org/10.1061%2F9780784481578.070">10.1061/9780784481578.070</a>.</p>
-<p>[14] Pandey, G and J. Tao. “Moisture Sensitive Polymer-Modified Enzyme-Induced Carbonate Precipitation for Soil Improvement”. In: <em>B2G Atlanta 2018 Bio-mediated and Bio-inspired Geotechnics</em>. Atlanta, GA, Aug.&nbsp;2018.</p>
-<p>[15] H. Tao and J. Tao. “Conceptual Model of Critical Hydraulic Gradient for Piping Considering Friction Resistance”. In: <em>IS-Atlanta2018: Geo-mechanics from Micro to Macro</em>. Atlanta, GA, Aug. 2018.</p>
-<p>[16] H. Tao and J. Tao. “Impact of Gradation Change on Mechanical Behavior of Soil: DEM and Community Detection”. In: <em>Proceedings of GeoShanghai 2018 International Conference: Fundamentals of Soil Behaviours</em>. Ed. by A. Zhou, J. Tao, X. Gu and L. Hu. Singapore: Springer, 2018, pp.&nbsp;959-966. ISBN: 9789811301254. DOI: <a href="https://doi.org/10.1007%2F978-981-13-0125-4_106">10.1007/978-981-13-0125-4_106</a>.</p>
-<p>[17] H. Tao and J. Tao. “Quantifying the Effect of Suffusion on Strength of Soil Using Network-Science Based Community Detection Method”. In: <em>Transportation Research Board 97th Annual Meeting</em>. Washington DC, United States, 2018, p.&nbsp;15p.</p>
-<p>[18] X. Wang and J. Tao. “Polymer-Modified Microbially-Induced Carbonate Precipitation Treatment Method for Surface Erosion Prevention”. In: <em>Transportation Research Board 97th Annual Meeting</em>. Washington DC, United States, Jan.&nbsp;2018, p.&nbsp;16p.</p>
-<p>[19] R. Bao, J. Li, L. Li, et al.&nbsp;“Bio-Inspired Bridge Scour Countermeasures: Streamlining and Biocementation”. In: <em>DEStech Transactions on Materials Science and Engineering</em>. Shandong, China, 2017. DOI: <a href="https://doi.org/10.12783%2Fdtmse%2Fictim2017%2F10180">10.12783/dtmse/ictim2017/10180</a>.</p>
-<p>[20] S. Huang and J. Tao. “A DEM Study of Penetrating in Granular Materials with Changing Shape”. In: <em>TRB 96th Annual Meeting Compendium of Papers</em>. Washington, DC, 2017, p.&nbsp;14.</p>
-<p>[21] S. Huang and J. Tao. “Penetrating in Granular Materials: Effects of Penetrator Dynamics”. In: <em>Geotechnical Frontiers 2017</em>. Orlando, Florida: ASCE, Mar.&nbsp;2017, pp.&nbsp;604-613. DOI: <a href="https://doi.org/10.1061%2F9780784480441.063">10.1061/9780784480441.063</a>.</p>
-<p>[22] J. Li and J. Tao. “Experimental Investigation of the Pier Streamlining Effect on Bridge Local Scour under Clear Water Conditions”. In: <em>Geotechnical Frontiers 2017</em>. Orlando, Florida: ASCE, Mar.&nbsp;2017, pp.&nbsp;20-28. DOI: <a href="https://doi.org/10.1061%2F9780784480465.003">10.1061/9780784480465.003</a>.</p>
-<p>[23] H. Tao and J. Tao. “Numerical Modeling and Analysis of Suffusion Patterns for Granular Soils”. In: <em>Geotechnical Frontiers 2017</em>. Orlando, Florida: ASCE, Mar.&nbsp;2017, pp.&nbsp;487-496. DOI: <a href="https://doi.org/10.1061%2F9780784480472.051">10.1061/9780784480472.051</a>.</p>
-<p>[24] H. Tao and J. Tao. “Suffusion Patterns for Granular Soils: Observations from Numerical Simulations”. In: <em>TRB 96th Annual Meeting Compendium of Papers</em>. Washington DC, United States, Jan.&nbsp;2017, p.&nbsp;19p.</p>
-<p>[25] M. Cymbal, H. Tao, and J. Tao. “Underwater Inspection with Remotely Controlled Robot and Image Based 3D Structure Reconstruction Techniques”. In: <em>Transportation Research Board 95th Annual MeetingTransportation Research Board</em>. Washington DC, United States, 2016, p.&nbsp;15p.</p>
-<p>[26] J. Hu and J. Tao. “Energy Harvesting from Pavement via PVDF: Hybrid Piezo-Pyroelectric Effects”. In: <em>Geo-Chicago 2016</em>. Chicago, Illinois: ASCE, Aug.&nbsp;2016, pp.&nbsp;556-566. DOI: <a href="https://doi.org/10.1061%2F9780784480137.053">10.1061/9780784480137.053</a>.</p>
-<p>[27] J. Li, Y. Liu, and J. Tao. “Streamlining of Bridge Piers as Scour Countermeasures: Insights from DES Modeling”. In: <em>Fourth Geo-China International Conference</em>. Shandong, China: ASCE, Jul.&nbsp;2016, pp.&nbsp;85-92. DOI: <a href="https://doi.org/10.1061%2F9780784480069.011">10.1061/9780784480069.011</a>.</p>
-<p>[28] J. Li and J. Tao. “DES Investigation of the Effect of Pier Streamlining on Coherent Dynamics of the Turbulence Structure Around Piers”. In: <em>TRB 95th Annual Meeting Compendium of Papers</em>. Washington DC, United States: TRB, Jan.&nbsp;2016, p.&nbsp;14p.</p>
-<p>[29] J. Li and J. Tao. “DES Investigation of the Effect of Pier Streamlining on Coherent Dynamics of the Turbulence Structure Around Piers”. In: <em>2016 Geotechnical and Structural Engineering Congress</em>. Phoenix, Arizona, US: ASCE, Feb.&nbsp;2016, p.&nbsp;14p.</p>
-<p>[30] J. Li and J. Tao. “Coherent Dynamics of a Turbulence Structure around Streamlined Piers”. In: <em>Geo-Chicago 2016</em>. Chicago, Illinois: ASCE, Aug.&nbsp;2016, pp.&nbsp;651-660. DOI: <a href="https://doi.org/10.1061%2F9780784480151.064">10.1061/9780784480151.064</a>.</p>
-<p>[31] Y. Liu, J. Tao, X. Yu, et al.&nbsp;“Characterization of Freezing Fresh Concrete by Multiple Non-Destructive Methods”. In: <em>Fourth Geo-China International Conference</em>. Shandong, China: ASCE, Jul.&nbsp;2016, pp. 125-135. DOI: <a href="https://doi.org/10.1061%2F9780784480021.017">10.1061/9780784480021.017</a>.</p>
-<p>[32] Mopur, Gothem, J. Tao, and Liang, Robert. “Stabilization of Peat Subgrade for Existing Roadways Using Geosynthetics Encased Polyurethane Foam Columns: Laboratory Feasibility Study”. In: <em>2016 Geotechnical and Structural Engineering Congress</em>. Phoenix, Arizona, US: ASCE, Feb. 2016, p.&nbsp;14p.</p>
-<p>[33] H. Tao and J. Tao. “CFD-DEM Modeling of Piping Erosion Considering the Properties of Sands”. In: <em>Geo-Chicago 2016</em>. Chicago, Illinois: ASCE, Aug.&nbsp;2016, pp.&nbsp;641-650. ISBN: 978-0-7844-8015-1. DOI: <a href="https://doi.org/10.1061%2F9780784480151.063">10.1061/9780784480151.063</a>.</p>
-<p>[34] H. Tao and J. Tao. “Numerical Modeling of the Mechanisms of Piping Erosion with Coupled CFD and DEM Method”. In: <em>TRB 95th Annual Meeting Compendium of Papers</em>. Washington DC, United States, 2016, p.&nbsp;17p.</p>
-<p>[35] J. Tao, J. Hu, and G. Wu. “Energy Harvesting from Pavements via PVDF: Hybrid Piezo-Pyroelectric Effects”. In: <em>SPIE Smart Structures and Materials + Nondestructive Evaluation and Health Monitoring</em>. Ed. by G. Park. Las Vegas, Nevada, United States, Apr.&nbsp;2016, p.&nbsp;97992L. DOI: <a href="https://doi.org/10.1117%2F12.2218369">10.1117/12.2218369</a>.</p>
-<p>[36] J. Li, J. Tao, and X. Yu. “Streamlining of Bridge Pier as a Scour Countermeasure: A Feasibility Study”. In: <em>IFCEE 2015</em>. San Antonio, Texas: ASCE, Mar.&nbsp;2015, pp.&nbsp;319-329. DOI: <a href="https://doi.org/10.1061%2F9780784479087.032">10.1061/9780784479087.032</a>.</p>
-<p>[37] B. Yu, X. Yu, J. Tao, et al.&nbsp;“Innovative Multiscale Sensing and Computational Simulations for Bridge Scour Risk Management”. In: <em>6th International Conference on Advances in Experimental Structural Engineering 11th International Workshop on Advanced Smart Materials and Smart Structures Technology</em>. Urbana-Champaign, United States, Aug. 2015.</p>
-<p>[38] Q. Gao, J. Hu, J. Tao, et al.&nbsp;“Experimental Characterization of the Anisotropic Behaviors of Shale Rock”. In: <em>Geo-Congress 2014</em>. Atlanta, Georgia: ASCE, Mar.&nbsp;2014, pp.&nbsp;563-571. DOI: <a href="https://doi.org/10.1061%2F9780784413272.054">10.1061/9780784413272.054</a>.</p>
-<p>[39] Q. Gao, J. L. Tao, J. Y. Hu, et al.&nbsp;“Mechanical Behaviors of an Anisotropic Shale Rock”. In: <em>Shale Energy Engineering Conference 2014</em>. Pittsburgh, Pennsylvania, United States: ASCE, Jul.&nbsp;2014, pp. 159-167. ISBN: 978-0-7844-1365-4. DOI: <a href="https://doi.org/10.1061%2F9780784413654.017">10.1061/9780784413654.017</a>.</p>
-<p>[40] J. Tao and X. Yu. “Flow and Scour Patterns around Bridge Piers with Different Configurations: Insights from CFD Simulations”. In: <em>Geo-Congress 2014</em>. Atlanta, GA: ASCE, Mar.&nbsp;2014, pp.&nbsp;2655-2664. DOI: <a href="https://doi.org/10.1061%2F9780784413272.256">10.1061/9780784413272.256</a>.</p>
-<p>[41] J. Tao and X. Yu. “Influence of Shunt-damping Circuit on the Dynamic Response of a Bio-Inspired Piezoelectric Micropillar Sensor”. In: <em>Bioinspiration, Biomimetics, and Bioreplication 2014</em>. Vol. 9055. San Diego, California, USA: International Society for Optics and Photonics, Mar.&nbsp;2014, p.&nbsp;90550J. DOI: <a href="https://doi.org/10.1117%2F12.2057518">10.1117/12.2057518</a>.</p>
-<p>[42] J. Tao and X. Yu. “Sediment Transport Model Considering Turbulent Flow”. In: <em>Geo-Congress 2014</em>. Atlanta, GA: ASCE, Mar.&nbsp;2014, pp. 1072-1080. DOI: <a href="https://doi.org/10.1061%2F9780784413272.104">10.1061/9780784413272.104</a>.</p>
-<p>[43] J. Tao, X. Yu, and X. B. Yu. “Design and Application of A Field Bridge Scour Monitoring Sensor Based on TDR”. In: <em>Transportation Research Board 93rd Annual MeetingTransportation Research Board</em>. Washington DC, United States, 2014, p.&nbsp;16p.</p>
-<p>[44] J. Huang, J. Tao, and X. Yu. “Feasibility analyses of carbon nanotubes for the design of a new hair flow sensor”. In: <em>Structural Health Monitoring 2013: A Roadmap to Intelligent Structures - Proceedings of the 9th International Workshop on Structural Health Monitoring, IWSHM 2013</em>. DEStech Publications, Jan.&nbsp;2013, pp. 2138-2146.</p>
-<p>[45] Y. Sun, J. Tao, G. Wu, et al.&nbsp;“A Non-Contact Wearable Wireless Body Sensor Network for Multiple Vital Signal Detection”. In: <em>2013 IEEE SENSORS</em>. Baltimore, MD, USA: IEEE, Nov.&nbsp;2013, pp.&nbsp;1-4. ISBN: 978-1-4673-4642-. DOI: <a href="https://doi.org/10.1109%2FICSENS.2013.6688328">10.1109/ICSENS.2013.6688328</a>.</p>
-<p>[46] J. Tao, Q. Gao, and X. Yu. “Assessment of the Effects of Pier Configurations on the Flow Pattern and Scour: A CFD Modeling Approach”. In: <em>TRB 92nd Annual Meeting Compendium of Papers DVD</em>. Washington DC, United States, 2013, p.&nbsp;18p.</p>
-<p>[47] J. Tao and X. Yu. “Optimization of bio-inspired piezoelectric composite hair sensor - Mechanical impedance matching”. In: <em>Structural Health Monitoring 2013: A Roadmap to Intelligent Structures - Proceedings of the 9th International Workshop on Structural Health Monitoring, IWSHM 2013</em>. DEStech Publications, Jan.&nbsp;2013, pp. 2157-2165.</p>
-<p>[48] J. Tao and X. Yu. “A Framework for Numerical Simulation of Bridge Scour Focusing on the Improvements of Sediment Transport Models”. In: <em>TRB 92nd Annual Meeting Compendium of Papers</em>. Washington DC, United States, 2013, p.&nbsp;19p.</p>
-<p>[49] J. Tao, X. Yu, and X. Yu. “Real-Time TDR Field Bridge Scour Monitoring System”. In: <em>Structures Congress 2013</em>. Pittsburgh, Pennsylvania, United States: ASCE, May. 2013, pp.&nbsp;2996-3009. DOI: <a href="https://doi.org/10.1061%2F9780784412848.262">10.1061/9780784412848.262</a>.</p>
-<p>[50] Z. Liu, X. Yu, J. Tao, et al.&nbsp;“Thermo-Hydro-Mechanical Modeling of Soil Pipe Interactions in Cold Weather Conditions”. In: <em>Transportation Research Board 91st Annual MeetingTransportation Research Board</em>. Washington DC, United States, 2012, p.&nbsp;15p.</p>
-<p>[51] Y. Sun, X. Yu, Z. Liu, et al.&nbsp;“Advanced Ultrasonic Technology for Measurement of Air Void Size Distribution in Concrete”. In: <em>TRB 91st Annual Meeting Compendium of Papers DVD</em>. Washington DC, United States, 2012, p.&nbsp;17p.</p>
-<p>[52] X. Yu, J. Tao, and X. Yu. “Comparison Study on Computer Simulations for Bridge Scour Estimation”. In: <em>Georisk 2011</em>. Atlanta, Georgia, United States: ASCE, Apr.&nbsp;2012, pp.&nbsp;1125-1132. DOI: <a href="https://doi.org/10.1061%2F41183%28418%29123">10.1061/41183(418)123</a>.</p>
-<p>[53] Z. Liu, B. Zhang, X. Yu, et al.&nbsp;“A New Freezing Method for Soil Water Characteristic Curve Measurement”. In: <em>TRB 90th Annual Meeting Compendium of Papers DVD</em>. Washington, DC United States, Jan.&nbsp;2011, p. 14p.</p>
-<p>[54] J. Tao, M. Richardson, X. Yu, et al.&nbsp;“Performance Evaluation of a Wireless Sensor Network Protocol for Structural Health Monitoring”. In: <em>Transportation Research Board 90th Annual MeetingTransportation Research Board</em>. Washington DC, United States, 2011, p.&nbsp;15p.</p>
-<p>[55] J. Tao, X. Yu, and J. Berilla. “Micropillar sensing element for bio-inspired flow sensors”. In: <em>Structural Health Monitoring 2011: Condition-Based Maintenance and Intelligent Structures - Proceedings of the 8th International Workshop on Structural Health Monitoring</em>. Dec. 2011, pp.&nbsp;1732-1739.</p>
-<p>[56] J. Tao, X. Yu, and J. Berrilla. “Bio-Inspired Flow and Acoustic Sensor”. In: <em>Sensors, and Command, Control, Communications, and Intelligence (C3I) Technologies for Homeland Security and Homeland Defense X</em>. Vol. 8019. International Society for Optics and Photonics, Jun.&nbsp;2011, p.&nbsp;80190R. DOI: <a href="https://doi.org/10.1117%2F12.886564">10.1117/12.886564</a>.</p>
-<p>[57] X. Yu, J. Tao, and J. Berilla. “A Bio-Inspired Flow Sensor”. In: <em>Nanosensors, Biosensors, and Info-Tech Sensors and Systems 2010</em>. Vol. 7646. International Society for Optics and Photonics, Mar.&nbsp;2010, p. 764618. DOI: <a href="https://doi.org/10.1117%2F12.849230">10.1117/12.849230</a>.</p>
-<p>[58] X. Yu, B. Zhang, J. Tao, et al.&nbsp;“Smart Pavement Sensor Based on Thermoelectricity Power”. In: <em>Sensors and Smart Structures Technologies for Civil, Mechanical, and Aerospace Systems 2010</em>. Vol. 7647. International Society for Optics and Photonics, Mar.&nbsp;2010, p. 76470X. DOI: <a href="https://doi.org/10.1117%2F12.849227">10.1117/12.849227</a>.</p>
+<p>[1] X. Li, J. Tao, and L. van Paassen. “Effects of the Submerged Height of Mangrove-Inspired Skirt-Pile Group on Scour Mitigation around a Monopile Foundation”. In: <em>Geo-Congress 2023</em>. Geo-Congress 2023. Los Angeles, California: ASCE, Mar.&nbsp;23, 2023, pp.&nbsp;442-450. DOI: <a href="https://doi.org/10.1061%2F9780784484708.041">10.1061/9780784484708.041</a>.</p>
+<p>[2] M. R. Shaharear, Y. Tang, X. Li, et al.&nbsp;“Penetration Forces of a Rotating Helical Penetrator in Granular Media: Experiments and Insights into the Design of a Burrowing Robot”. In: <em>Geo-Congress 2023</em>. Geo-Congress 2023. Los Angeles, California: ASCE, Mar.&nbsp;23, 2023, pp. 230-238. DOI: <a href="https://doi.org/10.1061%2F9780784484708.021">10.1061/9780784484708.021</a>.</p>
+<p>[3] S. Shahhosseini, M. Parekh, and J. Tao. “DEM-MBD Coupled Simulation of a Burrowing Robot in Dry Sand”. In: <em>Geo-Congress 2023</em>. Geo-Congress 2023. Los Angeles, California: ASCE, Mar.&nbsp;23, 2023, pp. 309-317. DOI: <a href="https://doi.org/10.1061%2F9780784484692.032">10.1061/9780784484692.032</a>.</p>
+<p>[4] Y. Tang and J. Tao. “Experimental Study on Continuous and Oscillatory Rotational Penetration”. In: <em>Geo-Congress 2023</em>. Geo-Congress 2023. Los Angeles, California: ASCE, Mar.&nbsp;23, 2023, pp. 303-311. DOI: <a href="https://doi.org/10.1061%2F9780784484708.028">10.1061/9780784484708.028</a>.</p>
+<p>[5] Y. Tang and J. Tao. “Penetration Effect of Penetrator Geometry and Interface Friction on Rotational Penetration Resistance”. In: <em>Geo-Congress 2023</em>. Geo-Congress 2023. Los Angeles, California: ASCE, Mar.&nbsp;23, 2023, pp.&nbsp;257-265. DOI: <a href="https://doi.org/10.1061%2F9780784484708.024">10.1061/9780784484708.024</a>.</p>
+<p>[6] Y. Zhong and J. Tao. “Comparative Analysis of Horizontal Self-Burrowing Strategies Using Full-Scale DEM-MBD Co-Simulations”. In: <em>Geo-Congress 2023</em>. Geo-Congress 2023. Los Angeles, California: ASCE, Mar.&nbsp;23, 2023, pp.&nbsp;106-114. DOI: <a href="https://doi.org/10.1061%2F9780784484692.011">10.1061/9780784484692.011</a>.</p>
+<p>[7] S. Huang, N. Mahabadi, and J. Tao. “Penetration and Relaxation in Dry Granular Materials: Insights from Photoelasticity”. In: <em>Geo-Congress 2022</em>. Geo-Congress 2022. Charlotte, North Carolina: American Society of Civil Engineers, Mar.&nbsp;17, 2022, pp.&nbsp;130-139. ISBN: 978-0-7844-8404-3. DOI: <a href="https://doi.org/10.1061%2F9780784484043.013">10.1061/9780784484043.013</a>.</p>
+<p>[8] S. Huang and J. Tao. “Bioinspired Horizontal Self-Burrowing Robot”. In: <em>Geo-Congress 2022</em>. Geo-Congress 2022. Charlotte, North Carolina: American Society of Civil Engineers, Mar.&nbsp;17, 2022, pp.&nbsp;223-231. ISBN: 978-0-7844-8403-6. DOI: <a href="https://doi.org/10.1061%2F9780784484036.023">10.1061/9780784484036.023</a>.</p>
+<p>[9] X. Li, J. Tao, and L. van Paassen. “Numerical Simulations of Mangrove-Inspired Sacrificial Pile Group for Scour Mitigation”. In: <em>Geo-Congress 2022</em>. Geo-Congress 2022. Charlotte, North Carolina: American Society of Civil Engineers, Mar.&nbsp;17, 2022, pp.&nbsp;385-394. DOI: <a href="https://doi.org/10.1061%2F9780784484050.040">10.1061/9780784484050.040</a>.</p>
+<p>[10] Y. Tang and J. Tao. “Effect of Rotational Cone on Penetration Resistance and Its Implication to the Design of a Bio-Inspired Self-Burrowing Robots”. In: <em>Geo-Congress 2022</em>. Geo-Congress 2022. Charlotte, North Carolina: American Society of Civil Engineers, Mar. 17, 2022, pp.&nbsp;214-222. ISBN: 978-0-7844-8403-6. DOI: <a href="https://doi.org/10.1061%2F9780784484036.022">10.1061/9780784484036.022</a>.</p>
+<p>[11] Y. Zhong and J. Tao. “Bio-Inspired Vibrational Transmitters for Wireless Underground Communication”. In: <em>Geo-Congress 2022</em>. Geo-Congress 2022. Charlotte, North Carolina: American Society of Civil Engineers, Mar.&nbsp;17, 2022, pp.&nbsp;43-52. ISBN: 978-0-7844-8406-7. DOI: <a href="https://doi.org/10.1061%2F9780784484067.005">10.1061/9780784484067.005</a>.</p>
+<p>[12] S. Huang, N. Mahabadi, and J. Tao. “Visualization of a Model Razor Clam Interacting with Dry Granular Materials Using Photoelasticity”. In: <em>American Physical Society March Meeting 2021</em>. American Physical Society March Meeting 2021. Zoom, Mar.&nbsp;18, 2021.</p>
+<p>[13] Y. Tang and J. Tao. “Effect of Rotation on Penetration: Toward a Seed Awn-Inspired Self-Burrowing Probe”. In: <em>IFCEE 2021</em>. The International Foundations Congress &amp; Equipment Expo (IFCEE). Dallas, TX: American Society of Civil Engineers, May. 06, 2021, pp.&nbsp;149-159. DOI: <a href="https://doi.org/10.1061%2F9780784483428.016">10.1061/9780784483428.016</a>.</p>
+<p>[14] Y. Zhong, Y. Gao, and J. Tao. “Bio-Inspired Underground Communication Using Seismic Waves”. In: <em>IFCEE 2021</em>. The International Foundations Congress &amp; Equipment Expo (IFCEE). Dallas, TX: American Society of Civil Engineers, May. 06, 2021, pp.&nbsp;139-148. DOI: <a href="https://doi.org/10.1061%2F9780784483428.015">10.1061/9780784483428.015</a>.</p>
+<p>[15] S. Huang, N. Mahabadi, and J. Tao. “Impact of Shell Opening of a Model Razor Clam on the Evolution of Force Chains in Granular Media”. In: <em>Geo-Congress 2021: Biogeotechnics</em>. Geo-Congress 2020. Minneapolis, Minnesota: ASCE, Feb.&nbsp;21, 2020, pp.&nbsp;272-281. DOI: <a href="https://doi.org/10.1061%2F9780784482834.030">10.1061/9780784482834.030</a>.</p>
+<p>[16] S. Huang and J. Tao. “Bio-Inspired Dual-Anchor Burrowing: Effect of Vertical Curvature of the Shell”. In: <em>Geo-Congress 2020</em>. Geo-Congress 2020. Minneapolis, Minnesota: ASCE, Feb.&nbsp;25, 2020, pp. 282-292. DOI: <a href="https://doi.org/10.1061%2F9780784482834.031">10.1061/9780784482834.031</a>.</p>
+<p>[17] Y. Tang, S. Huang, and J. Tao. “Effect of Rotation on Seeds’ Self-Burial Process: Insights from DEM Simulations”. In: <em>Geo-Congress 2020</em>. Geo-Congress 2020. Minneapolis, Minnesota: ASCE, Feb.&nbsp;21, 2020, pp.&nbsp;293-301. DOI: <a href="https://doi.org/10.1061%2F9780784482834.032">10.1061/9780784482834.032</a>.</p>
+<p>[18] S. Huang and J. Tao. “Modeling of the Burrowing Mechanism by Razor Clam: Role of Penetration Kinematics”. In: <em>IFCEE 2018</em>. IFCEE 2018. Orlando, Florida: ASCE, Jun.&nbsp;06, 2018, pp.&nbsp;547-556. DOI: <a href="https://doi.org/10.1061%2F9780784481585.053">10.1061/9780784481585.053</a>.</p>
+<p>[19] S. Huang and J. Tao. “The Interplay between Shell Opening and Foot Penetration of a Model Razor Clam: Insights from DEM Simulation”. In: <em>B2G Atlanta 2018 Bio-mediated and Bio-inspired Geotechnics</em>. B2G Atlanta 2018 Bio-mediated and Bio-inspired Geotechnics. Atlanta, GA, Aug.&nbsp;2018.</p>
+<p>[20] J. Li and J. Tao. “Experimental Investigation of Granular Bulk Density Effect on Bridge Local Scour under Clear-Water Conditions”. In: <em>IFCEE 2018</em>. IFCEE 2018. Orlando, Florida: ASCE, Jun.&nbsp;06, 2018, pp. 735-745. DOI: <a href="https://doi.org/10.1061%2F9780784481578.070">10.1061/9780784481578.070</a>.</p>
+<p>[21] Pandey, G and J. Tao. “Moisture Sensitive Polymer-Modified Enzyme-Induced Carbonate Precipitation for Soil Improvement”. In: <em>B2G Atlanta 2018 Bio-mediated and Bio-inspired Geotechnics</em>. B2G Atlanta 2018 Bio-mediated and Bio-inspired Geotechnics. Atlanta, GA, Aug.&nbsp;2018.</p>
+<p>[22] H. Tao and J. Tao. “Conceptual Model of Critical Hydraulic Gradient for Piping Considering Friction Resistance”. In: <em>IS-Atlanta2018: Geo-mechanics from Micro to Macro </em>. IS-Atlanta2018: Geo-mechanics from Micro to Macro . Atlanta, GA, Aug.&nbsp;2018.</p>
+<p>[23] H. Tao and J. Tao. “Impact of Gradation Change on Mechanical Behavior of Soil : DEM and Community Detection”. In: <em>Proceedings of GeoShanghai 2018 International Conference: Fundamentals of Soil Behaviours</em>. Proceedings of GeoShanghai 2018 International Conference . Ed. by A. Zhou, J. Tao, X. Gu and L. Hu. Singapore: Springer, 2018, pp. 959-966. ISBN: 9789811301254. DOI: <a href="https://doi.org/10.1007%2F978-981-13-0125-4_106">10.1007/978-981-13-0125-4_106</a>.</p>
+<p>[24] H. Tao and J. Tao. “Quantifying the Effect of Suffusion on Strength of Soil Using Network-Science Based Community Detection Method”. In: <em>Transportation Research Board 97th Annual Meeting</em>. Transportation Research Board 97th Annual Meeting. Washington DC, United States, 2018, p.&nbsp;15p.</p>
+<p>[25] X. Wang and J. Tao. “Polymer-Modified Microbially-Induced Carbonate Precipitation Treatment Method for Surface Erosion Prevention”. In: <em>Transportation Research Board 97th Annual Meeting</em>. Transportation Research Board 97th Annual Meeting. Washington DC, United States, Jan.&nbsp;07, 2018, p.&nbsp;16p.</p>
+<p>[26] R. Bao, J. Li, L. Li, et al.&nbsp;“Bio-Inspired Bridge Scour Countermeasures: Streamlining and Biocementation”. In: <em>DEStech Transactions on Materials Science and Engineering</em>. The 2017 International Conference on Transportation Infrastructure and Materials (ICTIM). Shandong, China, 2017. DOI: <a href="https://doi.org/10.12783%2Fdtmse%2Fictim2017%2F10180">10.12783/dtmse/ictim2017/10180</a>.</p>
+<p>[27] S. Huang and J. Tao. “A DEM Study of Penetrating in Granular Materials with Changing Shape”. In: <em>TRB 96th Annual Meeting Compendium of Papers</em>. Transportation Research Board 96th Annual Meeting. Washington, DC, 2017, p.&nbsp;14.</p>
+<p>[28] S. Huang and J. Tao. “Penetrating in Granular Materials: Effects of Penetrator Dynamics”. In: <em>Geotechnical Frontiers 2017</em>. Geotechnical Frontiers 2017. Orlando, Florida: ASCE, Mar.&nbsp;30, 2017, pp. 604-613. DOI: <a href="https://doi.org/10.1061%2F9780784480441.063">10.1061/9780784480441.063</a>.</p>
+<p>[29] J. Li and J. Tao. “Experimental Investigation of the Pier Streamlining Effect on Bridge Local Scour under Clear Water Conditions”. In: <em>Geotechnical Frontiers 2017</em>. Geotechnical Frontiers 2017. Orlando, Florida: ASCE, Mar.&nbsp;30, 2017, pp.&nbsp;20-28. DOI: <a href="https://doi.org/10.1061%2F9780784480465.003">10.1061/9780784480465.003</a>.</p>
+<p>[30] H. Tao and J. Tao. “Numerical Modeling and Analysis of Suffusion Patterns for Granular Soils”. In: <em>Geotechnical Frontiers 2017</em>. Geotechnical Frontiers 2017. Orlando, Florida: ASCE, Mar.&nbsp;30, 2017, pp. 487-496. DOI: <a href="https://doi.org/10.1061%2F9780784480472.051">10.1061/9780784480472.051</a>.</p>
+<p>[31] H. Tao and J. Tao. “Suffusion Patterns for Granular Soils: Observations from Numerical Simulations”. In: <em>TRB 96th Annual Meeting Compendium of Papers</em>. Transportation Research Board 96th Annual Meeting. Washington DC, United States, Jan.&nbsp;01, 2017, p.&nbsp;19p.</p>
+<p>[32] M. Cymbal, H. Tao, and J. Tao. “Underwater Inspection with Remotely Controlled Robot and Image Based 3D Structure Reconstruction Techniques”. In: <em>Transportation Research Board 95th Annual MeetingTransportation Research Board</em>. Transportation Research Board 95th Annual MeetingTransportation Research Board. Washington DC, United States, 2016, p.&nbsp;15p.</p>
+<p>[33] J. Hu and J. Tao. “Energy Harvesting from Pavement via PVDF: Hybrid Piezo-Pyroelectric Effects”. In: <em>Geo-Chicago 2016</em>. Geo-Chicago 2016. Chicago, Illinois: ASCE, Aug.&nbsp;11, 2016, pp.&nbsp;556-566. DOI: <a href="https://doi.org/10.1061%2F9780784480137.053">10.1061/9780784480137.053</a>.</p>
+<p>[34] J. Li, Y. Liu, and J. Tao. “Streamlining of Bridge Piers as Scour Countermeasures: Insights from DES Modeling”. In: <em>Fourth Geo-China International Conference</em>. Fourth Geo-China International Conference. Shandong, China: ASCE, Jul.&nbsp;21, 2016, pp.&nbsp;85-92. DOI: <a href="https://doi.org/10.1061%2F9780784480069.011">10.1061/9780784480069.011</a>.</p>
+<p>[35] J. Li and J. Tao. “DES Investigation of the Effect of Pier Streamlining on Coherent Dynamics of the Turbulence Structure Around Piers”. In: <em>TRB 95th Annual Meeting Compendium of Papers</em>. Transportation Research Board 95th Annual Meeting. Washington DC, United States: TRB, Jan.&nbsp;10, 2016, p.&nbsp;14p.</p>
+<p>[36] J. Li and J. Tao. “DES Investigation of the Effect of Pier Streamlining on Coherent Dynamics of the Turbulence Structure Around Piers”. In: <em>2016 Geotechnical and Structural Engineering Congress</em>. 2016 Geotechnical and Structural Engineering Congress. Phoenix, Arizona, US: ASCE, Feb.&nbsp;14, 2016, p.&nbsp;14p.</p>
+<p>[37] J. Li and J. Tao. “Coherent Dynamics of a Turbulence Structure around Streamlined Piers”. In: <em>Geo-Chicago 2016</em>. Geo-Chicago 2016. Chicago, Illinois: ASCE, Aug.&nbsp;11, 2016, pp.&nbsp;651-660. DOI: <a href="https://doi.org/10.1061%2F9780784480151.064">10.1061/9780784480151.064</a>.</p>
+<p>[38] Y. Liu, J. Tao, X. Yu, et al.&nbsp;“Characterization of Freezing Fresh Concrete by Multiple Non-Destructive Methods”. In: <em>Fourth Geo-China International Conference</em>. Fourth Geo-China International Conference. Shandong, China: ASCE, Jul.&nbsp;21, 2016, pp.&nbsp;125-135. DOI: <a href="https://doi.org/10.1061%2F9780784480021.017">10.1061/9780784480021.017</a>.</p>
+<p>[39] Mopur, Gothem, J. Tao, and Liang, Robert. “Stabilization of Peat Subgrade for Existing Roadways Using Geosynthetics Encased Polyurethane Foam Columns: Laboratory Feasibility Study”. In: <em>2016 Geotechnical and Structural Engineering Congress</em>. 2016 Geotechnical and Structural Engineering Congress. Phoenix, Arizona, US: ASCE, Feb.&nbsp;14, 2016, p. 14p.</p>
+<p>[40] H. Tao and J. Tao. “CFD-DEM Modeling of Piping Erosion Considering the Properties of Sands”. In: <em>Geo-Chicago 2016</em>. Geo-Chicago 2016. Chicago, Illinois: ASCE, Aug.&nbsp;11, 2016, pp.&nbsp;641-650. ISBN: 978-0-7844-8015-1. DOI: <a href="https://doi.org/10.1061%2F9780784480151.063">10.1061/9780784480151.063</a>.</p>
+<p>[41] H. Tao and J. Tao. “Numerical Modeling of the Mechanisms of Piping Erosion with Coupled CFD and DEM Method”. In: <em>TRB 95th Annual Meeting Compendium of Papers</em>. Transportation Research Board 95th Annual Meeting. Washington DC, United States, 2016, p.&nbsp;17p.</p>
+<p>[42] J. Tao, J. Hu, and G. Wu. “Energy Harvesting from Pavements via PVDF: Hybrid Piezo-Pyroelectric Effects”. In: <em>2016 SPIE Smart Structures and Materials + Nondestructive Evaluation and Health Monitoring</em>. SPIE Smart Structures and Materials + Nondestructive Evaluation and Health Monitoring. Ed. by G. Park. Las Vegas, Nevada, United States, Apr.&nbsp;15, 2016, p.&nbsp;97992L. DOI: <a href="https://doi.org/10.1117%2F12.2218369">10.1117/12.2218369</a>.</p>
+<p>[43] J. Li, J. Tao, and X. Yu. “Streamlining of Bridge Pier as a Scour Countermeasure: A Feasibility Study”. In: <em>IFCEE 2015</em>. IFCEE 2015. San Antonio, Texas: ASCE, Mar.&nbsp;17, 2015, pp.&nbsp;319-329. DOI: <a href="https://doi.org/10.1061%2F9780784479087.032">10.1061/9780784479087.032</a>.</p>
+<p>[44] B. Yu, X. Yu, J. Tao, et al.&nbsp;“Innovative Multiscale Sensing and Computational Simulations for Bridge Scour Risk Management”. In: <em>6th International Conference on Advances in Experimental Structural Engineering 11th International Workshop on Advanced Smart Materials and Smart Structures Technology</em>. 6th International Conference on Advances in Experimental Structural Engineering; 11th International Workshop on Advanced Smart Materials and Smart Structures Technology. Urbana-Champaign, United States, Aug.&nbsp;01, 2015.</p>
+<p>[45] Q. Gao, J. Hu, J. Tao, et al.&nbsp;“Experimental Characterization of the Anisotropic Behaviors of Shale Rock”. In: <em>Geo-Congress 2014</em>. Geo-Congress 2014. Atlanta, Georgia: ASCE, Mar.&nbsp;25, 2014, pp.&nbsp;563-571. DOI: <a href="https://doi.org/10.1061%2F9780784413272.054">10.1061/9780784413272.054</a>.</p>
+<p>[46] Q. Gao, J. L. Tao, J. Y. Hu, et al.&nbsp;“Mechanical Behaviors of an Anisotropic Shale Rock”. In: <em>Shale Energy Engineering Conference 2014</em>. Shale Energy Engineering Conference 2014. Pittsburgh, Pennsylvania, United States: ASCE, Jul.&nbsp;14, 2014, pp.&nbsp;159-167. ISBN: 978-0-7844-1365-4. DOI: <a href="https://doi.org/10.1061%2F9780784413654.017">10.1061/9780784413654.017</a>.</p>
+<p>[47] J. Tao and X. Yu. “Flow and Scour Patterns around Bridge Piers with Different Configurations: Insights from CFD Simulations”. In: <em>Geo-Congress 2014</em>. Geo-Congress 2014. Atlanta, GA: ASCE, Mar.&nbsp;25, 2014, pp.&nbsp;2655-2664. DOI: <a href="https://doi.org/10.1061%2F9780784413272.256">10.1061/9780784413272.256</a>.</p>
+<p>[48] J. Tao and X. Yu. “Influence of Shunt-damping Circuit on the Dynamic Response of a Bio-Inspired Piezoelectric Micropillar Sensor”. In: <em>Bioinspiration, Biomimetics, and Bioreplication 2014</em>. SPIE 2014. Vol. 9055. San Diego, California, USA: International Society for Optics and Photonics, Mar.&nbsp;08, 2014, p.&nbsp;90550J. DOI: <a href="https://doi.org/10.1117%2F12.2057518">10.1117/12.2057518</a>.</p>
+<p>[49] J. Tao and X. Yu. “Sediment Transport Model Considering Turbulent Flow”. In: <em>Geo-Congress 2014</em>. Geo-Congress 2014. Atlanta, GA: ASCE, Mar.&nbsp;25, 2014, pp.&nbsp;1072-1080. DOI: <a href="https://doi.org/10.1061%2F9780784413272.104">10.1061/9780784413272.104</a>.</p>
+<p>[50] J. Tao, X. Yu, and X. B. Yu. “Design and Application of A Field Bridge Scour Monitoring Sensor Based on TDR”. In: <em>Transportation Research Board 93rd Annual Meeting</em>. Transportation Research Board 93rd Annual Meeting. Washington DC, United States, 2014, p.&nbsp;16p.</p>
+<p>[51] J. Huang, J. Tao, and X. Yu. “Feasibility analyses of carbon nanotubes for the design of a new hair flow sensor”. In: <em>Structural Health Monitoring 2013: A Roadmap to Intelligent Structures - Proceedings of the 9th International Workshop on Structural Health Monitoring, IWSHM 2013</em>. 9th International Workshop on Structural Health Monitoring: A Roadmap to Intelligent Structures, IWSHM 2013. Stanford, CA: DEStech Publications, Jan.&nbsp;01, 2013, pp.&nbsp;2138-2146.</p>
+<p>[52] Y. Sun, J. Tao, G. Wu, et al.&nbsp;“A Non-Contact Wearable Wireless Body Sensor Network for Multiple Vital Signal Detection”. In: <em>2013 IEEE SENSORS</em>. 2013 IEEE SENSORS. Baltimore, MD, USA: IEEE, Nov.&nbsp;2013, pp.&nbsp;1-4. ISBN: 978-1-4673-4642-. DOI: <a href="https://doi.org/10.1109%2FICSENS.2013.6688328">10.1109/ICSENS.2013.6688328</a>.</p>
+<p>[53] J. Tao, Q. Gao, and X. Yu. “Assessment of the Effects of Pier Configurations on the Flow Pattern and Scour: A CFD Modeling Approach”. In: <em>TRB 92nd Annual Meeting Compendium of Papers DVD</em>. Transportation Research Board 92nd Annual Meeting. Washington DC, United States, 2013, p.&nbsp;18p.</p>
+<p>[54] J. Tao and X. Yu. “A Framework for Numerical Simulation of Bridge Scour Focusing on the Improvements of Sediment Transport Models”. In: <em>TRB 92nd Annual Meeting Compendium of Papers</em>. Transportation Research Board 92nd Annual Meeting. Washington DC, United States, 2013, p.&nbsp;19p.</p>
+<p>[55] J. Tao and X. Yu. “Optimization of bio-inspired piezoelectric composite hair sensor - Mechanical impedance matching”. In: <em>Structural Health Monitoring 2013: A Roadmap to Intelligent Structures - Proceedings of the 9th International Workshop on Structural Health Monitoring, IWSHM 2013</em>. 9th International Workshop on Structural Health Monitoring: A Roadmap to Intelligent Structures, IWSHM 2013. Stanford, CA: DEStech Publications, Jan.&nbsp;01, 2013, pp.&nbsp;2157-2165.</p>
+<p>[56] J. Tao, X. Yu, and X. Yu. “Real-Time TDR Field Bridge Scour Monitoring System”. In: <em>Structures Congress 2013</em>. Structures Congress 2013. Pittsburgh, Pennsylvania, United States: ASCE, May. 10, 2013, pp. 2996-3009. DOI: <a href="https://doi.org/10.1061%2F9780784412848.262">10.1061/9780784412848.262</a>.</p>
+<p>[57] Z. Liu, X. Yu, J. Tao, et al.&nbsp;“Thermo-Hydro-Mechanical Modeling of Soil Pipe Interactions in Cold Weather Conditions”. In: <em>Transportation Research Board 91st Annual Meeting</em>. Transportation Research Board 91st Annual Meeting. Washington DC, United States, 2012, p.&nbsp;15p.</p>
+<p>[58] Y. Sun, X. Yu, Z. Liu, et al.&nbsp;“Advanced Ultrasonic Technology for Measurement of Air Void Size Distribution in Concrete”. In: <em>TRB 91st Annual Meeting Compendium of Papers DVD</em>. Transportation Research Board 91st Annual Meeting. Washington DC, United States, 2012, p.&nbsp;17p.</p>
+<p>[59] X. Yu, J. Tao, and X. Yu. “Comparison Study on Computer Simulations for Bridge Scour Estimation”. In: <em>Georisk 2011</em>. Georisk 2011. Atlanta, Georgia, United States: ASCE, Apr.&nbsp;26, 2012, pp. 1125-1132. DOI: <a href="https://doi.org/10.1061%2F41183%28418%29123">10.1061/41183(418)123</a>.</p>
+<p>[60] Z. Liu, B. Zhang, X. Yu, et al.&nbsp;“A New Freezing Method for Soil Water Characteristic Curve Measurement”. In: <em>TRB 90th Annual Meeting Compendium of Papers DVD</em>. Transportation Research Board 90th Annual Meeting. Washington, DC United States, Jan.&nbsp;23, 2011, p.&nbsp;14p.</p>
+<p>[61] J. Tao, M. Richardson, X. Yu, et al.&nbsp;“Performance Evaluation of a Wireless Sensor Network Protocol for Structural Health Monitoring”. In: <em>Transportation Research Board 90th Annual Meeting</em>. Transportation Research Board 90th Annual Meeting. Washington DC, United States, 2011, p.&nbsp;15p.</p>
+<p>[62] J. Tao, X. Yu, and J. Berilla. “Micropillar sensing element for bio-inspired flow sensors”. In: <em>Structural Health Monitoring 2011: Condition-Based Maintenance and Intelligent Structures - Proceedings of the 8th International Workshop on Structural Health Monitoring</em>. 8th International Workshop on Structural Health Monitoring 2011: Condition-Based Maintenance and Intelligent Structures. Stanford, CA, Dec.&nbsp;01, 2011, pp.&nbsp;1732-1739.</p>
+<p>[63] J. Tao, X. Yu, and J. Berrilla. “Bio-Inspired Flow and Acoustic Sensor”. In: <em>Proc. SPIE 8019, Sensors, and Command, Control, Communications, and Intelligence (C3I) Technologies for Homeland Security and Homeland Defense X</em>. Sensors, and Command, Control, Communications, and Intelligence (C3I) Technologies for Homeland Security and Homeland Defense X. Vol. 8019. Orlando, Florida, United States: International Society for Optics and Photonics, Jun.&nbsp;02, 2011, p.&nbsp;80190R. DOI: <a href="https://doi.org/10.1117%2F12.886564">10.1117/12.886564</a>.</p>
+<p>[64] X. Yu, J. Tao, and J. Berilla. “A Bio-Inspired Flow Sensor”. In: <em>Proc. SPIE 7646, Nanosensors, Biosensors, and Info-Tech Sensors and Systems 2010</em>. Nanosensors, Biosensors, and Info-Tech Sensors and Systems 2010. Vol. 7646. San Diego, California, United States: International Society for Optics and Photonics, Mar.&nbsp;30, 2010, p. 764618. DOI: <a href="https://doi.org/10.1117%2F12.849230">10.1117/12.849230</a>.</p>
+<p>[65] X. Yu, B. Zhang, J. Tao, et al.&nbsp;“Smart Pavement Sensor Based on Thermoelectricity Power”. In: <em>Proc. SPIE 7647, Sensors and Smart Structures Technologies for Civil, Mechanical, and Aerospace Systems 2010</em>. Sensors and Smart Structures Technologies for Civil, Mechanical, and Aerospace Systems 2010. Vol. 7647. San Diego, California, United States: International Society for Optics and Photonics, Mar.&nbsp;31, 2010, p.&nbsp;76470X. DOI: <a href="https://doi.org/10.1117%2F12.849227">10.1117/12.849227</a>.</p>
 </section>
 <section id="books-co-edited" class="level2">
 <h2 class="anchored" data-anchor-id="books-co-edited">Books co-edited</h2>
 <p>[1] L. Hu, X. Gu, J. Tao, et al., ed.&nbsp;<em>Proceedings of GeoShanghai 2018 International Conference: Multi-physics Processes in Soil Mechanics and Advances in Geotechnical Testing</em>. Springer Singapore, 2018. ISBN: 9789811300943.</p>
 <p>[2] A. Zhou, J. Tao, X. Gu, et al., ed.&nbsp;<em>Proceedings of GeoShanghai 2018 International Conference: Fundamentals of Soil Behaviours</em>. Springer Singapore, 2018. ISBN: 9789811301247.</p>
-<p>[3] R. Liang, J. Qian, and J. Tao, ed.&nbsp;<em>Advances in Soil Dynamics and Foundation Engineering, Geotechnical Special Publication No.&nbsp;240</em>. Geo-Shanghai 2014. American Society of Civil Engineers, May. 2014. ISBN: 978-0-7844-1342-5.</p>
+<p>[3] R. Liang, J. Qian, and J. Tao, ed.&nbsp;<em>Advances in Soil Dynamics and Foundation Engineering, Geotechnical Special Publication No.&nbsp;240</em>. Geo-Shanghai 2014. American Society of Civil Engineers, May. 26, 2014. ISBN: 978-0-7844-1342-5.</p>
 </section>
 <section id="reports" class="level2">
 <h2 class="anchored" data-anchor-id="reports">Reports</h2>
 <p>[1] Q. Huang, J. Thomas, and J. Tao. <em>Evaluation of Effective Bridge Deck Repair Maintenance Methods</em>. Final Report FHWA/OH-2018-11. University of Akron; Ohio Department of Transportation, Apr.&nbsp;2018, p. 35p.</p>
-<p>[2] J. Tao. <em>Use of Crushed Recycled Glass in the Construction of Local Roadways Current Status of Recycled Glass Collection and Processing in the State of Ohio.</em> Tech. rep. FHWA/OH-2017-19. University of Akron, May. 2017.</p>
+<p>[2] J. Tao. <em>Use of Crushed Recycled Glass in the Construction of Local Roadways Current Status of Recycled Glass Collection and Processing in the State of Ohio.</em> Final Report FHWA/OH-2017-19. University of Akron, May. 01, 2017.</p>
 <p>[3] J. Tao, J. Li, S. Huang, et al.&nbsp;<em>Performance Comparison of Abutment and Retaining Wall Drainage Systems</em>. Final Report FHWA/OH-2017-36. University of Akron; Ohio Department of Transportation, Dec.&nbsp;2017, p. 200p.</p>
 <p>[4] J. Tao, Z. Luo, and G. Pandey. <em>Evaluation of Post Flooding Shoulder Reconditioning - State Library of Ohio Digital Collection</em>. Final Report 974924814. Columbus, Ohio: University of Akron; Ohio Department of Transportation, 2017, p.&nbsp;84.</p>
 <p>[5] J. Tao and R. Liang. <em>Stabilization of Peat Deposits for Roadway Construction and Remediation</em>. Final Report FHWA/OH-2015/22. University of Akron; Ohio Department of Transportation, Aug.&nbsp;2015, p.&nbsp;85p.</p>
@@ -349,9 +380,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -363,17 +408,33 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
     button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
     setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
       button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -383,8 +444,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -399,47 +469,213 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    if (id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        for (let i = 0; i < 2; i++) {
+          container.appendChild(note.children[i].cloneNode(true));
+        }
+        return container.innerHTML
+      } else {
+        return note.innerHTML;
+      }
+    } else {
+      return note.innerHTML;
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      try { hash = new URL(url).hash; } catch {}
+      const id = hash.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note !== null) {
+        try {
+          const html = processXRef(id, note);
+          instance.setContent(html);
+        } finally {
+          instance.enable();
+          instance.show();
+        }
+      } else {
+        // See if we can fetch this
+        fetch(url.split('#')[0])
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.getElementById(id);
+          if (note !== null) {
+            const html = processXRef(id, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
   var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
   for (var i=0; i<bibliorefs.length; i++) {
     const ref = bibliorefs[i];
-    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
-    tippyHover(ref, function() {
-      var popup = window.document.createElement('div');
-      cites.forEach(function(cite) {
-        var citeDiv = window.document.createElement('div');
-        citeDiv.classList.add('hanging-indent');
-        citeDiv.classList.add('csl-entry');
-        var biblioDiv = window.document.getElementById('ref-' + cite);
-        if (biblioDiv) {
-          citeDiv.innerHTML = biblioDiv.innerHTML;
-        }
-        popup.appendChild(citeDiv);
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
       });
-      return popup.innerHTML;
-    });
+    }
   }
 });
 </script>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left">©2013-2022 Julian Tao</div>   
-      <div class="nav-footer-center">
-        <ul class="footer-items list-unstyled">
+    <div class="nav-footer-left">
+<p>©2013-2022 Julian Tao</p>
+</div>   
+    <div class="nav-footer-center">
+      <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="./about.html">About</a>
+    <a class="nav-link" href="./about.html">
+<p>About</p>
+</a>
   </li>  
 </ul>
-      </div>
+    </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="https://quarto.org/">Built with Quarto</a>
+    <a class="nav-link" href="https://quarto.org/">
+<p>Built with Quarto</p>
+</a>
   </li>  
 </ul>
     </div>
   </div>
 </footer>
+
 
 
 

@@ -38,5 +38,5 @@ bib[bibtype = "book"]
 ## Reports 
 
 ```{r, results = "asis"}
-bib[bibtype = "techreport"]
+bib[bibtype = "report"]
 ```
