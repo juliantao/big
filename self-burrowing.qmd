@@ -89,7 +89,7 @@ Check out how anisotropic surfaces [@HTB+20] would affect the burrowing-out beha
 
 We molded the upward burrowing process based on Newton's laws of motion, together elasticity and geotechnical concepts: in-situ stress states, pullout resistance, interface friction. To solve the problem analytically, we made a series of assumptions and simplifications based on observations. Nevertheless, we are satisfied with the outcome. From the models, it is clear that "clamming up" is a natural result of 1DOF vertical motion and sand behaviors.
 
-For more information, please refer to our paper [@THT19a] published in *Journal of Geotechnical and Geoenvironmental Engineering*, as well as [@THT20a] published in *Bioinspiration and Biomimetics*.
+For more information, please refer to our paper [@THT19] published in *Journal of Geotechnical and Geoenvironmental Engineering*, as well as [@THT20a] published in *Bioinspiration and Biomimetics*.
 
 
 ## Acknowledgement

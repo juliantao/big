@@ -1,5 +1,26 @@
 [
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Bio-inspired Geotechnics",
+    "section": "",
+    "text": "We are a research group focusing on Bio-inspired Geotechnics (BiG).\nOur mission is to discover the fundamental mechanisms of various interactions between living things and geological materials, to abstract these mechanisms to engineering design principles, and to translate the design principles to autonomous, efficient, sustainable and intelligent geotechnics.\nOur current research topics include: bio-inspired self-burrowing robots, bio-inspired underground sensing and communication, bio-inspired sustainable countermeasures to natural hazards.\nWe seek our answers at the boundaries of biology (and other natural sciences), mechanics and engineering. We achieve the BiG goals and extend the impacts from research, teaching, outreach, entrepreneurship and collaboration.\nWe are part of the NSF Engineering Research Center for Bio-mediated and Bio-inspired Geotechnics (CBBG) and the Geotechnical Engineering Group in the School of Sustainable Engineering and the Built Environment (SSEBE) at Arizona State University.\n\n\n\n\n\n\nWe study animals\n\n\n\n\n\n\n\nWe design robots\n\n\n\n\n\n\n\nWe model granular materials\n\n\n\n\n\n\n People\n\n\n Research\n\n\n Publication\n\n\n Teaching\n\n\n Resources\n\n\n News"
+  },
+  {
+    "objectID": "news.html",
+    "href": "news.html",
+    "title": "News",
+    "section": "",
+    "text": "Clamming up (and down, and sideways)\n\nBut Tao wondered how they get back up after they’ve buried themselves. “They have to go up some way,” he said.\nTurns out, those wily clams have a trick up their shell.\n\n\n\n\n\n\n\n\n\n\nBurrowing sensor robots could unearth nature’s subterranean secrets\n\nRobots are increasingly at work on land, at sea, in the air and out in space.\nHow about underground?\n\n\n\n\n\n\n\n\n\n\nMimicking nature to enhance search for knowledge underground\n\nWith support from a National Science Foundation Faculty Early Career Development Program (CAREER) Award, the associate professor will strive to formulate new designs for technology that replicate the impressive subsurface mobility that evolution has produced in the living world, specifically that of plants and animals."
+  },
+  {
+    "objectID": "news.html#press",
+    "href": "news.html#press",
+    "title": "News",
+    "section": "",
+    "text": "Clamming up (and down, and sideways)\n\nBut Tao wondered how they get back up after they’ve buried themselves. “They have to go up some way,” he said.\nTurns out, those wily clams have a trick up their shell.\n\n\n\n\n\n\n\n\n\n\nBurrowing sensor robots could unearth nature’s subterranean secrets\n\nRobots are increasingly at work on land, at sea, in the air and out in space.\nHow about underground?\n\n\n\n\n\n\n\n\n\n\nMimicking nature to enhance search for knowledge underground\n\nWith support from a National Science Foundation Faculty Early Career Development Program (CAREER) Award, the associate professor will strive to formulate new designs for technology that replicate the impressive subsurface mobility that evolution has produced in the living world, specifically that of plants and animals."
+  },
+  {
     "objectID": "publication.html",
     "href": "publication.html",
     "title": "Publication",
@@ -35,43 +56,57 @@
     "text": "Reports\n[1] Q. Huang, J. Thomas, and J. Tao. Evaluation of Effective Bridge Deck Repair Maintenance Methods. Final Report FHWA/OH-2018-11. University of Akron; Ohio Department of Transportation, Apr. 2018, p. 35p.\n[2] J. Tao. Use of Crushed Recycled Glass in the Construction of Local Roadways Current Status of Recycled Glass Collection and Processing in the State of Ohio. Final Report FHWA/OH-2017-19. University of Akron, May. 01, 2017.\n[3] J. Tao, J. Li, S. Huang, et al. Performance Comparison of Abutment and Retaining Wall Drainage Systems. Final Report FHWA/OH-2017-36. University of Akron; Ohio Department of Transportation, Dec. 2017, p. 200p.\n[4] J. Tao, Z. Luo, and G. Pandey. Evaluation of Post Flooding Shoulder Reconditioning - State Library of Ohio Digital Collection. Final Report 974924814. Columbus, Ohio: University of Akron; Ohio Department of Transportation, 2017, p. 84.\n[5] J. Tao and R. Liang. Stabilization of Peat Deposits for Roadway Construction and Remediation. Final Report FHWA/OH-2015/22. University of Akron; Ohio Department of Transportation, Aug. 2015, p. 85p."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "self-burrowing.html",
+    "href": "self-burrowing.html",
+    "title": "Self-burrowing Mechanisms and Robotics",
     "section": "",
-    "text": "Through evolution, numerous biological organisms have developed smart and sustainable solutions to address challenges posed by changes of biological diversity, population, energy source and the environment at large. Nature, especially the biosphere, can thus serve as a source of inspirations for mankind, who is facing similar challenges. With critical needs for sustainable and resilient infrastructure systems, civil engineers have central roles to play in bio-inspired research.\nTreating soil as living systems, the backbone of our research lies in advancing knowledge of the fundamental behaviors of soil in interaction with living organisms (e.g., bacteria, plants, burrowing animals) involving multi-physics processes at multiple scales. The new knowledge is then applied to develop next-generation geotechnics."
+    "text": "We study how living things burrow. Inspired by the biological burrowing mechanisms, we develop robots and tools for autonomous underground exploration and monitoring."
   },
   {
-    "objectID": "about.html#our-tools",
-    "href": "about.html#our-tools",
-    "title": "About",
-    "section": "Our tools",
-    "text": "Our tools\nIn our tool box, we have,\n\nAnalytical tools in geomechanics and physics (e.g., Critical State Soil Mechanics, Cavity Expansion Theory, Resistance Force Theory);\nNumerical tools including Discrete Element Method, Multi-Body-Dynamics, Computational Fluid Dynamics, and Finite Element Methods;\nExperimental tools including customized 2D and 3D soil chambers, video-based kinematics capture systems, traditional geotechnical apparatus (tri-axial, direct shear), rapid prototyping workstation (3D printer, open-source micro-controllers, electric motors, sensors, soft robot toolkits), inter-particle force-chain visualization chamber with photoelastic discs;\nOver the years, our group becomes more and more involved in programming for modeling, prototyping, testing and documenting. We mainly use Python, Matlab and C++ for computing; we open-source libraries for robotic control; we strive to practice reproducible research by using documenting and publishing tools such as Rmarkdown and Quarto. We love tinkering around with open-source software and hardware; and we would love to share our findings and tools with others."
+    "objectID": "self-burrowing.html#background",
+    "href": "self-burrowing.html#background",
+    "title": "Self-burrowing Mechanisms and Robotics",
+    "section": "Background",
+    "text": "Background\nSpecies such as earthworms and bivalve mollusks possess extraordinary burrowing efficiency compared to most man-made penetrometers. These organisms move by themselves, actively sense their environment and adaptively change burrowing directions. All these features are desirable for autonomous geotechnical exploration tools. The envisioned robots and probes would be energy efficient and improve productivity."
   },
   {
-    "objectID": "about.html#whats-in-the-logo-just-for-fun",
-    "href": "about.html#whats-in-the-logo-just-for-fun",
-    "title": "About",
-    "section": "What’s in the logo? (Just for fun)",
-    "text": "What’s in the logo? (Just for fun)\nThe logo consists of three customized letters B, i, and G, short for Bio-inspired Geotechnics. It encourages us to be bold and dream BiG.\nThe logo is made up with only three basic shapes: circle, rectangle and triangle; the minimalistic and modular design reminds us that we can achieve BiG by understanding and applying the fundamentals.\nThe triangles are the “living” parts in the logo, rendering the letters visually resemble small burrowing robots in different directions.\nWe have fun by playing with the colors of the logo and by replacing the robot module with burrowing animals such as a slender razor clam, a tree root or an earthworm."
+    "objectID": "self-burrowing.html#impacts",
+    "href": "self-burrowing.html#impacts",
+    "title": "Self-burrowing Mechanisms and Robotics",
+    "section": "Impacts",
+    "text": "Impacts\nUnderground sensing networks enabled by these bio-inspired burrowing robots can help monitor the safety of infrastructure and the environment. Small, agile underground robots can be used not only for traditional geotechnical engineering site characterization, but also in regions that are normally difficult to reach due to energy and environmental restrictions, such as sites that are damaged due to natural and man-made hazards (e.g., earthquakes, landslides, flooding, collapsed structures), in extreme environments (e.g., arctic and seafloor environments) and in extra-terrestrial settings (e.g., lunar and Mars exploration).\nIn addition, the new knowledge and techniques obtained in this research can be used to develop a mechanistic understanding of animal–sediment interactions and shed light on the ecology and evolution of burrowing organisms. The research will also serve as a platform to promote learning, teaching and training; the interdisciplinary and bio-inspired nature of the proposed research is an ideal outreach topic to generate enthusiasm in K-12 students and the public about STEM education and research.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Previous\n\n\n Next"
   },
   {
-    "objectID": "about.html#contact-us",
-    "href": "about.html#contact-us",
-    "title": "About",
-    "section": "Contact us",
-    "text": "Contact us\n: Office 126, Goldwater Center for Science and Engineering, 650 E Tyler Mall, Tempe, AZ 85281\n: (480) 965-2489\n\n\n\n\n\n\nLoading…"
+    "objectID": "self-burrowing.html#what-governs-underground-locomotion",
+    "href": "self-burrowing.html#what-governs-underground-locomotion",
+    "title": "Self-burrowing Mechanisms and Robotics",
+    "section": "What governs underground locomotion?",
+    "text": "What governs underground locomotion?\nIt’s a daunting but fascinating question. Similar to locomotion in air, water and on the ground, thrust must be generated high enough to overcome the resistance in order to move in a granular material such as soil. The uniqueness of the soil materials lays in its opacity and complex mechanical behavior: it exhibits different states which can be more solid like, more fluid (even gas) like, or anywhere in between; furthermore, materials and stress states vary significantly in space. These properties make it challenging to study the mechanisms: first, one cannot see through soil easily to capture the kinematics; second, one cannot capture the dynamics due to the ever-changing material properties and soil-body interactions. While we don’t have a universal law (explanation) for underground locomotion yet, nature provides us a diverse “catalog” on possible ways how burrowing can be done. After examining a great many burrowing organisms, it’s clear to us that while they adopt different tricks to make burrowing effective and efficient, they do share some commonness: they work “with” soil instead of ” against” soil. It seems like they do know the complex soil behaviors and they always try to agitate soil in a way so they can leverage the changing properties for movement.\n\nUnveil the interplay between shell opening and foot penetration\nShell opening reliefs the stresses at the foot tip and enhances the anchorage force. Check out the DEM simulation (Sichuan Huang and Tao 2017, 2018; S. Huang and Tao 2020) and the photoelastic visualizations (S. Huang, Mahabadi, and Tao 2020; Sichuan Huang, Mahabadi, and Tao 2022).\n\n\nDecipher the role of rotation on penetration\nWe are also exploring how seed awns bury themselves and how rotation would facilitate penetration (Tang and Tao 2021)."
   },
   {
-    "objectID": "about.html#attribution-copyright-and-license",
-    "href": "about.html#attribution-copyright-and-license",
-    "title": "About",
-    "section": "Attribution, copyright and license",
-    "text": "Attribution, copyright and license\nThis website is built with Quarto, an open-source scientific and technical publishing system built on Pandoc.\nCopyright (c) 2013-2022 Julian Tao\nThis work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License"
+    "objectID": "self-burrowing.html#how-razor-clam-burrow-out-of-the-ground",
+    "href": "self-burrowing.html#how-razor-clam-burrow-out-of-the-ground",
+    "title": "Self-burrowing Mechanisms and Robotics",
+    "section": "How razor clam burrow out of the ground?",
+    "text": "How razor clam burrow out of the ground?\nIn this study, we look at a particular burrowing scenario: upward burrowing. It is a less studied topic but it is interesting to ask how a buried clam resurface. Do they actively burrow out of the ground, or just like mole crab which waits for the coming wave to sweep it out? Also, if they do actively burrow, do they gradually turn, sharply turn around, or go directly backward? If they go backward, do they use the same trick for downward burrowing? To find out, we observed two adult razor clams collected in a sandbar in Rhode Island (thanks to Prof. Dale Levitte for the help!).\nIt turned out razor clams burrowing backward when they need to emerge. And they do it so effortlessly, using a much simpler “gait” than downward burrowing. A closer look and analysis reveals that the razor clams leverage two inherent properties of sands: the vertical in-situ stress gradient and the flowing nature of sands upon yielding. It is interesting to think it in another way: the razor clams defy its own gravity (upward movement) by take advantage of gravity itself (the reason for soil stress gradient and downward flowing of sands to fill any cavity below)!\n\n\n\n\n\nLet’s mimic razor clam and make a Self-burrowing-out Robot (SBOR)\nThe upward burrowing gait of razor clams is basically a combination of axial extension and contraction. There are many ways to achieve these motions. One way is to use an soft artificial muscle, which works similarly with the powerful foot of a razor clam. The idea is simple, you make an elastic tube, wrap inextensible fibers onto its surface in a certain way to constrain the motion into the axial direction, you then inflate and deflate it using air or water. We did that and it worked. The robot naturally burrows out of the ground, just like the razor clams.\n\n\n\n\n\n\nLeverage the anisotropic surface characteristics\nCheck out how anisotropic surfaces (Sichuan Huang et al. 2020) would affect the burrowing-out behavior of the SBOR.\n\n\nAn Explanation with a Geotechnical Flavor\nWe molded the upward burrowing process based on Newton’s laws of motion, together elasticity and geotechnical concepts: in-situ stress states, pullout resistance, interface friction. To solve the problem analytically, we made a series of assumptions and simplifications based on observations. Nevertheless, we are satisfied with the outcome. From the models, it is clear that “clamming up” is a natural result of 1DOF vertical motion and sand behaviors.\nFor more information, please refer to our paper (Tao, Huang, and Tang 2019) published in Journal of Geotechnical and Geoenvironmental Engineering, as well as (Tao, Huang, and Tang 2020) published in Bioinspiration and Biomimetics."
+  },
+  {
+    "objectID": "self-burrowing.html#acknowledgement",
+    "href": "self-burrowing.html#acknowledgement",
+    "title": "Self-burrowing Mechanisms and Robotics",
+    "section": "Acknowledgement",
+    "text": "Acknowledgement\nThis material is based upon work supported by the National Science Foundation (NSF) under NSF CMMI 1849674 and CMMI 1841574. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the authors and do not necessarily reflect those of the NSF. We also would like to thank the anonymous reviewers whose constructive comments helped us improve the overall quality of the paper."
   },
   {
     "objectID": "playground.html",
     "href": "playground.html",
+    "title": "Playground",
+    "section": "",
+    "text": "Accordion Item #1\n\n\n\nThis is the body"
+  },
+  {
+    "objectID": "playground.html#accordion",
+    "href": "playground.html#accordion",
     "title": "Playground",
     "section": "",
     "text": "Accordion Item #1\n\n\n\nThis is the body"
@@ -91,57 +126,64 @@
     "text": "Cards\n\n\n\n\nCard Title\nSome quick example text to build on the card title and make up the bulk of the card’s content.\nLearn More\n\n\n\n\n\nCard Title\nSome quick example text to build on the card title and make up the bulk of the card’s content.\n\n\n\n\n\nCard Title\nSome quick example text to build on the card title and make up the bulk of the card’s content."
   },
   {
-    "objectID": "scour.html",
-    "href": "scour.html",
-    "title": "Bio-based Scour Countermeasures",
+    "objectID": "people.html",
+    "href": "people.html",
+    "title": "People",
     "section": "",
-    "text": "Under construction…"
+    "text": "Julian Tao, Ph.D.\nAssociate Professor\n: julian.tao at asu dot edu\n: 480-965-1108\n: GWC 126\n: Google Scholar\n: CV\n\n\n\nDr. Tao is an associate professor in the School of Sustainable Engineering and the Built Environment at Arizona State University. He also serves as a Senior Investigator at the NSF Engineering Center for Bio-mediated and Bio-inspired Geotechnics (CBBG). Before joining ASU in 2018, Dr. Tao was an assistant professor at The University of Akron. He holds a Bachelor’s degree from China University of Geosciences (Wuhan), a Master’s degree from Tongji University, and a Ph.D. degree from Case Western Reserve University (2013). He is the PI of a number of projects funded by CBBG, the university, and state and federal agencies. He also serves on the editorial board of ASTM Journal of Testing and Evaluation and serves on committees in ASCE, TRB, SPIE, and IEEE. Dr. Tao is the recipient of the NSF CAREER Award in 2017. He was also awarded the Young Civil Engineer of the Year (2017) by the ASCE Akron-Canton Section for “promoting professionalism and the advancement of the civil engineering profession”."
   },
   {
-    "objectID": "teaching.html",
-    "href": "teaching.html",
-    "title": "Teaching",
+    "objectID": "people.html#principle-investigator",
+    "href": "people.html#principle-investigator",
+    "title": "People",
     "section": "",
-    "text": "The objective of the course is to apply the concepts and principles of soil mechanics in designing geotechnical engineering structures, mainly including,\n\nshallow foundations\ndeep foundations\nretaining wall structures"
+    "text": "Julian Tao, Ph.D.\nAssociate Professor\n: julian.tao at asu dot edu\n: 480-965-1108\n: GWC 126\n: Google Scholar\n: CV\n\n\n\nDr. Tao is an associate professor in the School of Sustainable Engineering and the Built Environment at Arizona State University. He also serves as a Senior Investigator at the NSF Engineering Center for Bio-mediated and Bio-inspired Geotechnics (CBBG). Before joining ASU in 2018, Dr. Tao was an assistant professor at The University of Akron. He holds a Bachelor’s degree from China University of Geosciences (Wuhan), a Master’s degree from Tongji University, and a Ph.D. degree from Case Western Reserve University (2013). He is the PI of a number of projects funded by CBBG, the university, and state and federal agencies. He also serves on the editorial board of ASTM Journal of Testing and Evaluation and serves on committees in ASCE, TRB, SPIE, and IEEE. Dr. Tao is the recipient of the NSF CAREER Award in 2017. He was also awarded the Young Civil Engineer of the Year (2017) by the ASCE Akron-Canton Section for “promoting professionalism and the advancement of the civil engineering profession”."
   },
   {
-    "objectID": "teaching.html#cee-550-soil-behavior",
-    "href": "teaching.html#cee-550-soil-behavior",
-    "title": "Teaching",
-    "section": "CEE 550 Soil Behavior",
-    "text": "CEE 550 Soil Behavior\nThis course provides the student with an in-depth understanding of the factors determining and controlling the engineering properties and behavior of soils under different conditions. Topics covered include:\n\nPart I: Physicochemical Properties of Soil\n\nFormation, mineralogy, composition, structure, soil water, inter-particle forces, effective stress\n\nPart II: Engineering Behaviors of Soil\n\nstrength behavior, volume change behaviors, deformation, critical state soil mechanics, time effects on strength and deformation, transport phenomena"
+    "objectID": "people.html#ph.d.-students",
+    "href": "people.html#ph.d.-students",
+    "title": "People",
+    "section": "Ph.D. Students",
+    "text": "Ph.D. Students\n\n\n\n\n\n\nYong Tang\n2018-present\n : ytang116 at asu dot edu\n: GWC 131\n: CV\nResearch: Awn-inspired Burrowing Mechanisms and Robots\n\n\n\n\n\n\n\n\n\nYi Zhong\n2019-present\n : yzhong52 at asu dot edu\n: GWC 131\n: CV\nResearch: Bio-inspired Underground Sensing and Communication\n\n\n\n\n\n\n\n\n\nXiwei Li\n2020-present\nco-advised with Dr. Leon van Paassen\n : xiweili at asu dot edu\n: GWC 131\n: CV\nResearch: Nature-inspired scour countermeasures\n\n\n\n\n\n\n\n\n\nSarina Shahhosseini\n2021-present\n : sshahho1 at asu dot edu\n: GWC 131\n: CV\nResearch: Self-burrowing robotics, robot–granular material interaction"
   },
   {
-    "objectID": "teaching.html#cee-494598-bio-inspired-design",
-    "href": "teaching.html#cee-494598-bio-inspired-design",
-    "title": "Teaching",
-    "section": "CEE 494/598 Bio-inspired Design",
-    "text": "CEE 494/598 Bio-inspired Design\nThe objectives of the course are:\n\nTo provide the student with an overall understanding of bio-inspired design: principles, philosophies, methodologies, and tools;\nTo introduce emerging civil engineering challenges regarding sustainability and resilience concerns;\nTo show case and discuss example bio-inspired solutions to address some challenges;\nTo guide students to complete a conceptual bio-inspired design to address a chosen civil engineering challenge."
+    "objectID": "people.html#m.s.-students",
+    "href": "people.html#m.s.-students",
+    "title": "People",
+    "section": "M.S. Students",
+    "text": "M.S. Students\n\n\n\n\n\n\nMd Ragib Shaharear\n2021-present\n : mshahare at asu dot edu\n: website\n: GWC 131\n: CV\nResearch: Rapid prototyping, Self-burrowing robotics"
   },
   {
-    "objectID": "communication.html",
-    "href": "communication.html",
-    "title": "Bio-inspired Underground Communication",
-    "section": "",
-    "text": "Under construction…"
+    "objectID": "people.html#undergraduate-students",
+    "href": "people.html#undergraduate-students",
+    "title": "People",
+    "section": "Undergraduate Students",
+    "text": "Undergraduate Students\n\n\n\n\n\n\nMohan Parekh\n2021-present\n : maparekh at asu dot edu\n: Resume\nResearch: Rapid prototyping, Self-burrowing robotics"
   },
   {
-    "objectID": "outreach.html",
-    "href": "outreach.html",
-    "title": "Outreach",
-    "section": "",
-    "text": "ASU Homecoming 2018\n\n\n\n\n\n\n\nASU Homecoming 2018\n\n\n\n\n\n\n\nASU Engineering Open Door 2018\n\n\n\n\n\n\n\n\n\nCompuPower SRE Lab Tours 2019\n\n\n\n\n\n\n\nASU Homecoming 2019\n\n\n\n\n\n\n\nASU Homecoming 2019\n\n\n\n\n\n\n\n\n\n\nNortheastern Ohio STEM (NEOHSTEM) Science Fair 2015"
+    "objectID": "people.html#former-postdoctoral-scholars",
+    "href": "people.html#former-postdoctoral-scholars",
+    "title": "People",
+    "section": "Former Postdoctoral Scholars",
+    "text": "Former Postdoctoral Scholars\n\nHuang, Sichuan (2021)"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Bio-inspired Geotechnics",
-    "section": "",
-    "text": "We are a research group focusing on Bio-inspired Geotechnics (BiG).\nOur mission is to discover the fundamental mechanisms of various interactions between living things and geological materials, to abstract these mechanisms to engineering design principles, and to translate the design principles to autonomous, efficient, sustainable and intelligent geotechnics.\nOur current research topics include: bio-inspired self-burrowing robots, bio-inspired underground sensing and communication, bio-inspired sustainable countermeasures to natural hazards.\nWe seek our answers at the boundaries of biology (and other natural sciences), mechanics and engineering. We achieve the BiG goals and extend the impacts from research, teaching, outreach, entrepreneurship and collaboration.\nWe are part of the NSF Engineering Research Center for Bio-mediated and Bio-inspired Geotechnics (CBBG) and the Geotechnical Engineering Group in the School of Sustainable Engineering and the Built Environment (SSEBE) at Arizona State University.\n\n\n\n\n\n\nWe study animals\n\n\n\n\n\n\n\nWe design robots\n\n\n\n\n\n\n\nWe model granular materials\n\n\n\n\n\n\n People\n\n\n Research\n\n\n Publication\n\n\n Teaching\n\n\n Resources\n\n\n News"
+    "objectID": "people.html#former-students",
+    "href": "people.html#former-students",
+    "title": "People",
+    "section": "Former Students",
+    "text": "Former Students\n\n\n\nPh.D. Students\n\nHuang, Sichuan (2015-2020)\nLi, Junhong (2014-2018)\nTao, Hui (2014-2018)\n\n\n\nM.S. Students\n\nDishika Agrawal (2022-2023)\nManthan Rajendra Pai (2022-2023)\nMd Ragib Shaharear (2021-2023)\nEnns, Andrew (2019-2021)\nPandey, Ganesh (2016-2018)\nBao, Ruotian (2015-2017)\nHu, Jie (2014-2016)\nLieske, Brendan (2015-2016)\nMopur, Goutham (2015-2016)\nFellows, Candice (2013-2014)\n\n\n\nUndergraduate Students\n\nArdente, Alexandra (2019-2021)\nVladich, Zakary (2021-2021)\nWong, Preston (2020-2021)\nDages, Stephen (2019-2020)\nHolden, Khem (2019-2019)\nLee, Lindsay (2019-2019)\nChoi, Hyun (2019-2019)\nJreissat, Makram (2019-2019)\nGreen, Nathaniel (2017-2017)\nBaker, Gwen (2016-2017)\nGutwein, Daniel (2015-2015)\nCymbal, Matthew (2014-2015)"
   },
   {
     "objectID": "resources.html",
     "href": "resources.html",
+    "title": "Resources",
+    "section": "",
+    "text": "Labs and Equipments\n\nISTB2-115\nISTB2-145\nISTB2-165\nECD-123\nPolytechnic Field Station\nStandard Operation Procedures\n\nStudent Spaces\n\nGWC-131\nISTB2-Mezzanine\n\nMeeting Spaces\n\nOutreach Room (GWC-111)\nTraining Room (GWC-137)\nConference Room (GWC-181)\n\nLab Safety Training Flow Chart\nASU Facilities\n\nFulton School of Engineering\nASU\n\n\n\n\n\n\nSSEBE Undergraduate Program Requirements\nSSEBE Accelerated 4+1 Degree Program\nSSEBE Graduate Program Reqirements\n\nGeotechical/Geo-environmental Specialty Area\nGraduate Student Manuals\n\nGeotechnical and Geoenvironmental Engineering specialty area manual\nCivil, environmental and sustainable engineering PhD manual\n\n\nAcademic Integrity"
+  },
+  {
+    "objectID": "resources.html#general-resources",
+    "href": "resources.html#general-resources",
     "title": "Resources",
     "section": "",
     "text": "Labs and Equipments\n\nISTB2-115\nISTB2-145\nISTB2-165\nECD-123\nPolytechnic Field Station\nStandard Operation Procedures\n\nStudent Spaces\n\nGWC-131\nISTB2-Mezzanine\n\nMeeting Spaces\n\nOutreach Room (GWC-111)\nTraining Room (GWC-137)\nConference Room (GWC-181)\n\nLab Safety Training Flow Chart\nASU Facilities\n\nFulton School of Engineering\nASU\n\n\n\n\n\n\nSSEBE Undergraduate Program Requirements\nSSEBE Accelerated 4+1 Degree Program\nSSEBE Graduate Program Reqirements\n\nGeotechical/Geo-environmental Specialty Area\nGraduate Student Manuals\n\nGeotechnical and Geoenvironmental Engineering specialty area manual\nCivil, environmental and sustainable engineering PhD manual\n\n\nAcademic Integrity"
@@ -189,11 +231,102 @@
     "text": "Calendars\nASU Academic Calendar"
   },
   {
-    "objectID": "news.html",
-    "href": "news.html",
-    "title": "News",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "Clamming up (and down, and sideways)\n\nBut Tao wondered how they get back up after they’ve buried themselves. “They have to go up some way,” he said.\nTurns out, those wily clams have a trick up their shell.\n\n\n\n\n\n\n\n\n\n\nBurrowing sensor robots could unearth nature’s subterranean secrets\n\nRobots are increasingly at work on land, at sea, in the air and out in space.\nHow about underground?\n\n\n\n\n\n\n\n\n\n\nMimicking nature to enhance search for knowledge underground\n\nWith support from a National Science Foundation Faculty Early Career Development Program (CAREER) Award, the associate professor will strive to formulate new designs for technology that replicate the impressive subsurface mobility that evolution has produced in the living world, specifically that of plants and animals."
+    "text": "Through evolution, numerous biological organisms have developed smart and sustainable solutions to address challenges posed by changes of biological diversity, population, energy source and the environment at large. Nature, especially the biosphere, can thus serve as a source of inspirations for mankind, who is facing similar challenges. With critical needs for sustainable and resilient infrastructure systems, civil engineers have central roles to play in bio-inspired research.\nTreating soil as living systems, the backbone of our research lies in advancing knowledge of the fundamental behaviors of soil in interaction with living organisms (e.g., bacteria, plants, burrowing animals) involving multi-physics processes at multiple scales. The new knowledge is then applied to develop next-generation geotechnics."
+  },
+  {
+    "objectID": "about.html#what-is-big",
+    "href": "about.html#what-is-big",
+    "title": "About",
+    "section": "",
+    "text": "Through evolution, numerous biological organisms have developed smart and sustainable solutions to address challenges posed by changes of biological diversity, population, energy source and the environment at large. Nature, especially the biosphere, can thus serve as a source of inspirations for mankind, who is facing similar challenges. With critical needs for sustainable and resilient infrastructure systems, civil engineers have central roles to play in bio-inspired research.\nTreating soil as living systems, the backbone of our research lies in advancing knowledge of the fundamental behaviors of soil in interaction with living organisms (e.g., bacteria, plants, burrowing animals) involving multi-physics processes at multiple scales. The new knowledge is then applied to develop next-generation geotechnics."
+  },
+  {
+    "objectID": "about.html#our-tools",
+    "href": "about.html#our-tools",
+    "title": "About",
+    "section": "Our tools",
+    "text": "Our tools\nIn our tool box, we have,\n\nAnalytical tools in geomechanics and physics (e.g., Critical State Soil Mechanics, Cavity Expansion Theory, Resistance Force Theory);\nNumerical tools including Discrete Element Method, Multi-Body-Dynamics, Computational Fluid Dynamics, and Finite Element Methods;\nExperimental tools including customized 2D and 3D soil chambers, video-based kinematics capture systems, traditional geotechnical apparatus (tri-axial, direct shear), rapid prototyping workstation (3D printer, open-source micro-controllers, electric motors, sensors, soft robot toolkits), inter-particle force-chain visualization chamber with photoelastic discs;\nOver the years, our group becomes more and more involved in programming for modeling, prototyping, testing and documenting. We mainly use Python, Matlab and C++ for computing; we open-source libraries for robotic control; we strive to practice reproducible research by using documenting and publishing tools such as Rmarkdown and Quarto. We love tinkering around with open-source software and hardware; and we would love to share our findings and tools with others."
+  },
+  {
+    "objectID": "about.html#whats-in-the-logo-just-for-fun",
+    "href": "about.html#whats-in-the-logo-just-for-fun",
+    "title": "About",
+    "section": "What’s in the logo? (Just for fun)",
+    "text": "What’s in the logo? (Just for fun)\nThe logo consists of three customized letters B, i, and G, short for Bio-inspired Geotechnics. It encourages us to be bold and dream BiG.\nThe logo is made up with only three basic shapes: circle, rectangle and triangle; the minimalistic and modular design reminds us that we can achieve BiG by understanding and applying the fundamentals.\nThe triangles are the “living” parts in the logo, rendering the letters visually resemble small burrowing robots in different directions.\nWe have fun by playing with the colors of the logo and by replacing the robot module with burrowing animals such as a slender razor clam, a tree root or an earthworm."
+  },
+  {
+    "objectID": "about.html#contact-us",
+    "href": "about.html#contact-us",
+    "title": "About",
+    "section": "Contact us",
+    "text": "Contact us\n: Office 126, Goldwater Center for Science and Engineering, 650 E Tyler Mall, Tempe, AZ 85281\n: (480) 965-2489\n\n\n\n\n\n\nLoading…"
+  },
+  {
+    "objectID": "about.html#attribution-copyright-and-license",
+    "href": "about.html#attribution-copyright-and-license",
+    "title": "About",
+    "section": "Attribution, copyright and license",
+    "text": "Attribution, copyright and license\nThis website is built with Quarto, an open-source scientific and technical publishing system built on Pandoc.\nCopyright (c) 2013-2022 Julian Tao\nThis work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License"
+  },
+  {
+    "objectID": "scour.html",
+    "href": "scour.html",
+    "title": "Bio-based Scour Countermeasures",
+    "section": "",
+    "text": "Under construction…"
+  },
+  {
+    "objectID": "communication.html",
+    "href": "communication.html",
+    "title": "Bio-inspired Underground Communication",
+    "section": "",
+    "text": "Under construction…"
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "The objective of the course is to apply the concepts and principles of soil mechanics in designing geotechnical engineering structures, mainly including,\n\nshallow foundations\ndeep foundations\nretaining wall structures"
+  },
+  {
+    "objectID": "teaching.html#cee-452598-foundations",
+    "href": "teaching.html#cee-452598-foundations",
+    "title": "Teaching",
+    "section": "",
+    "text": "The objective of the course is to apply the concepts and principles of soil mechanics in designing geotechnical engineering structures, mainly including,\n\nshallow foundations\ndeep foundations\nretaining wall structures"
+  },
+  {
+    "objectID": "teaching.html#cee-550-soil-behavior",
+    "href": "teaching.html#cee-550-soil-behavior",
+    "title": "Teaching",
+    "section": "CEE 550 Soil Behavior",
+    "text": "CEE 550 Soil Behavior\nThis course provides the student with an in-depth understanding of the factors determining and controlling the engineering properties and behavior of soils under different conditions. Topics covered include:\n\nPart I: Physicochemical Properties of Soil\n\nFormation, mineralogy, composition, structure, soil water, inter-particle forces, effective stress\n\nPart II: Engineering Behaviors of Soil\n\nstrength behavior, volume change behaviors, deformation, critical state soil mechanics, time effects on strength and deformation, transport phenomena"
+  },
+  {
+    "objectID": "teaching.html#cee-494598-bio-inspired-design",
+    "href": "teaching.html#cee-494598-bio-inspired-design",
+    "title": "Teaching",
+    "section": "CEE 494/598 Bio-inspired Design",
+    "text": "CEE 494/598 Bio-inspired Design\nThe objectives of the course are:\n\nTo provide the student with an overall understanding of bio-inspired design: principles, philosophies, methodologies, and tools;\nTo introduce emerging civil engineering challenges regarding sustainability and resilience concerns;\nTo show case and discuss example bio-inspired solutions to address some challenges;\nTo guide students to complete a conceptual bio-inspired design to address a chosen civil engineering challenge."
+  },
+  {
+    "objectID": "outreach.html",
+    "href": "outreach.html",
+    "title": "Outreach",
+    "section": "",
+    "text": "ASU Homecoming 2018\n\n\n\n\n\n\n\nASU Homecoming 2018\n\n\n\n\n\n\n\nASU Engineering Open Door 2018\n\n\n\n\n\n\n\n\n\nCompuPower SRE Lab Tours 2019\n\n\n\n\n\n\n\nASU Homecoming 2019\n\n\n\n\n\n\n\nASU Homecoming 2019\n\n\n\n\n\n\n\n\n\n\nNortheastern Ohio STEM (NEOHSTEM) Science Fair 2015"
+  },
+  {
+    "objectID": "outreach.html#activities",
+    "href": "outreach.html#activities",
+    "title": "Outreach",
+    "section": "",
+    "text": "ASU Homecoming 2018\n\n\n\n\n\n\n\nASU Homecoming 2018\n\n\n\n\n\n\n\nASU Engineering Open Door 2018\n\n\n\n\n\n\n\n\n\nCompuPower SRE Lab Tours 2019\n\n\n\n\n\n\n\nASU Homecoming 2019\n\n\n\n\n\n\n\nASU Homecoming 2019\n\n\n\n\n\n\n\n\n\n\nNortheastern Ohio STEM (NEOHSTEM) Science Fair 2015"
   },
   {
     "objectID": "research.html#self-burrowing-mechanism",
@@ -229,131 +362,5 @@
     "title": "Research Overview",
     "section": "Finished projects",
     "text": "Finished projects\n\n\n\n\n\n\nBefore I secured funding for my passion in Bio-inspired Geotechnics, I had the opportunities to work on a few projects supported by the NSF, University of Akron and Ohio Department of Transportation.\n\n\n\nList of finished projects:\n\n\n\nPI, “Stabilization of Peat Deposits for Roadway Construction and Remediation”, (Co-PI: Dr. Robert Y. Liang) The Ohio Department of Transportation and Federal Highway Administration, December 2014-May 2015\nPI, “Performance Comparison of Abutment and Retaining Wall Drainage Systems”, (Co-PI: Dr. Robert Y. Liang), The Ohio Department of Transportation and Federal Highway Administration, October 2014-December 2017\nPI, “Evaluation of Post Flooding Shoulder Reconditioning”, The Ohio Department of Transportation and Federal Highway Administration: September 2016-March 2017\nPI, “Use of Crushed Recycled Glass in the Construction of Local Roadways”, The Ohio Department of Transportation and Federal Highway Administration, October 2016-October 2018\nCo-PI, “Evaluation of Effective Bridge Deck Repair Maintenance Methods” (PI: Qindan Huang), The Ohio Department of Transportation and Federal Highway Administration, August 2017-August 2018\nCo-PI, “Roadway Kinetic Energy Capture and Conversion” (PI, Savas Kaya; Co-PIs: Junliang Tao, Munir Nazzal, Yilmaz Sozer and Ala R. Abbas), The Ohio Department of Transportation and Federal Highway Administration, August 2018-Feburary 2019\nPI, “Microbial Induced Calcite Precipitation as Erosion and Bridge Scour Countermeasure”, Summer Faculty Fellowship, University of Akron, July 1st 2016-July 1st 2017\nPI, “Bio-inspired Piezo-electrochromic Full-field Strain Sensing by Multilayered Nanocomposites”, Biomimicry Research and Innovation Center Initiative (BRIC) Research Incentive Grant (co-PI: Jack Zhu and Gunjin Yun), University of Akron, June 1st-December 31st 2014"
-  },
-  {
-    "objectID": "people.html",
-    "href": "people.html",
-    "title": "People",
-    "section": "",
-    "text": "Julian Tao, Ph.D.\nAssociate Professor\n: julian.tao at asu dot edu\n: 480-965-1108\n: GWC 126\n: Google Scholar\n: CV\n\n\n\nDr. Tao is an associate professor in the School of Sustainable Engineering and the Built Environment at Arizona State University. He also serves as a Senior Investigator at the NSF Engineering Center for Bio-mediated and Bio-inspired Geotechnics (CBBG). Before joining ASU in 2018, Dr. Tao was an assistant professor at The University of Akron. He holds a Bachelor’s degree from China University of Geosciences (Wuhan), a Master’s degree from Tongji University, and a Ph.D. degree from Case Western Reserve University (2013). He is the PI of a number of projects funded by CBBG, the university, and state and federal agencies. He also serves on the editorial board of ASTM Journal of Testing and Evaluation and serves on committees in ASCE, TRB, SPIE, and IEEE. Dr. Tao is the recipient of the NSF CAREER Award in 2017. He was also awarded the Young Civil Engineer of the Year (2017) by the ASCE Akron-Canton Section for “promoting professionalism and the advancement of the civil engineering profession”."
-  },
-  {
-    "objectID": "people.html#ph.d.-students",
-    "href": "people.html#ph.d.-students",
-    "title": "People",
-    "section": "Ph.D. Students",
-    "text": "Ph.D. Students\n\n\n\n\n\n\nYong Tang\n2018-present\n : ytang116 at asu dot edu\n: GWC 131\n: CV\nResearch: Awn-inspired Burrowing Mechanisms and Robots\n\n\n\n\n\n\n\n\n\nYi Zhong\n2019-present\n : yzhong52 at asu dot edu\n: GWC 131\n: CV\nResearch: Bio-inspired Underground Sensing and Communication\n\n\n\n\n\n\n\n\n\nXiwei Li\n2020-present\nco-advised with Dr. Leon van Paassen\n : xiweili at asu dot edu\n: GWC 131\n: CV\nResearch: Nature-inspired scour countermeasures\n\n\n\n\n\n\n\n\n\nSarina Shahhosseini\n2021-present\n : sshahho1 at asu dot edu\n: GWC 131\n: CV\nResearch: Self-burrowing robotics, robot–granular material interaction"
-  },
-  {
-    "objectID": "people.html#m.s.-students",
-    "href": "people.html#m.s.-students",
-    "title": "People",
-    "section": "M.S. Students",
-    "text": "M.S. Students\n\n\n\n\n\n\nMd Ragib Shaharear\n2021-present\n : mshahare at asu dot edu\n: website\n: GWC 131\n: CV\nResearch: Rapid prototyping, Self-burrowing robotics"
-  },
-  {
-    "objectID": "people.html#undergraduate-students",
-    "href": "people.html#undergraduate-students",
-    "title": "People",
-    "section": "Undergraduate Students",
-    "text": "Undergraduate Students\n\n\n\n\n\n\nMohan Parekh\n2021-present\n : maparekh at asu dot edu\n: Resume\nResearch: Rapid prototyping, Self-burrowing robotics"
-  },
-  {
-    "objectID": "people.html#former-postdoctoral-scholars",
-    "href": "people.html#former-postdoctoral-scholars",
-    "title": "People",
-    "section": "Former Postdoctoral Scholars",
-    "text": "Former Postdoctoral Scholars\n\nHuang, Sichuan (2021)"
-  },
-  {
-    "objectID": "people.html#former-students",
-    "href": "people.html#former-students",
-    "title": "People",
-    "section": "Former Students",
-    "text": "Former Students\n\n\n\nPh.D. Students\n\nHuang, Sichuan (2015-2020)\nLi, Junhong (2014-2018)\nTao, Hui (2014-2018)\n\n\n\nM.S. Students\n\nDishika Agrawal (2022-2023)\nManthan Rajendra Pai (2022-2023)\nMd Ragib Shaharear (2021-2023)\nEnns, Andrew (2019-2021)\nPandey, Ganesh (2016-2018)\nBao, Ruotian (2015-2017)\nHu, Jie (2014-2016)\nLieske, Brendan (2015-2016)\nMopur, Goutham (2015-2016)\nFellows, Candice (2013-2014)\n\n\n\nUndergraduate Students\n\nArdente, Alexandra (2019-2021)\nVladich, Zakary (2021-2021)\nWong, Preston (2020-2021)\nDages, Stephen (2019-2020)\nHolden, Khem (2019-2019)\nLee, Lindsay (2019-2019)\nChoi, Hyun (2019-2019)\nJreissat, Makram (2019-2019)\nGreen, Nathaniel (2017-2017)\nBaker, Gwen (2016-2017)\nGutwein, Daniel (2015-2015)\nCymbal, Matthew (2014-2015)"
-  },
-  {
-    "objectID": "self-burrowing.html",
-    "href": "self-burrowing.html",
-    "title": "Self-burrowing Mechanisms and Robotics",
-    "section": "",
-    "text": "We study how living things burrow. Inspired by the biological burrowing mechanisms, we develop robots and tools for autonomous underground exploration and monitoring."
-  },
-  {
-    "objectID": "self-burrowing.html#background",
-    "href": "self-burrowing.html#background",
-    "title": "Self-burrowing Mechanisms and Robotics",
-    "section": "Background",
-    "text": "Background\nSpecies such as earthworms and bivalve mollusks possess extraordinary burrowing efficiency compared to most man-made penetrometers. These organisms move by themselves, actively sense their environment and adaptively change burrowing directions. All these features are desirable for autonomous geotechnical exploration tools. The envisioned robots and probes would be energy efficient and improve productivity."
-  },
-  {
-    "objectID": "self-burrowing.html#impacts",
-    "href": "self-burrowing.html#impacts",
-    "title": "Self-burrowing Mechanisms and Robotics",
-    "section": "Impacts",
-    "text": "Impacts\nUnderground sensing networks enabled by these bio-inspired burrowing robots can help monitor the safety of infrastructure and the environment. Small, agile underground robots can be used not only for traditional geotechnical engineering site characterization, but also in regions that are normally difficult to reach due to energy and environmental restrictions, such as sites that are damaged due to natural and man-made hazards (e.g., earthquakes, landslides, flooding, collapsed structures), in extreme environments (e.g., arctic and seafloor environments) and in extra-terrestrial settings (e.g., lunar and Mars exploration).\nIn addition, the new knowledge and techniques obtained in this research can be used to develop a mechanistic understanding of animal–sediment interactions and shed light on the ecology and evolution of burrowing organisms. The research will also serve as a platform to promote learning, teaching and training; the interdisciplinary and bio-inspired nature of the proposed research is an ideal outreach topic to generate enthusiasm in K-12 students and the public about STEM education and research.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Previous\n\n\n Next"
-  },
-  {
-    "objectID": "self-burrowing.html#what-governs-underground-locomotion",
-    "href": "self-burrowing.html#what-governs-underground-locomotion",
-    "title": "Self-burrowing Mechanisms and Robotics",
-    "section": "What governs underground locomotion?",
-    "text": "What governs underground locomotion?\nIt’s a daunting but fascinating question. Similar to locomotion in air, water and on the ground, thrust must be generated high enough to overcome the resistance in order to move in a granular material such as soil. The uniqueness of the soil materials lays in its opacity and complex mechanical behavior: it exhibits different states which can be more solid like, more fluid (even gas) like, or anywhere in between; furthermore, materials and stress states vary significantly in space. These properties make it challenging to study the mechanisms: first, one cannot see through soil easily to capture the kinematics; second, one cannot capture the dynamics due to the ever-changing material properties and soil-body interactions. While we don’t have a universal law (explanation) for underground locomotion yet, nature provides us a diverse “catalog” on possible ways how burrowing can be done. After examining a great many burrowing organisms, it’s clear to us that while they adopt different tricks to make burrowing effective and efficient, they do share some commonness: they work “with” soil instead of ” against” soil. It seems like they do know the complex soil behaviors and they always try to agitate soil in a way so they can leverage the changing properties for movement.\n\nUnveil the interplay between shell opening and foot penetration\nShell opening reliefs the stresses at the foot tip and enhances the anchorage force. Check out the DEM simulation (Sichuan Huang and Tao 2017, 2018, 2020) and the photoelastic visualizations (S. Huang, Mahabadi, and Tao 2020; Sichuan Huang, Mahabadi, and Tao 2022).\n\n\nDecipher the role of rotation on penetration\nWe are also exploring how seed awns bury themselves and how rotation would facilitate penetration (Tang and Tao 2021)."
-  },
-  {
-    "objectID": "self-burrowing.html#how-razor-clam-burrow-out-of-the-ground",
-    "href": "self-burrowing.html#how-razor-clam-burrow-out-of-the-ground",
-    "title": "Self-burrowing Mechanisms and Robotics",
-    "section": "How razor clam burrow out of the ground?",
-    "text": "How razor clam burrow out of the ground?\nIn this study, we look at a particular burrowing scenario: upward burrowing. It is a less studied topic but it is interesting to ask how a buried clam resurface. Do they actively burrow out of the ground, or just like mole crab which waits for the coming wave to sweep it out? Also, if they do actively burrow, do they gradually turn, sharply turn around, or go directly backward? If they go backward, do they use the same trick for downward burrowing? To find out, we observed two adult razor clams collected in a sandbar in Rhode Island (thanks to Prof. Dale Levitte for the help!).\nIt turned out razor clams burrowing backward when they need to emerge. And they do it so effortlessly, using a much simpler “gait” than downward burrowing. A closer look and analysis reveals that the razor clams leverage two inherent properties of sands: the vertical in-situ stress gradient and the flowing nature of sands upon yielding. It is interesting to think it in another way: the razor clams defy its own gravity (upward movement) by take advantage of gravity itself (the reason for soil stress gradient and downward flowing of sands to fill any cavity below)!\n\n\n\n\n\nLet’s mimic razor clam and make a Self-burrowing-out Robot (SBOR)\nThe upward burrowing gait of razor clams is basically a combination of axial extension and contraction. There are many ways to achieve these motions. One way is to use an soft artificial muscle, which works similarly with the powerful foot of a razor clam. The idea is simple, you make an elastic tube, wrap inextensible fibers onto its surface in a certain way to constrain the motion into the axial direction, you then inflate and deflate it using air or water. We did that and it worked. The robot naturally burrows out of the ground, just like the razor clams.\n\n\n\n\n\n\nLeverage the anisotropic surface characteristics\nCheck out how anisotropic surfaces (Sichuan Huang et al. 2020) would affect the burrowing-out behavior of the SBOR.\n\n\nAn Explanation with a Geotechnical Flavor\nWe molded the upward burrowing process based on Newton’s laws of motion, together elasticity and geotechnical concepts: in-situ stress states, pullout resistance, interface friction. To solve the problem analytically, we made a series of assumptions and simplifications based on observations. Nevertheless, we are satisfied with the outcome. From the models, it is clear that “clamming up” is a natural result of 1DOF vertical motion and sand behaviors.\nFor more information, please refer to our paper (Tao, Huang, and Tang 2019) published in Journal of Geotechnical and Geoenvironmental Engineering, as well as (Tao, Huang, and Tang 2020) published in Bioinspiration and Biomimetics."
-  },
-  {
-    "objectID": "self-burrowing.html#acknowledgement",
-    "href": "self-burrowing.html#acknowledgement",
-    "title": "Self-burrowing Mechanisms and Robotics",
-    "section": "Acknowledgement",
-    "text": "Acknowledgement\nThis material is based upon work supported by the National Science Foundation (NSF) under NSF CMMI 1849674 and CMMI 1841574. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the authors and do not necessarily reflect those of the NSF. We also would like to thank the anonymous reviewers whose constructive comments helped us improve the overall quality of the paper."
-  },
-  {
-    "objectID": "about.html#what-is-big",
-    "href": "about.html#what-is-big",
-    "title": "About",
-    "section": "",
-    "text": "Through evolution, numerous biological organisms have developed smart and sustainable solutions to address challenges posed by changes of biological diversity, population, energy source and the environment at large. Nature, especially the biosphere, can thus serve as a source of inspirations for mankind, who is facing similar challenges. With critical needs for sustainable and resilient infrastructure systems, civil engineers have central roles to play in bio-inspired research.\nTreating soil as living systems, the backbone of our research lies in advancing knowledge of the fundamental behaviors of soil in interaction with living organisms (e.g., bacteria, plants, burrowing animals) involving multi-physics processes at multiple scales. The new knowledge is then applied to develop next-generation geotechnics."
-  },
-  {
-    "objectID": "people.html#principle-investigator",
-    "href": "people.html#principle-investigator",
-    "title": "People",
-    "section": "",
-    "text": "Julian Tao, Ph.D.\nAssociate Professor\n: julian.tao at asu dot edu\n: 480-965-1108\n: GWC 126\n: Google Scholar\n: CV\n\n\n\nDr. Tao is an associate professor in the School of Sustainable Engineering and the Built Environment at Arizona State University. He also serves as a Senior Investigator at the NSF Engineering Center for Bio-mediated and Bio-inspired Geotechnics (CBBG). Before joining ASU in 2018, Dr. Tao was an assistant professor at The University of Akron. He holds a Bachelor’s degree from China University of Geosciences (Wuhan), a Master’s degree from Tongji University, and a Ph.D. degree from Case Western Reserve University (2013). He is the PI of a number of projects funded by CBBG, the university, and state and federal agencies. He also serves on the editorial board of ASTM Journal of Testing and Evaluation and serves on committees in ASCE, TRB, SPIE, and IEEE. Dr. Tao is the recipient of the NSF CAREER Award in 2017. He was also awarded the Young Civil Engineer of the Year (2017) by the ASCE Akron-Canton Section for “promoting professionalism and the advancement of the civil engineering profession”."
-  },
-  {
-    "objectID": "outreach.html#activities",
-    "href": "outreach.html#activities",
-    "title": "Outreach",
-    "section": "",
-    "text": "ASU Homecoming 2018\n\n\n\n\n\n\n\nASU Homecoming 2018\n\n\n\n\n\n\n\nASU Engineering Open Door 2018\n\n\n\n\n\n\n\n\n\nCompuPower SRE Lab Tours 2019\n\n\n\n\n\n\n\nASU Homecoming 2019\n\n\n\n\n\n\n\nASU Homecoming 2019\n\n\n\n\n\n\n\n\n\n\nNortheastern Ohio STEM (NEOHSTEM) Science Fair 2015"
-  },
-  {
-    "objectID": "news.html#press",
-    "href": "news.html#press",
-    "title": "News",
-    "section": "",
-    "text": "Clamming up (and down, and sideways)\n\nBut Tao wondered how they get back up after they’ve buried themselves. “They have to go up some way,” he said.\nTurns out, those wily clams have a trick up their shell.\n\n\n\n\n\n\n\n\n\n\nBurrowing sensor robots could unearth nature’s subterranean secrets\n\nRobots are increasingly at work on land, at sea, in the air and out in space.\nHow about underground?\n\n\n\n\n\n\n\n\n\n\nMimicking nature to enhance search for knowledge underground\n\nWith support from a National Science Foundation Faculty Early Career Development Program (CAREER) Award, the associate professor will strive to formulate new designs for technology that replicate the impressive subsurface mobility that evolution has produced in the living world, specifically that of plants and animals."
-  },
-  {
-    "objectID": "teaching.html#cee-452598-foundations",
-    "href": "teaching.html#cee-452598-foundations",
-    "title": "Teaching",
-    "section": "",
-    "text": "The objective of the course is to apply the concepts and principles of soil mechanics in designing geotechnical engineering structures, mainly including,\n\nshallow foundations\ndeep foundations\nretaining wall structures"
-  },
-  {
-    "objectID": "resources.html#general-resources",
-    "href": "resources.html#general-resources",
-    "title": "Resources",
-    "section": "",
-    "text": "Labs and Equipments\n\nISTB2-115\nISTB2-145\nISTB2-165\nECD-123\nPolytechnic Field Station\nStandard Operation Procedures\n\nStudent Spaces\n\nGWC-131\nISTB2-Mezzanine\n\nMeeting Spaces\n\nOutreach Room (GWC-111)\nTraining Room (GWC-137)\nConference Room (GWC-181)\n\nLab Safety Training Flow Chart\nASU Facilities\n\nFulton School of Engineering\nASU\n\n\n\n\n\n\nSSEBE Undergraduate Program Requirements\nSSEBE Accelerated 4+1 Degree Program\nSSEBE Graduate Program Reqirements\n\nGeotechical/Geo-environmental Specialty Area\nGraduate Student Manuals\n\nGeotechnical and Geoenvironmental Engineering specialty area manual\nCivil, environmental and sustainable engineering PhD manual\n\n\nAcademic Integrity"
   }
 ]
