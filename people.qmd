@@ -17,7 +17,7 @@ Associate Professor\
 []{.bi .bi-envelope-fill}: <julian.tao@asu.edu>\
 []{.bi .bi-telephone-fill}: 480-965-1108\
 []{.bi .bi-geo-alt-fill}: GWC 126\
-[]{.ai .ai-google-scholar .ai-lg}: [Google Scholar](https://scholar.google.com/citations?hl=en&user=Dq4lhi4AAAAJ&view_op=list_works)\
+[]{.ai .ai-google-scholar .ai-lg}: [Google Scholar](https://scholar.google.com/citations?user=U5L3d1cAAAAJ)\
 []{.bi .bi-file-earmark-pdf-fill}: [CV](https://github.com/juliantao/jtaocv/raw/main/JulianTaoCV.pdf)
 
 :::

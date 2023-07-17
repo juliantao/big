@@ -3,7 +3,7 @@ title: Publication
 ---
 
 ::: {.text-center}
-[Google Scholar](https://scholar.google.com/citations?hl=en&user=Dq4lhi4AAAAJ&view_op=list_works){.btn .btn-primary}
+[Google Scholar](https://scholar.google.com/citations?user=U5L3d1cAAAAJ){.btn .btn-primary}
 :::
 
 
