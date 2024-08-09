@@ -48,3 +48,8 @@ h1 {
   color: var(--bs-gold);
 }
 
+
+ /* Typography */
+center {
+  text-align: center;
+}

@@ -24,45 +24,23 @@ Associate Professor\
 
 Dr. Tao is an associate professor in the School of Sustainable Engineering and the Built Environment at Arizona State University. He also serves as a Senior Investigator at the NSF Engineering Center for Bio-mediated and Bio-inspired Geotechnics (CBBG). Before joining ASU in 2018, Dr. Tao was an assistant professor at The University of Akron. He holds a Bachelor’s degree from China University of Geosciences (Wuhan), a Master’s degree from Tongji University, and a Ph.D. degree from Case Western Reserve University (2013). He is the PI of a number of projects funded by CBBG, the university, and state and federal agencies. He also serves on the editorial board of ASTM Journal of Testing and Evaluation and serves on committees in ASCE, TRB, SPIE, and IEEE. Dr. Tao is the recipient of the NSF CAREER Award in 2017. He was also awarded the Young Civil Engineer of the Year (2017) by the ASCE Akron-Canton Section for “promoting professionalism and the advancement of the civil engineering profession”.
 
-## Ph.D. Students
-
-::: {layout="[30, 70]"}
-![](img/yong.png){.rounded-circle}
-
-**Yong Tang**\
-2018-present\
-<br>
-[]{.bi .bi-envelope-fill}: <ytang116@asu.edu>\
-[]{.bi .bi-geo-alt-fill}: GWC 131\
-[]{.bi .bi-file-earmark-pdf-fill}: [CV](./resources/Tang-CV.pdf)\
-**Research:** Awn-inspired Burrowing Mechanisms and Robots
-:::
-
-::: {layout="[30, 70]"}
-![](img/yi.png){.rounded-circle}
-
-**Yi Zhong**\
-2019-present\
-<br>
-[]{.bi .bi-envelope-fill}: <yzhong52@asu.edu>\
-[]{.bi .bi-geo-alt-fill}: GWC 131\
-[]{.bi .bi-file-earmark-pdf-fill}: [CV](./resources/Zhong_CV-Mar_2022.pdf)\
-**Research:** Bio-inspired Underground Sensing and Communication
-:::
+## Postdocs
 
 ::: {layout="[30, 70]"}
 
 ![](./img/Xiwei.jpg){.rounded-circle}
 
 **Xiwei Li**\
-2020-present\
+2024-present\
 co-advised with Dr. Leon van Paassen\
 <br>
 []{.bi .bi-envelope-fill}: <xiweili@asu.edu>\
-[]{.bi .bi-geo-alt-fill}: GWC 131\
+[]{.bi .bi-geo-alt-fill}: GWC 130\
 []{.bi .bi-file-earmark-pdf-fill}: [CV](./resources/Xiwei- CV.pdf)\
 **Research:** Nature-inspired scour countermeasures 
 :::
+
+## Ph.D Students
 
 ::: {layout="[30, 70]"}
 ![](img/sarina.png){.rounded-circle}
@@ -76,80 +54,86 @@ co-advised with Dr. Leon van Paassen\
 **Research:** Self-burrowing robotics, robot--granular material interaction 
 :::
 
-## M.S. Students
-
-::: {layout="[30, 70]"}
-![](./img/Ragib.JPG){.rounded-circle}
-
-**Md Ragib Shaharear**\
-2021-present\
-<br>
-[]{.bi .bi-envelope-fill}: <mshahare@asu.edu>\
-[]{.bi .bi-link-45deg}: [website](https://ragibeee.weebly.com/)\
-[]{.bi .bi-geo-alt-fill}: GWC 131\
-[]{.bi .bi-file-earmark-pdf-fill}: [CV](./resources/Ragib-resume.pdf)\
-**Research:** Rapid prototyping, Self-burrowing robotics
-:::
-
-## Undergraduate Students
-
-::: {layout="[30, 70]"}
-![](./img/Mohan.JPG){.rounded-circle}
-
-**Mohan Parekh**\
-2021-present\
-<br>
-[]{.bi .bi-envelope-fill}: <maparekh@asu.edu>\
-[]{.bi .bi-file-earmark-pdf-fill}: [Resume](./resources/MohanParekh_Resume.pdf)\
-**Research:** Rapid prototyping, Self-burrowing robotics
-:::
-
 ## Former Postdoctoral Scholars
 
 * Huang, Sichuan (2021)
 
 ## Former Students
 
+### Ph.D students
 
-::: {layout-ncol=3}
+::: {layout="[1, 1, 1, 1, 1]"}
 
-::: {}
-**Ph.D. Students**
 
-* Huang, Sichuan (2015-2020)
-* Li, Junhong (2014-2018)
-* Tao, Hui (2014-2018)
+![Yi Zhong (2019-2023)](./img/yi.png){.rounded-circle width="400"}
+
+![Yong Tang (2018-2023)](./img/yong.png){.rounded-circle width="400"}
+
+![Sichuan Huang (2015-2020)](./img/sichuan.png){.rounded-circle width="400"}
+
+![Junhong Li (2014-2018)](img/JunhongLi.png){.rounded-circle width="400"}
+
+![Hui Tao (2014-2018)](img/HuiTao.jpg){.rounded-circle width="400"}
 :::
 
-::: {}
-**M.S. Students**
 
+### MS Students
+
+* Marilyn Mendoza (2023-2023)
 * Dishika Agrawal (2022-2023)
 * Manthan Rajendra Pai (2022-2023)
 * Md Ragib Shaharear (2021-2023)
-* Enns, Andrew (2019-2021)
-* Pandey, Ganesh (2016-2018)
-* Bao, Ruotian (2015-2017)
-* Hu, Jie (2014-2016)
-* Lieske, Brendan (2015-2016)
-* Mopur, Goutham (2015-2016)
-* Fellows, Candice (2013-2014)
-:::
+* Andrew Enns (2019-2021)
+* Joel Ramirez (2019-2020)
+* Ganesh Pandey (2016-2018)
+* Ruotian Bao (2015-2017)
+* Jie Hu (2014-2016)
+* Brendan Lieske (2015-2016)
+* Goutham Mopur (2015-2016)
+* Candice Fellows (2013-2014)
 
-::: {}
-**Undergraduate Students**
+### Undergraduate Students
 
-* Ardente, Alexandra (2019-2021)
-* Vladich, Zakary (2021-2021)
-* Wong, Preston (2020-2021)
-* Dages, Stephen (2019-2020)
-* Holden, Khem (2019-2019)
-* Lee, Lindsay (2019-2019)
-* Choi, Hyun (2019-2019)
-* Jreissat, Makram (2019-2019)
-* Green, Nathaniel (2017-2017)
-* Baker, Gwen (2016-2017)
-* Gutwein, Daniel (2015-2015)
-* Cymbal, Matthew (2014-2015)
-:::
-:::
+* Chiran Verman(2023-2023)
+* Maxime Zand (2023-2023)
+* Arin Shaw (2023-2023)
+* Varun Kumar (2023-2023)
+* Mohan Parekh (2021-2023)
+* Ashwin Kumar (2021-2021)
+* Harsh Rajkamal (2021-2021)
+* Shesha Kanchipuram (2021-2021)
+* Zakary Vladich (2021-2021)
+* Andrew Suarez (2020-2020)
+* Preston Wong (2020-2021)
+* Alexandra Ardente (2019-2021)
+* Stephen Dages (2019-2020)
+* Khem Holden (2019-2019)
+* Lindsay Lee (2019-2019)
+* Hyun Choi (2019-2019)
+* Makram Jreissat (2019-2019)
+* Nathaniel Green (2017-2017)
+* Gwen Baker (2016-2017)
+* Daniel Gutwein (2015-2015)
+* Matthew Cymbal (2014-2015)
+
+### High School Research Students
+
+* Ariana Cota (2024-2024)
+* Aliya Khan (2024-2024)
+* Jannette Marti-Subirana (2021-2021)
+* Sophia Solganik (2017-2017)
+* Lillian Gonzalez (2017-2017)
+* Nicholas Robinson (2016-2016)
+* Brandon Leap (2016-2016)
+
+## High School Teachers
+
+* Garth Sommers (2023-2023)
+* Olivia Lansing Spencer (2019-2019)
+
+## Visiting Scholars
+
+* Yunqi Gao (2019-2020)
+* Xiangrong Wang (2016-2018)
+* Haichao Li (2015-2016)
+
