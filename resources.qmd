@@ -32,8 +32,8 @@ title: Resources
 * [SSEBE Graduate Program Reqirements](https://ssebe.engineering.asu.edu/graduate/civil/) 
   * [Geotechical/Geo-environmental Specialty Area](https://ssebe.engineering.asu.edu/geotechnicalgeoenvironmental-specialty-area/)
   * Graduate Student Manuals
-    * [Geotechnical and Geoenvironmental Engineering specialty area manual](https://ssebe.engineering.asu.edu/wp-content/uploads/2017/09/Geotechnical-updated-8.28.2017.pdf) 
-    * [Civil, environmental and sustainable engineering PhD manual](https://ssebe.engineering.asu.edu/wp-content/uploads/2017/08/PhD-12-2014.pdf) 
+    * [Geotechnical and Geoenvironmental Engineering specialty area manual](https://ssebe.engineering.asu.edu/wp-content/uploads/sites/28/2023/12/Geotechnical-Graduate-Manual-revised-Fall-2022.pdf) 
+    * [Civil, environmental and sustainable engineering PhD manual](https://ssebe.engineering.asu.edu/wp-content/uploads/sites/28/2017/08/PhD-12-2014.pdf) 
 
 * [Academic Integrity](https://provost.asu.edu/academic-integrity/resources/faculty) 
 
