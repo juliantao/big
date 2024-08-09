@@ -9,7 +9,9 @@ title: Publication
 
 ```{r ref}
 library(RefManageR)
-bib <- ReadBib("./jtpubs.bib", check = FALSE)
+library(dplyr)
+jtpubs <- ReadBib("./data/jtpubs.bib", check = FALSE)
+bibtype <- as_tibble(jtpubs) |> pull(bibtype)
 myopts <- BibOptions(
   style = "markdown",
   sorting = "ydnt",
@@ -19,24 +21,29 @@ myopts <- BibOptions(
 
 ## Journal Publications
 
-```{r, results = "asis"}
-bib[bibtype = "article"]
+```{r journal, results = "asis"}
+jtpubs[bibtype == "Article"]
 ```
 
 ## Conference Proceedings
 
-```{r, results = "asis"}
-bib[bibtype = "inproceedings"]
+```{r conference, results = "asis"}
+jtpubs[bibtype == "InProceedings"]
+```
+## Patent
+
+```{r patent, results='asis'}
+jtpubs[bibtype == "Patent"]
 ```
 
 ## Books co-edited
 
-```{r, results = "asis"}
-bib[bibtype = "book"]
+```{r books, results = "asis"}
+jtpubs[bibtype == "Book"]
 ```
 
 ## Reports 
 
-```{r, results = "asis"}
-bib[bibtype = "report"]
+```{r reports, results = "asis"}
+jtpubs[bibtype == "Report"]
 ```

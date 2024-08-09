@@ -42,7 +42,7 @@ website:
       - icon: github
         href: https://github.com/JulianTao/big/
 
-bibliography: jtpubs.bib
+bibliography: ./data/jtpubs.bib
 
 format:
   html:
