@@ -11,7 +11,7 @@ website:
   twitter-card: true
   site-url: https://juliantao.github.io/big
   page-footer:
-    left: "\\©2013-2022 Julian Tao"
+    left: "\\©2013-2024 Julian Tao"
     right: 
       - text: "Built with Quarto"
         href: "https://quarto.org/"
