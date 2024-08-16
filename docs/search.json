@@ -376,5 +376,19 @@
     "title": "Playground",
     "section": "Cards",
     "text": "Cards\n\n\n\n\nCard Title\nSome quick example text to build on the card title and make up the bulk of the card’s content.\nLearn More\n\n\n\n\n\nCard Title\nSome quick example text to build on the card title and make up the bulk of the card’s content.\n\n\n\n\n\nCard Title\nSome quick example text to build on the card title and make up the bulk of the card’s content."
+  },
+  {
+    "objectID": "index.html#test",
+    "href": "index.html#test",
+    "title": "Bio-inspired Geotechnics",
+    "section": "Test",
+    "text": "Test"
+  },
+  {
+    "objectID": "publication.html#patents",
+    "href": "publication.html#patents",
+    "title": "Publication",
+    "section": "Patents",
+    "text": "Patents\n[1] J. Tao, S. Huang, Y. Tang, et al. “Bioinspired Horizontal Self-Burrowing Device”. patentus 20240254839A1. Individual. Aug. 01, 2024.\n[2] J. Tao and Y. Zhong. “Bio-Inspired Underground Vibrational Communication”. patentus 20240250758A1. Individual. Jul. 25, 2024."
   }
 ]

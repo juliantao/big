@@ -1,7 +1,6 @@
 ---
 title: Bio-inspired Geotechnics 
 subtitle: Prof. Julian Tao's research group at Arizona State University
-page-layout: full
 ---
 
 <br>

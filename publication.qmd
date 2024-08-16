@@ -10,7 +10,7 @@ title: Publication
 ```{r ref}
 library(RefManageR)
 library(dplyr)
-jtpubs <- ReadBib("./data/jtpubs.bib", check = FALSE)
+jtpubs <- ReadBib("jtpubs.bib", check = FALSE)
 bibtype <- as_tibble(jtpubs) |> pull(bibtype)
 myopts <- BibOptions(
   style = "markdown",
@@ -30,7 +30,8 @@ jtpubs[bibtype == "Article"]
 ```{r conference, results = "asis"}
 jtpubs[bibtype == "InProceedings"]
 ```
-## Patent
+
+## Patents
 
 ```{r patent, results='asis'}
 jtpubs[bibtype == "Patent"]
