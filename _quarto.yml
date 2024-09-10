@@ -42,6 +42,12 @@ website:
       - icon: github
         href: https://github.com/JulianTao/big/
 
+  # announcement:
+  #   dismissable: true
+  #   conent: "Hi"
+  #   type: primary
+  #   # position: below-navbar
+
 bibliography: ./data/jtpubs.bib
 
 format:
