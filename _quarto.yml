@@ -60,7 +60,7 @@ format:
     email-obfuscation: javascript
     include-in-header: 
       - assets/iconfonts.html
-      - assets/announcement.html
+      # - assets/announcement.html
 execute:
   echo: false
   warning: false 
