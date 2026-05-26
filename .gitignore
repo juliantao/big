@@ -4,3 +4,5 @@
 *.fdb_latexmk
 *.fls
 *.log
+
+**/*.quarto_ipynb

@@ -1,0 +1,10 @@
+---
+title: "Supplementary Materials and Data for Rotary Penetration paper"
+date: "2026-05-26"
+---
+
+[Description of Metadata Structure](./data/rotpen/metadata_description.pdf)
+
+[Metadata summarizing testing conditions for all the 195 tests in the paper](./data/rotpen/metadata.csv)
+
+The DOI and permanent link of the data itself will be included in the final version of the paper. 

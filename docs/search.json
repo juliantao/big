@@ -369,5 +369,12 @@
     "title": "Playground",
     "section": "Cards",
     "text": "Cards\n\n\n\n\nCard Title\nSome quick example text to build on the card title and make up the bulk of the card’s content.\nLearn More\n\n\n\n\n\nCard Title\nSome quick example text to build on the card title and make up the bulk of the card’s content.\n\n\n\n\n\nCard Title\nSome quick example text to build on the card title and make up the bulk of the card’s content."
+  },
+  {
+    "objectID": "rotpen-data.html",
+    "href": "rotpen-data.html",
+    "title": "Supplementary Materials and Data for Rotary Penetration paper",
+    "section": "",
+    "text": "Description of Metadata Structure\nMetadata summarizing testing conditions for all the 195 tests in the paper\nThe DOI and permanent link of the data itself will be included in the final version of the paper."
   }
 ]
